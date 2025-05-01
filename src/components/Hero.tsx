@@ -1,9 +1,12 @@
-
 import { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
-const Hero = () => {
+interface HeroProps {
+  onGetResources: () => void;
+}
+
+const Hero = ({ onGetResources }: HeroProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const navigate = useNavigate();
 
@@ -122,7 +125,7 @@ const Hero = () => {
           </p>
           
           <button
-            onClick={handleGetResources}
+            onClick={onGetResources}
             className="button-glow group"
           >
             <span className="relative z-10 flex items-center">

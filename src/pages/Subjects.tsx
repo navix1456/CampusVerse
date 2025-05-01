@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
@@ -58,23 +57,57 @@ const subjectsBySemseter: Record<number, Array<{ id: string; name: string; code:
   ],
 };
 
-// Mock resources data
+// Enhanced mock resources data with detailed items
 const resourceData = {
   pyqs: [
-    { year: '2023', link: '#' },
-    { year: '2022', link: '#' },
-    { year: '2021', link: '#' },
-    { year: '2020', link: '#' },
-    { year: '2019', link: '#' },
+    { year: '2023', link: '#', items: [
+      { name: 'Mid Term Exam', link: '#' },
+      { name: 'End Term Exam', link: '#' },
+      { name: 'Supplementary Exam', link: '#' },
+    ]},
+    { year: '2022', link: '#', items: [
+      { name: 'Mid Term Exam', link: '#' },
+      { name: 'End Term Exam', link: '#' },
+    ]},
+    { year: '2021', link: '#', items: [
+      { name: 'End Term Exam', link: '#' },
+    ]},
+    { year: '2020', link: '#', items: [
+      { name: 'Mid Term Exam', link: '#' },
+      { name: 'End Term Exam', link: '#' },
+    ]},
+    { year: '2019', link: '#', items: [
+      { name: 'End Term Exam', link: '#' },
+    ]},
   ],
   studyMaterials: [
-    { name: 'Lecture Notes', link: '#' },
-    { name: 'Presentation Slides', link: '#' },
-    { name: 'Practice Problems', link: '#' },
+    { name: 'Lecture Notes', link: '#', items: [
+      { name: 'Unit 1: Introduction', link: '#' },
+      { name: 'Unit 2: Basic Concepts', link: '#' },
+      { name: 'Unit 3: Advanced Topics', link: '#' },
+      { name: 'Unit 4: Applications', link: '#' },
+      { name: 'Unit 5: Case Studies', link: '#' },
+    ]},
+    { name: 'Presentation Slides', link: '#', items: [
+      { name: 'Topic 1 Slides', link: '#' },
+      { name: 'Topic 2 Slides', link: '#' },
+    ]},
+    { name: 'Practice Problems', link: '#', items: [
+      { name: 'Problem Set 1', link: '#' },
+      { name: 'Problem Set 2', link: '#' },
+      { name: 'Problem Set 3', link: '#' },
+    ]},
   ],
   youtube: [
-    { name: 'Topic Playlist', link: '#' },
-    { name: 'Important Concepts', link: '#' },
+    { name: 'Topic Playlist', link: '#', items: [
+      { name: 'Channel 1: Complete Course', link: '#' },
+      { name: 'Channel 2: Tutorial Series', link: '#' },
+      { name: 'Channel 3: Crash Course', link: '#' },
+    ]},
+    { name: 'Important Concepts', link: '#', items: [
+      { name: 'Concept 1 Explanation', link: '#' },
+      { name: 'Concept 2 Deep Dive', link: '#' },
+    ]},
   ],
 };
 
@@ -101,7 +134,7 @@ const Subjects = () => {
     } else {
       setSelectedSubject(null);
     }
-  }, [location.search]);
+  }, [location.search, semester]);
   
   const handleSubjectClick = (subject: { id: string; name: string; code: string }) => {
     setSelectedSubject(subject);
@@ -159,16 +192,19 @@ const Subjects = () => {
                 type="PYQs"
                 title="2019-2023 papers"
                 link="#"
+                items={resourceData.pyqs.flatMap(year => year.items || [])}
               />
               <ResourceCard
                 type="Study Materials"
                 title="Notes, Slides, PDFs"
                 link="#"
+                items={resourceData.studyMaterials.flatMap(material => material.items || [])}
               />
               <ResourceCard
                 type="YouTube"
                 title="Playlist links"
                 link="#"
+                items={resourceData.youtube.flatMap(video => video.items || [])}
               />
             </div>
           </>
