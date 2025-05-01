@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				campus: {
+					purple: '#6941C6',
+					darkPurple: '#4924A1',
+					navy: '#1A1F2C',
+					neonBlue: '#00F0FF',
+					neonPink: '#FF2D78',
+					neonGreen: '#39FF14',
+					darkBg: '#111827',
 				}
 			},
 			borderRadius: {
@@ -84,12 +94,49 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-glow': {
+					'0%, 100%': {
+						opacity: '1',
+						boxShadow: '0 0 15px 2px rgba(0, 240, 255, 0.7)'
+					},
+					'50%': {
+						opacity: '0.7',
+						boxShadow: '0 0 25px 5px rgba(0, 240, 255, 0.9)'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
+				},
+				'background-shine': {
+					from: {
+						backgroundPosition: '0 0'
+					},
+					to: {
+						backgroundPosition: '-200% 0'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
+				'float': 'float 6s ease-in-out infinite',
+				'background-shine': 'background-shine 2s linear infinite'
+			},
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(circle, var(--tw-gradient-stops))',
+				'campus-gradient': 'linear-gradient(to right bottom, #6941C6, #1A1F2C)',
+				'glow-gradient': 'linear-gradient(45deg, #00F0FF, #6941C6, #FF2D78)',
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
