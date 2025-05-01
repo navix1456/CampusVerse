@@ -51,6 +51,11 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
+            <div className="w-10 h-10 rounded-full bg-gradient-to-r from-campus-neonBlue via-campus-purple to-campus-neonPink flex items-center justify-center overflow-hidden">
+              <div className="text-white font-bold text-xl transform -rotate-12">
+                <Book size={22} className="text-white" />
+              </div>
+            </div>
             <span className="text-xl font-bold gradient-text">CampusVerse</span>
           </Link>
 
