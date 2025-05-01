@@ -1,11 +1,10 @@
 
 import { FileText, Video, ExternalLink } from 'lucide-react';
-import { Collapsible, CollapsibleContent, CollapsibleTrigger } from './ui/collapsible';
-import { useState } from 'react';
 
 interface ResourceItem {
   name: string;
   link: string;
+  thumbnail?: string; // Added for YouTube thumbnails
 }
 
 interface ResourceCardProps {
@@ -16,8 +15,6 @@ interface ResourceCardProps {
 }
 
 const ResourceCard = ({ type, title, link, items = [] }: ResourceCardProps) => {
-  const [isOpen, setIsOpen] = useState(false);
-
   const getIcon = () => {
     switch (type) {
       case 'PYQs':
@@ -46,55 +43,56 @@ const ResourceCard = ({ type, title, link, items = [] }: ResourceCardProps) => {
 
   return (
     <div className={`rounded-lg p-6 transition-all bg-gradient-to-br ${getGradientClass()} border border-white/10`}>
-      <div className="flex flex-col items-center text-center">
+      <div className="flex flex-col items-center text-center mb-4">
         <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mb-4 animate-pulse">
           {getIcon()}
         </div>
         <h3 className="text-xl font-semibold mb-2">{type}</h3>
-        <p className="text-sm text-gray-300 mb-4">{title}</p>
-        
-        <Collapsible open={isOpen} onOpenChange={setIsOpen} className="w-full">
-          <CollapsibleTrigger className="button-glow py-1.5 px-4 text-sm flex items-center mx-auto">
-            <span className="relative z-10 flex items-center">
-              {isOpen ? 'Hide' : 'View'}
-              <ExternalLink size={14} className="ml-1" />
-            </span>
-          </CollapsibleTrigger>
-          
-          <CollapsibleContent className="mt-4 text-left">
-            {items.length > 0 ? (
-              <ul className="space-y-2">
-                {items.map((item, index) => (
-                  <li key={index} className="border-t border-white/10 pt-2">
+        <p className="text-sm text-gray-300">{title}</p>
+      </div>
+
+      {items.length > 0 ? (
+        <div className="mt-4 text-left">
+          <ul className="space-y-3">
+            {items.map((item, index) => (
+              <li key={index} className="border-t border-white/10 pt-3">
+                {type === 'YouTube' && item.thumbnail ? (
+                  <div className="flex items-center gap-2">
+                    <div className="w-10 h-10 rounded overflow-hidden flex-shrink-0">
+                      <img 
+                        src={item.thumbnail} 
+                        alt={item.name}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                     <a 
                       href={item.link} 
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm flex justify-between items-center hover:text-campus-neonBlue transition-colors"
+                      className="text-sm flex-1 hover:text-campus-neonBlue transition-colors"
                     >
-                      <span>{item.name}</span>
-                      <ExternalLink size={12} />
+                      <span className="line-clamp-2">{item.name}</span>
                     </a>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p className="text-sm text-center text-gray-400">No items available</p>
-            )}
-            
-            <div className="mt-4 text-center">
-              <a
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-campus-neonBlue hover:underline"
-              >
-                View All Resources
-              </a>
-            </div>
-          </CollapsibleContent>
-        </Collapsible>
-      </div>
+                    <ExternalLink size={14} className="flex-shrink-0 opacity-70" />
+                  </div>
+                ) : (
+                  <a 
+                    href={item.link} 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm flex justify-between items-center hover:text-campus-neonBlue transition-colors"
+                  >
+                    <span>{item.name}</span>
+                    <ExternalLink size={14} className="opacity-70" />
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : (
+        <p className="text-sm text-center text-gray-400 mt-4">No items available</p>
+      )}
     </div>
   );
 };
