@@ -11,12 +11,12 @@ const Developer = () => {
         <h1 className="text-4xl font-bold mb-8 text-center gradient-text">Developer</h1>
         
         <DeveloperCard
-          name="Campus Developer"
+          name="Navin Muthu M"
           role="Full Stack Developer"
           image="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
           bio="CampusVerse is built by students, for students. Meet the developer who's building a smarter campus ecosystem."
-          github="https://github.com/"
-          linkedin="https://linkedin.com/"
+          github="https://github.com/navix1456/"
+          linkedin="https://www.linkedin.com/in/navin-muthu/"
         />
       </div>
     </div>
