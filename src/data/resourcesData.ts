@@ -66,6 +66,7 @@ export const subjectResources: Record<string, {
         thumbnail: 'https://yt3.googleusercontent.com/ytc/AOPolaRuKDgg1UovPsuZ1c2FffqJ6P5cSKzXNYOAP9iP=s176-c-k-c0x00ffffff-no-rj' 
       },
     ],
+    syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
   },
   'foe101': {
     pyqs: [
@@ -221,6 +222,192 @@ export const subjectResources: Record<string, {
     ],
     syllabus: 'https://drive.google.com/file/d/14YAIXtPPiSaW_JlQ37rFHyUjOMzwAG8V/view?usp=sharing'
   },
+  // Adding new subjects
+  'chy101': {
+    pyqs: [
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1ltQ5xHHFgB1gmbocWo52uYIYYtnj-pkm/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1kDnKDaw8oMrL61uBZVrOvM6xfZfMTmit/view?usp=drive_link' },
+      { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1jP5MRBCjyL6FXeHkU8Z1c1B61hSVbcaF/view?usp=drive_link' },
+      { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/1nLsCMyXbPIoSnnkx1NV1Tp7a8nULg45W/view?usp=drive_link' },
+      { name: 'PYQ Nov 2018', link: 'https://drive.google.com/file/d/11cW7z_Wuz6ULxveRQdaJNyzRSBc178Z_/view?usp=drive_link' },
+      { name: 'More PYQs', link: 'https://drive.google.com/file/d/1ditInShGvFfjdH-BQcUVQCaXGkpRnU2p/view?usp=drive_link' },
+      { name: 'PYQ CT Papers', link: 'https://drive.google.com/drive/folders/1J3K6-KkxmmT-2S2wL1gzCHmZfNAoLCkK?usp=drive_link' },
+      { name: 'MCQs For All Units', link: 'https://drive.google.com/drive/folders/1HF-FA22lkkSHXuNu25sq61_oU7otpK2V?usp=drive_link' },
+      { name: 'Important Questions: CTs and SEM', link: 'https://drive.google.com/drive/folders/1yOXcvkndGCCtVDk6dlo1b0p-cGw5-2GD?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1u8-CK7wHUpbGnnh36vbRjtsuW4DA1zuu/view?usp=drive_link' },
+      { name: 'Chapter 1: Periodic Properties', link: 'https://drive.google.com/file/d/1PDJOwDIHMecthOEI2dgRgR0oULwHZYSV/view?usp=drive_link' },
+      { name: 'Chapter 2: Use Of Free Energy In Chemical Equilibria', link: 'https://drive.google.com/file/d/1gV9B9r6yZo_t2oNlUPeVqrBiPgMzzjnE/view?usp=drive_link' },
+      { name: 'Chapter 3: Stereo Chemistry And Organic Reactions', link: 'https://drive.google.com/file/d/110w12g6laqPUTXf9Jurb8MkJ6emkiYB7/view?usp=drive_link' },
+      { name: 'Chapter 4: Polymers', link: 'https://drive.google.com/file/d/1wzVA1YiPQSsKuuarvGGcL3IIRjC6tN9E/view?usp=drive_link' },
+      { name: 'Chapter 5: Advanced Engineering Materials', link: 'https://drive.google.com/file/d/1KXZEOy3xrDPu50DwZJfVCun15vWQYSI1/view?usp=drive_link' },
+      { name: 'BEST NOTES', link: 'https://drive.google.com/drive/folders/1IWuGFjOcswqN8weic3WTrujOGfWqTGRk?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/11fmx1u4GXhVLaSRpeEZjAM6WMqSEFMVy?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1u8-CK7wHUpbGnnh36vbRjtsuW4DA1zuu/view?usp=drive_link'
+  },
+  'mat102': {
+    pyqs: [
+      { name: 'CT Papers Compilation', link: 'https://drive.google.com/file/d/1EPidinguoZeL9azdQzBy20iik9YSaVoH/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1gL76tsTW8bWE2wlABNMlQIrBA4-kwKWR/view?usp=drive_link' },
+      { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1gK_C8CN06fp5NsfgxRgBgynuhbrkbn3i/view?usp=drive_link' },
+      { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/14S_CxY5aTjilh6f_0zOV7lI-9FucDoCB/view?usp=drive_link' },
+      { name: 'PYQ May 2022', link: 'https://drive.google.com/file/d/1rAJaqzrU4qt8ZFhRYqyYgtqfE866MgQF/view?usp=drive_link' },
+      { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/1CdQ2b125X72m-B5TwClc82TRzUMIdZLn/view?usp=drive_link' },
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1JVnIsAo683Yq0dcIZbtqtaLHvKrO7Teh/view?usp=drive_link' },
+      { name: 'Calculator List Updated For 2024', link: 'https://drive.google.com/file/d/1IR6Jk4-t-eYSJB-EX2uvBbyFTxc1oK0F/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1Z4x2a6CdBriOTDFbWWG4R77o-hk1BdiB/view?usp=drive_link' },
+      { name: 'Chapter 1: Integral Calculus', link: 'https://drive.google.com/drive/folders/10MhT0VpHIX1z5exdROiCNJ-hEgc_L0HB?usp=drive_link' },
+      { name: 'Chapter 2: Vector Calculus', link: 'https://drive.google.com/drive/folders/1D8DbGyhmCxRjsH6HueTk5od-ir-AQF4-?usp=drive_link' },
+      { name: 'Chapter 3: Laplace Transform', link: 'https://drive.google.com/drive/folders/1eVvnfACc_on7WVw_aJ1svJwH1lxsAdEU?usp=drive_link' },
+      { name: 'Chapter 4: Analytical Functions', link: 'https://drive.google.com/drive/folders/1vm4Rz8bmjxocmseWyEdYw3mDfkYdefGU?usp=drive_link' },
+      { name: 'Chapter 5: Complex Integration', link: 'https://drive.google.com/drive/folders/1TzxpCAodPmxl02NS3OrWyhZIIdPAk_OJ?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1iWPdnG7NbA8VczZHqqSc8g8yhajL-bMj?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1Z4x2a6CdBriOTDFbWWG4R77o-hk1BdiB/view?usp=drive_link'
+  },
+  'eee101': {
+    pyqs: [
+      { name: 'PYQ Jul 2022', link: 'https://drive.google.com/file/d/1hn8RJ-Rfu_ypFUtx_8NFCWOuB1AWU98e/view?usp=drive_link' },
+      { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1hiPjHJ4qRxZvsUCOZBPl71TPnoRxLZTE/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1hbrqGKecd5zDMoG5jvvdl7MoSCvjcpmN/view?usp=drive_link' },
+      { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1Y1EZ_B-ioHQ15BFFjfbjniQN201k27Ky/view?usp=drive_link' },
+      { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/14ESt98Kx7f_QUdGdLfK-aALfNboZNOUL/view?usp=drive_link' },
+      { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1AkcM9g-yT12JK5IfCafbFi5ACZR4zdnX/view?usp=drive_link' },
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1zY89vKAr_-ding4XTgF-t-amR7SIfmDK/view?usp=drive_link' },
+      { name: 'CT PYQs', link: 'https://drive.google.com/drive/folders/1uo6dIWYACYSKr6x2pW8V1q8XaiLoLwRm?usp=sharing' },
+      { name: 'Important Topics', link: 'https://drive.google.com/file/d/1A5DzyF0VL2zOst3BbWvFb6CDmJ-YItzJ/view?usp=drive_link' },
+      { name: 'Important Questions', link: 'https://drive.google.com/file/d/1F1zXemq5Cw91y2m7lMaaq_QJOLPqXS0t/view?usp=drive_link' },
+      { name: 'Question Bank', link: 'https://drive.google.com/file/d/1YTRBDy_KOpeV3lsVcRYZ4Vb6sSZNW3p2/view?usp=drive_link' },
+      { name: 'MCQ Question Bank', link: 'https://drive.google.com/file/d/1aYOQ5vJHjkQ7KXMO4EMRka9IFrO01PvK/view?usp=drive_link' },
+      { name: 'Calculator List Updated For 2024', link: 'https://drive.google.com/file/d/1IR6Jk4-t-eYSJB-EX2uvBbyFTxc1oK0F/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1dNcJUoFAOa7Pze0Vdy93sDyxEpeb1AUC/view?usp=drive_link' },
+      { name: 'Electric Circuits', link: 'https://docs.google.com/presentation/d/1bPBwdQyolajpl_Yvnf9FN6PH9PLfFvHU/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Electronics', link: 'https://docs.google.com/presentation/d/1Fl_HnPxNwC-p8cwsiBbbXKU_JQ4pPiRQ/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Machines And Drives', link: 'https://docs.google.com/presentation/d/1ZiRH5sw__xM09kSlR4YVeLrHznPrNQx6/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Transducers And Sensors', link: 'https://docs.google.com/presentation/d/1j0drvyL_Rxl-h_hFfD3jrVe81eZes_X9/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Power Engineering', link: 'https://docs.google.com/presentation/d/1h1sL6cPtkkg__FsqnePeT1bh_ink0_qq/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'EEE Lab Manual', link: 'https://drive.google.com/file/d/1rCMKo4AJaey13AEQ7vU3rWzw7WcxOm3f/view?usp=drive_link' },
+      { name: 'EEE Book', link: 'https://drive.google.com/file/d/177_vU4n7lRah8dNuVtiiBp4t9MPEFZ0E/view?usp=drive_link' },
+      { name: 'Handwritten Notes by THE HELPER', link: 'https://drive.google.com/drive/folders/1phV20ArTBNES6Dsp1nwYIb_BxYMBe4vt?usp=sharing' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1X96eA7O-4-mozGf65mf8STMFKQa6MR2q?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1dNcJUoFAOa7Pze0Vdy93sDyxEpeb1AUC/view?usp=drive_link'
+  },
+  'spc101': {
+    pyqs: [
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/191qeMWiqNaGlgXRsiPJlnF-mpJY8CgDy/view?usp=drive_link' },
+      { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1YWdcCS6GGsd9dNrvgqEFNFuJpwL51I3D/view?usp=drive_link' },
+      { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/1I9PD3OsZgqpkkZzx9Wvn8cvUdFQxXRwl/view?usp=drive_link' },
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1k5XtGdaQslodt0-ecF6HbeRcu8NqjuRz/view?usp=drive_link' },
+      { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1Z2zUtT1VgWzAy6JHqdUAYvE_C9x23gmt/view?usp=drive_link' },
+      { name: 'PYQ Nov 2018', link: 'https://drive.google.com/file/d/1pPJtz-jLjV0SW0ZJKhrwXdykgY1cOS3i/view?usp=drive_link' },
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1inlczO0zpoR2gVBayuliTJ82DNEqsTbd/view?usp=drive_link' },
+      { name: 'CT Papers', link: 'https://drive.google.com/drive/folders/14becqgs_Nxp8tZwXUZ7uy2-ONXJIiWVW?usp=drive_link' },
+      { name: 'MCQs & Question Banks', link: 'https://drive.google.com/drive/folders/1btJ75w1hj7S5eI8ECiopRQLtLvzsRJbJ?usp=drive_link' },
+      { name: 'Important Topics', link: 'https://docs.google.com/document/d/1d93T2rn1CXakIU8B9zFSdNvLcIIEFEmA5-XYnyEn6qo/edit?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1TdY3n8HG3mbHuHu0U792PFSt4j760xBW/view?usp=drive_link' },
+      { name: 'Chapter 1: Energy Bands In Solids', link: 'https://drive.google.com/file/d/1EACIBHKWj8FMHb3veDMsKp-D-xofm6xB/view?usp=drive_link' },
+      { name: 'Chapter 2: Carrier Transport Mechanism In Semiconductors', link: 'https://drive.google.com/file/d/1UHbGMqvhM6kc8R-ThV5KCKu7x5Km4Im1/view?usp=drive_link' },
+      { name: 'Chapter 3: Optoelectronic Properties Of Semiconductors', link: 'https://drive.google.com/file/d/1Nly-gEdmq8x1InLEgVPC9Axx6JYAS00u/view?usp=drive_link' },
+      { name: 'Chapter 4: Electrical And Optical Measurements', link: 'https://drive.google.com/file/d/1G_OnBwA593drCXbgieWrfFk808Xm6EEW/view?usp=drive_link' },
+      { name: 'Chapter 5: Low Dimensional Semiconductor Materials', link: 'https://drive.google.com/file/d/1jD0XBNuV27NU_-fJlggO8zKaYKE9018-/view?usp=drive_link' },
+      { name: 'All Derivations', link: 'https://drive.google.com/file/d/1tvcJazakaEAr0pjHAK55CCBNcEkxli0i/view?usp=drive_link' },
+      { name: 'Handwritten Notes (By THE HELPER)', link: 'https://drive.google.com/drive/folders/1BMix42PM0YuAJn4AvC61u3g_HPjtrNew?usp=drive_link' },
+      { name: 'Lesson Plan', link: 'https://drive.google.com/file/d/1uqlLJHlc9Fg4AcML5AZbrte4wZmKiDVI/view?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/117OAQHShi1Np87x1FK-HhsXzrWVlZa83?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1TdY3n8HG3mbHuHu0U792PFSt4j760xBW/view?usp=drive_link'
+  },
+  'oop101': {
+    pyqs: [
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1gsBe7bQAH64ExMz8lKS5Gzjq3InHseyb/view?usp=drive_link' },
+      { name: 'PYQ Dec 2022', link: 'https://drive.google.com/file/d/1oeZSXRyPGT0_HxUD55Zm9Kfh28ukVMxd/view?usp=drive_link' },
+      { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1Q31qHe8sVFBY7pA1-Z9fXOurVngRlFiq/view?usp=drive_link' },
+      { name: 'PYQ May 2022', link: 'https://drive.google.com/file/d/13ub45X-KsU89tfxadRf1_fJOhtJIrt8e/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1hSl_kwgjLMxPJjL2UgC0Nqo246TGVAx4/view?usp=drive_link' },
+      { name: 'Important Questions', link: 'https://drive.google.com/file/d/14pwsNMxHBLdd2T57GuInfIJK032JDxmt/view?usp=drive_link' },
+      { name: 'MCQ For All Units', link: 'https://drive.google.com/file/d/1u6-169zEmbaG4uJ6PfD0C7lPJqhHUg7z/view?usp=drive_link' },
+      { name: 'Question Bank', link: 'https://drive.google.com/file/d/19Ej9QRZcqDCrN_1qOPCxu0gsTvVvfj98/view?usp=drive_link' },
+      { name: 'More Questions', link: 'https://drive.google.com/file/d/1gUeqNXL3SeVyhahUh6x-KsCG3ldF1eys/view?usp=sharing' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/13Uo3zCTnPxD8G8dYmiMbLe9mh9JnmoRz/view?usp=drive_link' },
+      { name: 'Chapter 1: Introduction To OOPS', link: 'https://drive.google.com/file/d/19FDqGruYLCRlY5X5QMs9Yv9T8ud0_vjH/view?usp=drive_link' },
+      { name: 'Chapter 2: Methods And Polymorphism', link: 'https://drive.google.com/file/d/1oZGWe7fU9IUy9UXifmRzii91BCuA3OEJ/view?usp=drive_link' },
+      { name: 'Chapter 3: Inheritence', link: 'https://drive.google.com/file/d/1aqEFFQ3xJutAmWnRt5UW9xRNxlhhPyHH/view?usp=drive_link' },
+      { name: 'Chapter 4: Generic Programming', link: 'https://drive.google.com/file/d/1OlzxlgqgTa8epRI9VFKkKWyyz0AW8KiN/view?usp=drive_link' },
+      { name: 'Chapter 5: Standard Template Library', link: 'https://drive.google.com/file/d/1vFqpdYIbEiQgR0PS8y4Ked8EdkAjKHu6/view?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1S5aCLxCbvepfvEvfCwd9jMRjA8tHW9SW?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/13Uo3zCTnPxD8G8dYmiMbLe9mh9JnmoRz/view?usp=drive_link'
+  },
+  'eng101': {
+    pyqs: [
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1xfHj8XLY0PCkchUP-RPR1rp24YAtaZub/view?usp=drive_link' },
+      { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/15lTkxE31u9Ihca4hGGYVpBou_TVTFGxy/view?usp=drive_link' },
+      { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1HWGB__HxMZN0V10kh1a4VeNNAPGqxw9_/view?usp=drive_link' },
+      { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/1oo1NSE58jRw9QEBPj3gRDgi-OkpUVC71/view?usp=drive_link' },
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1Dw6Z0rXNZpH0txKJQaRZGyk3mYLNluOM/view?usp=drive_link' },
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1h3ULSiDifLSUTIPjNY6iPIpM4arn1xoW/view?usp=drive_link' },
+      { name: 'Writing Format', link: 'https://drive.google.com/file/d/1sgL0f5YJxYC7uwN8f0RReU5ynoRSn6DX/view?usp=drive_link' },
+      { name: 'More PYQs', link: 'https://drive.google.com/drive/folders/1XRWZb4k2c0WhYPZTs1t3Jaflydg5Rxxv?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1Q3pPItjdhgNNqceUPKvcu_4fC5uuUDY8/view?usp=drive_link' },
+      { name: 'Complete Notes', link: 'https://drive.google.com/drive/folders/1EZN7OFedecezHibAfhjruQu1SWXd5107?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1Q3pPItjdhgNNqceUPKvcu_4fC5uuUDY8/view?usp=drive_link'
+  },
+  'bcm101': {
+    pyqs: [
+      { name: 'PYQ Dec 2022', link: 'https://drive.google.com/file/d/1NFeTHf3AecgZbNzYrZ8nU8vG1hNqLQ1n/view?usp=drive_link' },
+      { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1dAvNUKrVeJJMOQA-XDld7JcHXJYoKeir/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1B_xfp2LaPZHD1Wau8IsB8MOHDhtlTY-_/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1Y2Ufh9bwiQMAL8pBF5aIuKyX75TrjAtW/view?usp=drive_link' },
+      { name: 'Chapter 1: Introduction To Biochemistry', link: 'https://drive.google.com/drive/folders/1AdyBBezaEKi2Z6jIgf_T-S9I3qJxDOrt?usp=sharing' },
+      { name: 'Chapter 2: Introduction To Metabolism, Bioenergetics And Photosynthesis', link: 'https://drive.google.com/drive/folders/1pF6WWT1TUqmP3U15ywNNUzqaL406bSS1?usp=sharing' },
+      { name: 'Chapter 3: Carbohydrate Metabolism', link: 'https://drive.google.com/file/d/1QvAQc6JWvl-mQpgIAbWQj5FsVWCJ6EOo/view?usp=drive_link' },
+      { name: 'Chapter 4: Protein Turnover And Amino Acids Metabolism', link: 'https://drive.google.com/file/d/1NVc_CcnFbfHcUs-0K4xcshszzn6xxU4a/view?usp=drive_link' },
+      { name: 'Chapter 5: Fatty Acids And Nucleic Acids Metabolism', link: 'https://drive.google.com/file/d/1MoPgpPaM9ozbp8l69TlPCHfCzMsvH0Ga/view?usp=drive_link' },
+      { name: 'Book 1', link: 'https://drive.google.com/file/d/1L38XTsXx40R-VZJkaT_ILjx25Rb5mPeZ/view?usp=drive_link' },
+      { name: 'Book 2', link: 'https://drive.google.com/file/d/1kqqfIl6HeW0zZz5EjSjzSynO_xPKBJpk/view?usp=drive_link' },
+      { name: 'Book 3', link: 'https://drive.google.com/file/d/1D6AjTU79KiCmbHFFkyWLvB8ykgGZgetb/view?usp=drive_link' },
+      { name: 'Book 4', link: 'https://drive.google.com/file/d/1D3XJQFlys62A0W6WFzFHyE3J5oF5dvla/view?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1BmjNan0EKbXYBKu2cnTgoVrWRKNcPN4K?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1Y2Ufh9bwiQMAL8pBF5aIuKyX75TrjAtW/view?usp=drive_link'
+  },
+  'emp101': {
+    pyqs: [
+      { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/118beVBmNagV4Ls0D1R8sbEKU4VYQzh5M/view?usp=drive_link' },
+      { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/19WJ19wKB2KDcwFoflj53theersZQJhhl/view?usp=drive_link' },
+      { name: 'PYQ Nov 2018', link: 'https://drive.google.com/file/d/1eU12K32zGMdIbRcPzorR0FGk45TZ0wxE/view?usp=drive_link' },
+      { name: 'PYQ Jul 2022', link: 'https://drive.google.com/file/d/1dybsjzUb97m6uwbg2nXsxWugjexq4rHB/view?usp=drive_link' },
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1dybsjzUb97m6uwbg2nXsxWugjexq4rHB/view?usp=drive_link' },
+      { name: 'Question Bank', link: 'https://drive.google.com/file/d/18ubPMug4jRVTf36oTVcFbG7BJMwYOSPs/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1DjvYADrNMAhnaGBj2r4yZV3j3MF6l8qE/view?usp=drive_link' },
+      { name: 'Chapter 1: Electromagnetism And Dielectrics', link: 'https://drive.google.com/drive/folders/11w4JqcjvAVvfV39JWGRFLtt5v7I-TPNx?usp=drive_link' },
+      { name: 'Chapter 2: Magnetic Materials', link: 'https://drive.google.com/drive/folders/1QsUAiw6wOPVM4R_4ZdS5fx0QnpQ3qFWs?usp=drive_link' },
+      { name: 'Chapter 3: Quantum Mechanics', link: 'https://drive.google.com/drive/folders/1J7ev17xSqpzu-GRjGGy0x0zoExHeFTQx?usp=drive_link' },
+      { name: 'Chapter 4: Wave Optics', link: 'https://drive.google.com/drive/folders/12ll0zXsdvYRaE3ojFhO4aPxL5b8nHlOz?usp=drive_link' },
+      { name: 'Chapter 5: Lasers And Fiber Optics', link: 'https://drive.google.com/drive/folders/1LC9A2DqQAtBlOH5odn9F97l7HU_dugIs?usp=drive_link' },
+      { name: 'Lab Manual', link: 'https://drive.google.com/file/d/1wLDC3gdXHBroGCRy6AqVmKQsJSZXYgw1/view?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1-glXA09mYYMcQRQDhudOrXPTWlu5E-ic?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1DjvYADrNMAhnaGBj2r4yZV3j3MF6l8qE/view?usp=drive_link'
+  }
 };
 
 // For backward compatibility - this structure is used in other components
@@ -229,3 +416,4 @@ export const resourceData = {
   studyMaterials: subjectResources['mat101'].studyMaterials,
   youtube: subjectResources['mat101'].youtube || [],
 };
+
