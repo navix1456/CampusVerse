@@ -13,7 +13,7 @@ const Developer = () => {
         <DeveloperCard
           name="Navin Muthu M"
           role="Full Stack Developer"
-          image="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+          image="/lovable-uploads/d0f9f9af-84aa-4e46-91dd-37a25b637b91.png"
           bio="CampusVerse is built by students, for students. Meet the developer who's building a smarter campus ecosystem."
           github="https://github.com/navix1456/"
           linkedin="https://www.linkedin.com/in/navin-muthu/"
