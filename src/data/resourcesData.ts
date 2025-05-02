@@ -5,58 +5,227 @@ export interface ResourceItem {
   thumbnail?: string; // Added for YouTube thumbnails
 }
 
-// Enhanced mock resources data with detailed items and thumbnails for YouTube
+// Detailed subject resources
+export const subjectResources: Record<string, {
+  pyqs: ResourceItem[];
+  studyMaterials: ResourceItem[];
+  youtube?: ResourceItem[];
+  examStrategies?: ResourceItem[];
+  syllabus?: string;
+}> = {
+  'mat101': {
+    pyqs: [
+      { name: 'PYQ Dec 2024', link: 'https://drive.google.com/file/d/146A_fcSXISYTj2fiLGKSmNrJ5JDewgBr/view?usp=sharing' },
+      { name: 'PYQ Nov 2024', link: 'https://drive.google.com/file/d/1w_FrCYPLnCgyUDODgX7-qp0x8J-D-b7I/view?usp=sharing' },
+      { name: 'PYQ July 2024', link: 'https://drive.google.com/file/d/1x4nUZbjMXAaj8E4jWwh1EHIbLZTSBavW/view?usp=sharing' },
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1yrmJazPzimrZAVQ1w27uP9CAEepfk8xt/view?usp=sharing' },
+      { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1KgRUBM_yZ_QvL6XwUQdWxMbGkgnV8cXg/view?usp=sharing' },
+      { name: 'PYQ DEC 2023', link: 'https://drive.google.com/file/d/1gjpajPAfUg84IUfeA9NjTluLobSwLUwB/view' },
+      { name: 'PYQ JAN 2023', link: 'https://drive.google.com/file/d/1ge5x8_13MtSTnMzAS7swwtscwK7tU7cv/view' },
+      { name: 'PYQ MAY 2022', link: 'https://drive.google.com/file/d/1BByJLRMnIiDoJTAwrjrTGjJMIwcPQPNP/view' },
+      { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/1p4EwWSIdDlwuxMHgYG_hBzvYAXxB_upy/view' },
+      { name: 'PYQ Nov 2018', link: 'https://drive.google.com/file/d/1SqEtnZx2FyQ91dL2q7QQIBYkklNdyfKC/view' },
+      { name: 'PYQ 2013-2019', link: 'https://drive.google.com/file/d/1L_s1IJJD3Vj93Gp3wuG7Rsg8BeoKoafD/view?usp=sharing' },
+      { name: 'CT 1, 2, 3 Papers', link: 'https://drive.google.com/file/d/18OSy3PD7BKHVnn5wWZaYg_MhmJxuyNBS/view?usp=sharing' },
+      { name: 'MCQ UNIT 1-5', link: 'https://drive.google.com/file/d/1urGnfUCN1Jfy6SWNnQueT5uEeBL7az-D/view?usp=sharing' },
+      { name: 'Important Topics', link: 'https://docs.google.com/document/d/1uNgufPfaYgLVMrmx0_ETAkkYoju7L57R/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Calculator List', link: 'https://drive.google.com/file/d/1qLRtoEPtxowDY910loY-LnI6iNEbu9IT/view?usp=sharing' },
+      { name: 'Semester Strategy', link: 'https://docs.google.com/document/d/1vkS-3ilVcU4XJzeuDSaIw4DcH9-hSNI25zaf2Vuy-6o/edit?usp=sharing' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1 Question Bank', link: 'https://drive.google.com/file/d/1OY6VmspMfjK1QK_HAt4my_NvksIKS8xt/view?usp=drive_link' },
+      { name: 'Unit 2 Question Bank', link: 'https://drive.google.com/file/d/1lqhubwxxjhpLnlyp2SqZWfpkXIFZeyCR/view?usp=drive_link' },
+      { name: 'Unit 3 Question Bank', link: 'https://drive.google.com/file/d/1i6IlFJTnun6jYLI0WXWW55zz-c0K-mvK/view?usp=drive_link' },
+      { name: 'Unit 4 Question Bank', link: 'https://drive.google.com/file/d/1pfXp7Bpk2mS0lRNooWW8Bd9xXKDg7hUR/view?usp=drive_link' },
+      { name: 'Unit 5 Question Bank', link: 'https://drive.google.com/file/d/1wEDmoPpnAlQyeGF-4gRnuVfQeriyoPOj/view?usp=drive_link' },
+      { name: 'Chapter 1: Matrices (PPT)', link: 'https://drive.google.com/file/d/1DJtRi7pVqRQB8FvzBpEn-XxKiUImk_P4/view?usp=sharing' },
+      { name: 'Chapter 2: Functions Of Several Variables (PPT)', link: 'https://drive.google.com/drive/folders/1SpNIkGywR7ZKowUDPxhZZl-yTpHua0M2' },
+      { name: 'Chapter 3: Ordinary Differential Equations (PPT)', link: 'https://drive.google.com/file/d/13LsREawRTw38KjCnVM3d-1Fg01zJnI3o/view?usp=sharing' },
+      { name: 'Chapter 4: Differential Calculus And Beta Gamma Functions (PPT)', link: 'https://docs.google.com/presentation/d/1n5lMSNnErCp0FLCUKm1w0KAxn0scqX8T/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Chapter 5: Sequence And Series (PPT)', link: 'https://drive.google.com/file/d/1rDg--eBJLAU4GgazGCNKr7nbaMU2CtR7/view?usp=sharing' },
+    ],
+    youtube: [
+      { 
+        name: 'Dr. E. Suresh', 
+        link: 'https://www.youtube.com/@dresuresh/featured', 
+        thumbnail: 'https://yt3.googleusercontent.com/ytc/AOPolaQhzyPVcbA0ejBVU98aYDqTeu_Cx9ke7lBGBc9Ess4=s176-c-k-c0x00ffffff-no-rj' 
+      },
+      { 
+        name: 'Dr. E. Sujatha - Mathemagic', 
+        link: 'https://www.youtube.com/@sujathae4270', 
+        thumbnail: 'https://yt3.googleusercontent.com/ytc/AOPolaSrrWDUVBRdAAoQnred41gM-uZl30-7YZwKNYXH=s176-c-k-c0x00ffffff-no-rj' 
+      },
+      { 
+        name: 'Dr. P. Godhanda Raman', 
+        link: 'https://www.youtube.com/@profpgraman/videos', 
+        thumbnail: 'https://yt3.googleusercontent.com/ytc/AOPolaR5EQDfzAm_KbX2_13CDTbdEuiL7s-v8x7swdnA=s176-c-k-c0x00ffffff-no-rj' 
+      },
+      { 
+        name: 'Alex Maths', 
+        link: 'https://www.youtube.com/@AlexMathsEngineering/videos', 
+        thumbnail: 'https://yt3.googleusercontent.com/ytc/AOPolaRuKDgg1UovPsuZ1c2FffqJ6P5cSKzXNYOAP9iP=s176-c-k-c0x00ffffff-no-rj' 
+      },
+    ],
+  },
+  'foe101': {
+    pyqs: [
+      { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1LY9QRZLJCCdcvAi0Z_g-fASLnJA8GddP/view?usp=drive_link' },
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/115biaX6rf_yNU4TUqDLwubw-yeDKIG-o/view?usp=drive_link' },
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1-2Z5kExMEfeh-7lwHpBOwVXvA7jVLK3t/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1uMysJohHDB3QlrMowS95WkBYO19qpY_5/view?usp=drive_linkk' },
+      { name: 'Questions Bank', link: 'https://docs.google.com/document/d/1HW-C1-X8DRIdmMUOB2APuuq8YCKV1RtH/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1D0GFFKWgIjw5tGWK-NLgscvaOULlJHeY?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
+  },
+  'bms101': {
+    pyqs: [
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1q4mE8pPVbznCaoaKbhfGt7EazS2vmQyn/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/10iVchNAH7GkcjS6NYpCtdvjXmWi45rBf/view?usp=drive_link' },
+      { name: 'Not Available', link: '' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/10iVchNAH7GkcjS6NYpCtdvjXmWi45rBf/view?usp=drive_link'
+  },
+  'poe101': {
+    pyqs: [
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1jY9prBMQWKPtEpCa1BJdrrDollc3Ut0j/view?usp=drive_link' },
+      { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1nd5fsd1RNSB8NApQT7qe8gywcny8LR5o/view?usp=drive_link' },
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1vdaTuTAo55EuWuixkitUpalujzvRJ6k0/view?usp=drive_link' },
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1meCwpo-7NntL-w5IwdF96oAZYjzmkSe4/view?usp=drive_link' },
+      { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1YBojyEnXG2HAgWjP1XIlfDYmQR2qXUJo/view?usp=drive_link' },
+      { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1gZsPwu-WmIhSuVxixi0jKCJagVhDWOhO/view?usp=drive_link' },
+      { name: 'MCQ & Question Bank', link: 'https://drive.google.com/drive/folders/1um6ctu9sT624qLw5U1SD0PL1OETqmSCM?usp=drive_link' },
+      { name: 'Important Topics & Exam Pattern', link: 'https://docs.google.com/document/d/1WGW5jJVAoTk7598I9wLGGUVpJNds1__W7QIiqOlPEl8/edit?usp=sharing' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1W78ErNNrFzNixKGBGO11I8XZSkpDj59d/view?usp=drive_link' },
+      { name: 'Chapter 1: Introduction To Philosophy Of Engineering', link: 'https://drive.google.com/file/d/1h1COyop7_Ry0AallhAgD6R_Wmb7bcW-c/view?usp=drive_link' },
+      { name: 'Chapter 2: Ontology Of Engineering', link: 'https://drive.google.com/file/d/1huvTad5h7kBF_DgLR0RtJBa1IHQsZYlG/view?usp=drive_link' },
+      { name: 'Chapter 3: Epistemology Of Engineering', link: 'https://drive.google.com/file/d/1ZzSDuNrlj6ilgRRJEQ05nc2cV5A7Xvll/view?usp=drive_link' },
+      { name: 'Chapter 4: Methodology Of Engineering', link: 'https://drive.google.com/file/d/11kKaqlSkik4bZkfhrrwdDk3mtGXS1IvE/view?usp=drive_link' },
+      { name: 'Chapter 5: Axiology Of Engineering', link: 'https://drive.google.com/file/d/1GThAKbgksVDuRTjOGX-5dXRo7l4fYNFy/view?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1gs-IjIYanHX0EWNXolPD22nrhR9pFP7h?usp=drive_link' },
+    ],
+    examStrategies: [
+      { name: 'POE Semester Exam Strategies', link: 'https://docs.google.com/document/d/1y4aSOEgYRtntJ-_BxtCGCfCdzYK6kiyDtxMOu2_rVP0/edit?usp=drive_link' },
+      { name: 'Sem Exams General Rules', link: 'https://drive.google.com/file/d/1IhGYn-Hq50hu5Fcmwr23jgf5PL-T9tB8/view?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1W78ErNNrFzNixKGBGO11I8XZSkpDj59d/view?usp=drive_link'
+  },
+  'pps101': {
+    pyqs: [
+      { name: 'PYQ Jun 2023', link: 'https://drive.google.com/file/d/1mrvBYe6mv42Tfein8AN2T8txeXHvk4Tw/view?usp=drive_link' },
+      { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1_O9YsNWs3Vw-au0oG95glj-Y8CHZCugH/view?usp=drive_link' },
+      { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/1_RN15OXdZhDpX1Nb9sNSOOdQrdxQCukx/view?usp=drive_link' },
+      { name: 'PYQ Jan 2019', link: 'https://drive.google.com/file/d/1XiRjfTRputu3ZuaNZaEGA8lqBFETErW3/view?usp=drive_link' },
+      { name: 'PYQ Nov 2018', link: 'https://drive.google.com/file/d/1xGcq8Sd_3JkKQMV_LatGCBuOZyP7DNCk/view?usp=drive_link' },
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1LRHHPbqBJ5aX8Ps4x1E_xl4RfEI0D4SI/view?usp=drive_link' },
+      { name: 'PYQ July 2023', link: 'https://drive.google.com/file/d/1NoHu2nPzuafMCN9saUQlq6QXOjEsZOGd/view?usp=drive_link' },
+      { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1kzUnjcsW1J_p9xIGTNtYDg132bFryd_e/view?usp=drive_link' },
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1tEw8YxyX5nr6AwlbC8GwwHOsnb4yOAcj/view?usp=drive_link' },
+      { name: 'PYQ From NCR Campus (By BTECH CRUX)', link: 'https://drive.google.com/file/d/1AO0di_Fu6-AhaoabTLsgNC_V8iwdbXNN/view?usp=drive_link' },
+      { name: 'CT Papers Compilation', link: 'https://drive.google.com/drive/folders/1e0OY2AVToH-FtIpYimh1iE4d0kmW-uUq?usp=drive_link' },
+      { name: 'Question Bank with MCQs', link: 'https://drive.google.com/file/d/1D2Bl2164GlxUKKaoaoQBreWasAJc6UOq/view?usp=drive_link' },
+      { name: 'Alternate Question Bank with MCQs', link: 'https://drive.google.com/file/d/1caItBrkYiQt8RjT8elKc2wHeb3fCPgzh/view?usp=drive_link' },
+      { name: 'Important Questions', link: 'https://drive.google.com/file/d/1REJu8O7Zd--eBgJVLAQ6mlV7vO5XMLcU/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1oQ0a7mjBp1NVhihOBwv8mDTtHOsOuVKx/view?usp=drive_link' },
+      { name: 'Chapter 1', link: 'https://drive.google.com/drive/folders/115dAsr68aT8VLi_7Bmv2XAuu7ekdlNzQ?usp=drive_link' },
+      { name: 'Chapter 2', link: 'https://drive.google.com/drive/folders/15qqWbCXr5Rd0UL1opZB5vpPQDn3AsZMG?usp=drive_link' },
+      { name: 'Chapter 3', link: 'https://drive.google.com/drive/folders/1d3mCBRey2ZjNgkiWW-zxSBqUx61d2m7l?usp=drive_link' },
+      { name: 'Chapter 4', link: 'https://drive.google.com/drive/folders/130zDzZqQELfPW25E2-1FM5MQuqYKdaXc?usp=drive_link' },
+      { name: 'Chapter 5', link: 'https://drive.google.com/drive/folders/1dF2v7hE1_0MmiByuiY1M4xPJ6DLPuyoY?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1eUUUl5O3Crs9reqX1RmQRkMqidK7VRV5?usp=drive_link' },
+      { name: 'Study Material Drive Link From NCR Campus (By BTECH CRUX)', link: 'https://drive.google.com/drive/folders/1bZ7YrbQPczxJgGrmHLjOpZUX3XhwWLog?usp=drive_link' },     
+    ],
+    examStrategies: [
+      { name: 'PPS Semester Exam Strategies', link: 'https://docs.google.com/document/d/1hGtMfxy7Np1JHq5kztHJoq4R40_voVELrCs2fk-IowI/edit?usp=drive_link' },
+      { name: 'Sem Exams General Rules', link: 'https://drive.google.com/file/d/1IhGYn-Hq50hu5Fcmwr23jgf5PL-T9tB8/view?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1oQ0a7mjBp1NVhihOBwv8mDTtHOsOuVKx/view?usp=drive_link'
+  },
+  'icb101': {
+    pyqs: [
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1gLlh0fB1rctmKZBSPPZC35ryZt_K4Phg/view?usp=drive_link' },
+      { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1pu7GK8lLq_KIBMdBOETeCVWMeJLHiUMb/view?usp=drive_link' },
+      { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1gUpdZwc5rfFijFOUErPMb9fxQyjJsqC5/view?usp=drive_link' },
+      { name: 'PYQ Jul 2023 Paper 2', link: 'https://drive.google.com/file/d/1gNaoBxL_mbZMwjBpXX_qNJDFdD8QQeKD/view?usp=drive_link' },
+      { name: 'PYQ Jun 2023', link: 'https://drive.google.com/file/d/1gd9Om2twjB62-8UJb1vM7A0LKlBKDXTF/view?usp=drive_link' },
+      { name: 'PYQ Dec 2023 Paper 2', link: 'https://drive.google.com/file/d/1gPq_nEkL57PiJKlMDhklOkPYeeOXU9SV/view?usp=drive_link' },
+      { name: 'PYQ Nov 2024', link: 'https://drive.google.com/file/d/1whex95Fal3usUDsxcljyW0NirRYdv179/view?usp=drive_link' },
+      { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1i98p0v78N2Zzuj_ThiUBFBKn_nUibQI_/view?usp=drive_link' },
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1WmXmcBLd91RQpbNWoAozS0a-qMYbvfCA/view?usp=drive_link' },
+      { name: 'Important Topics', link: 'https://drive.google.com/file/d/1sHKnZOqeRaji0MZuAVd7NMlawCusiyjN/view?usp=drive_link' },
+      { name: 'HOTs Questions Unit 1 to 5, Question Banks, MCQs & More', link: 'https://drive.google.com/drive/folders/1wN2x025nxZYsCoUhyNoHJUM8WT1i-sWT?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1zA8VbbYE7jSHQFvl8BVRiKDDtVXtqXaG/view?usp=drive_link' },
+      { name: 'Chapter 1: Cell And Evolution', link: 'https://docs.google.com/presentation/d/12rEeMOARIlfeXyMa8ngt5wmmq2fm3BPX/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Chapter 2: Basics In Biochemistry', link: 'https://docs.google.com/presentation/d/1yPQ3_HR48a5cOfZ6yFdhQumu6421WtrV/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Chapter 3: Structure Biology', link: 'https://docs.google.com/presentation/d/1NvNby20sQwxWxyZZf_aorONjbBL6O-wZ/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Chapter 4: Neurobiology', link: 'https://docs.google.com/presentation/d/1tHBBklafppqklOs2x4h-1y6S3NzEyUc8/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Chapter 5: Immunobiology', link: 'https://docs.google.com/presentation/d/1DY-XBXY4tr-qfvZV1tZk4FIkQcoeuxA7/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/12HmbHf838rHNBjAH1X8_MCtEtFbJEztH?usp=drive_link' },
+    ],
+    examStrategies: [
+      { name: 'Computational Bio Semester Exam Strategies', link: 'https://docs.google.com/document/d/14PrBmh9DQsJlPj4LYjf6Y0RJMBSF44QK3cJlDoIs3Ws/edit?usp=drive_link' },
+      { name: 'Sem Exams General Rules', link: 'https://drive.google.com/file/d/1IhGYn-Hq50hu5Fcmwr23jgf5PL-T9tB8/view?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1zA8VbbYE7jSHQFvl8BVRiKDDtVXtqXaG/view?usp=drive_link'
+  },
+  'clb101': {
+    pyqs: [
+      { name: 'PYQ Jun 2023', link: 'https://drive.google.com/file/d/1LEARpqHIqcNqG3WWSJ63NSIt1DT4cos6/view?usp=drive_link' },
+      { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/18F4sJ_pb7NdPphMMJUukAtviZZvpRgcA/view?usp=drive_link' },
+      { name: 'PYQ Dec 2022', link: 'https://drive.google.com/file/d/1KJOoz4uJoQiyCYVEBv1MR9TfcZSuHShb/view?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1Mgt2VtpzOxARAGFm6D2_cNl-s0PBHbAp?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link' },
+      { name: 'Chapter 1', link: 'https://drive.google.com/file/d/17QwIVxEPWAWVfVb8TIG3BWAerk2p2eHr/view?usp=drive_link' },
+      { name: 'Chapter 2', link: 'https://drive.google.com/file/d/1fXqhZm_wb10iajTytYJX6jQeQEEfGRr0/view?usp=drive_link' },
+      { name: 'Chapter 3', link: 'https://drive.google.com/file/d/1u-nTTGlL8UV9N9eSUQu5QSiRcr8ONdaF/view?usp=drive_link' },
+      { name: 'Chapter 4', link: 'https://drive.google.com/file/d/1kqf6H-97BfmAg0IHQphi_s5wWPGOr9qe/view?usp=drive_link' },
+      { name: 'Chapter 5', link: 'https://drive.google.com/file/d/1IjKM8Rr5JLIfAKbElM7UR_Oy2WXHZgV7/view?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
+  },
+  'pac101': {
+    pyqs: [
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1F10dw18lGsWIt57qHf75vqD9oMMJiXPf/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1n4zfMLMsgU-PFucwYOT1t7_XwpeSctR5/view?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1n4zfMLMsgU-PFucwYOT1t7_XwpeSctR5/view?usp=drive_link'
+  },
+  'frl101': {
+    pyqs: [
+      { name: 'PYQ For All Foreign Languages', link: 'https://drive.google.com/drive/folders/1ubbRRPwu5ycFEXOSFmCr3fWfUn_Xxlpf?usp=drive_linkf' },
+    ],
+    studyMaterials: [
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/14YAIXtPPiSaW_JlQ37rFHyUjOMzwAG8V/view?usp=sharing' },
+      { name: 'French Book', link: 'https://drive.google.com/file/d/1u_v_MLCXnprT6Ua9FyCxbXJocjaup4RF/view?usp=drive_link' },
+      { name: 'French Book Translation', link: 'https://drive.google.com/file/d/1BB3d1Nd8IYgMY9KzoethflzkjUIRYRqk/view?usp=drive_link' },
+      { name: 'German Book', link: 'https://drive.google.com/file/d/1r80qwekqlGVivHod9kOVWuxqc9pok3te/view?usp=drive_link' },
+      { name: 'Spanish Book', link: 'https://drive.google.com/file/d/1nna5QvcJkOzU25vunMYaSpPWR9NM83-a/view?usp=drive_link' },
+      { name: 'Korean Book', link: 'https://drive.google.com/file/d/12L0aayv54SW2Zq4VerUpgkWkAawOq2fI/view?usp=drive_link' },
+      { name: 'Japanese Book', link: 'https://drive.google.com/file/d/18eAaIyYDK2CC5NBqNKQTOm6OdcUNS40o/view?usp=drive_link' },
+      { name: 'Chinese Book', link: 'https://drive.google.com/drive/folders/1VjsAq9Plli6BgYt9xcn1fbuySJmETJC9?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/14YAIXtPPiSaW_JlQ37rFHyUjOMzwAG8V/view?usp=sharing'
+  },
+};
+
+// For backward compatibility - this structure is used in other components
 export const resourceData = {
-  pyqs: [
-    { name: 'PYQ Dec 2024', link: 'https://drive.google.com/file/d/146A_fcSXISYTj2fiLGKSmNrJ5JDewgBr/view?usp=sharing' },
-    { name: 'PYQ Nov 2024', link: 'https://drive.google.com/file/d/1w_FrCYPLnCgyUDODgX7-qp0x8J-D-b7I/view?usp=sharing' },
-    { name: 'PYQ July 2024', link: 'https://drive.google.com/file/d/1x4nUZbjMXAaj8E4jWwh1EHIbLZTSBavW/view?usp=sharing' },
-    { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1yrmJazPzimrZAVQ1w27uP9CAEepfk8xt/view?usp=sharing' },
-    { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1KgRUBM_yZ_QvL6XwUQdWxMbGkgnV8cXg/view?usp=sharing' },
-    { name: 'PYQ DEC 2023', link: 'https://drive.google.com/file/d/1gjpajPAfUg84IUfeA9NjTluLobSwLUwB/view' },
-    { name: 'PYQ JAN 2023', link: 'https://drive.google.com/file/d/1ge5x8_13MtSTnMzAS7swwtscwK7tU7cv/view' },
-    { name: 'PYQ MAY 2022', link: 'https://drive.google.com/file/d/1BByJLRMnIiDoJTAwrjrTGjJMIwcPQPNP/view' },
-    { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/1p4EwWSIdDlwuxMHgYG_hBzvYAXxB_upy/view' },
-    { name: 'PYQ Nov 2018', link: 'https://drive.google.com/file/d/1SqEtnZx2FyQ91dL2q7QQIBYkklNdyfKC/view' },
-    { name: 'PYQ 2013-2019', link: 'https://drive.google.com/file/d/1L_s1IJJD3Vj93Gp3wuG7Rsg8BeoKoafD/view?usp=sharing' },
-    { name: 'CT 1, 2, 3 Papers', link: 'https://drive.google.com/file/d/18OSy3PD7BKHVnn5wWZaYg_MhmJxuyNBS/view?usp=sharing' },
-    { name: 'MCQ UNIT 1-5', link: 'https://drive.google.com/file/d/1urGnfUCN1Jfy6SWNnQueT5uEeBL7az-D/view?usp=sharing' },
-    { name: 'Important Topics', link: 'https://docs.google.com/document/d/1uNgufPfaYgLVMrmx0_ETAkkYoju7L57R/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
-    { name: 'Calculator List', link: 'https://drive.google.com/file/d/1qLRtoEPtxowDY910loY-LnI6iNEbu9IT/view?usp=sharing' },
-    { name: 'Semester Strategy', link: 'https://docs.google.com/document/d/1vkS-3ilVcU4XJzeuDSaIw4DcH9-hSNI25zaf2Vuy-6o/edit?usp=sharing' },
-  ],
-  studyMaterials: [
-    { name: 'Unit 1 Question Bank', link: 'https://drive.google.com/file/d/1OY6VmspMfjK1QK_HAt4my_NvksIKS8xt/view?usp=drive_link' },
-    { name: 'Unit 2 Question Bank', link: 'https://drive.google.com/file/d/1lqhubwxxjhpLnlyp2SqZWfpkXIFZeyCR/view?usp=drive_link' },
-    { name: 'Unit 3 Question Bank', link: 'https://drive.google.com/file/d/1i6IlFJTnun6jYLI0WXWW55zz-c0K-mvK/view?usp=drive_link' },
-    { name: 'Unit 4 Question Bank', link: 'https://drive.google.com/file/d/1pfXp7Bpk2mS0lRNooWW8Bd9xXKDg7hUR/view?usp=drive_link' },
-    { name: 'Unit 5 Question Bank', link: 'https://drive.google.com/file/d/1wEDmoPpnAlQyeGF-4gRnuVfQeriyoPOj/view?usp=drive_link' },
-    { name: 'Chapter 1: Matrices (PPT)', link: 'https://drive.google.com/file/d/1DJtRi7pVqRQB8FvzBpEn-XxKiUImk_P4/view?usp=sharing' },
-    { name: 'Chapter 2: Functions Of Several Variables (PPT)', link: 'https://drive.google.com/drive/folders/1SpNIkGywR7ZKowUDPxhZZl-yTpHua0M2' },
-    { name: 'Chapter 3: Ordinary Differential Equations (PPT)', link: 'https://drive.google.com/file/d/13LsREawRTw38KjCnVM3d-1Fg01zJnI3o/view?usp=sharing' },
-    { name: 'Chapter 4: Differential Calculus And Beta Gamma Functions (PPT)', link: 'https://docs.google.com/presentation/d/1n5lMSNnErCp0FLCUKm1w0KAxn0scqX8T/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
-    { name: 'Chapter 5: Sequence And Series (PPT)', link: 'https://drive.google.com/file/d/1rDg--eBJLAU4GgazGCNKr7nbaMU2CtR7/view?usp=sharing' },
-  ],
-  youtube: [
-    { 
-      name: 'Dr. E. Suresh', 
-      link: 'https://www.youtube.com/@dresuresh/featured', 
-      thumbnail: 'https://yt3.googleusercontent.com/ytc/AOPolaQhzyPVcbA0ejBVU98aYDqTeu_Cx9ke7lBGBc9Ess4=s176-c-k-c0x00ffffff-no-rj' 
-    },
-    { 
-      name: 'Dr. E. Sujatha - Mathemagic', 
-      link: 'https://www.youtube.com/@sujathae4270', 
-      thumbnail: 'https://yt3.googleusercontent.com/ytc/AOPolaSrrWDUVBRdAAoQnred41gM-uZl30-7YZwKNYXH=s176-c-k-c0x00ffffff-no-rj' 
-    },
-    { 
-      name: 'Dr. P. Godhanda Raman', 
-      link: 'https://www.youtube.com/@profpgraman/videos', 
-      thumbnail: 'https://yt3.googleusercontent.com/ytc/AOPolaR5EQDfzAm_KbX2_13CDTbdEuiL7s-v8x7swdnA=s176-c-k-c0x00ffffff-no-rj' 
-    },
-    { 
-      name: 'Alex Maths', 
-      link: 'https://www.youtube.com/@AlexMathsEngineering/videos', 
-      thumbnail: 'https://yt3.googleusercontent.com/ytc/AOPolaRuKDgg1UovPsuZ1c2FffqJ6P5cSKzXNYOAP9iP=s176-c-k-c0x00ffffff-no-rj' 
-    },
-  ],
+  pyqs: subjectResources['mat101'].pyqs,
+  studyMaterials: subjectResources['mat101'].studyMaterials,
+  youtube: subjectResources['mat101'].youtube || [],
 };

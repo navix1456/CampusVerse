@@ -4,9 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import SemesterView from '../components/SemesterView';
 import SubjectView from '../components/SubjectView';
-import { ChevronLeft } from 'lucide-react';
 import { subjectsBySemseter } from '../data/subjectsData';
-import { resourceData } from '../data/resourcesData';
 
 const Subjects = () => {
   const location = useLocation();
@@ -87,7 +85,6 @@ const Subjects = () => {
         {semester && selectedSubject && (
           <SubjectView
             subject={selectedSubject}
-            resourceData={resourceData}
             onBackClick={handleBackClick}
           />
         )}

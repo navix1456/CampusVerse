@@ -1,6 +1,9 @@
 
+import { useEffect, useState } from 'react';
 import ResourceCard from '../components/ResourceCard';
 import { ChevronLeft } from 'lucide-react';
+import { ScrollArea } from './ui/scroll-area';
+import { subjectResources } from '../data/resourcesData';
 
 interface ResourceItem {
   name: string;
@@ -8,19 +11,31 @@ interface ResourceItem {
   thumbnail?: string;
 }
 
-interface ResourceData {
-  pyqs: ResourceItem[];
-  studyMaterials: ResourceItem[];
-  youtube: ResourceItem[];
-}
-
 interface SubjectViewProps {
   subject: { id: string; name: string; code: string };
-  resourceData: ResourceData;
   onBackClick: () => void;
 }
 
-const SubjectView = ({ subject, resourceData, onBackClick }: SubjectViewProps) => {
+const SubjectView = ({ subject, onBackClick }: SubjectViewProps) => {
+  const [resources, setResources] = useState<{
+    pyqs: ResourceItem[];
+    studyMaterials: ResourceItem[];
+    youtube?: ResourceItem[];
+    examStrategies?: ResourceItem[];
+    syllabus?: string;
+  } | null>(null);
+
+  useEffect(() => {
+    const subjectData = subjectResources[subject.id];
+    
+    // Default to Calculus and Linear Algebra if the subject is not found
+    setResources(subjectData || subjectResources['mat101']);
+  }, [subject.id]);
+  
+  if (!resources) {
+    return <div className="text-center">Loading resources...</div>;
+  }
+
   return (
     <>
       <button
@@ -36,25 +51,54 @@ const SubjectView = ({ subject, resourceData, onBackClick }: SubjectViewProps) =
       </h1>
       <p className="text-center text-gray-400 mb-8">{subject.code}</p>
       
+      {resources.syllabus && (
+        <div className="max-w-5xl mx-auto mb-8">
+          <a 
+            href={resources.syllabus}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-gradient-to-r from-blue-500/30 to-purple-500/30 border border-white/10 p-4 rounded-lg text-center hover:from-blue-500/40 hover:to-purple-500/40 transition-colors"
+          >
+            <span className="text-xl font-medium">📚 View Syllabus</span>
+          </a>
+        </div>
+      )}
+      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         <ResourceCard
           type="PYQs"
-          title="2019-2023 papers"
+          title="Previous Year Papers"
           link="#"
-          items={resourceData.pyqs}
+          items={resources.pyqs}
         />
         <ResourceCard
           type="Study Materials"
           title="Notes, Slides, PDFs"
           link="#"
-          items={resourceData.studyMaterials}
+          items={resources.studyMaterials}
         />
-        <ResourceCard
-          type="YouTube"
-          title="Playlist links"
-          link="#"
-          items={resourceData.youtube}
-        />
+        {resources.youtube && resources.youtube.length > 0 ? (
+          <ResourceCard
+            type="YouTube"
+            title="YouTube Channels & Playlists"
+            link="#"
+            items={resources.youtube}
+          />
+        ) : resources.examStrategies && resources.examStrategies.length > 0 ? (
+          <ResourceCard
+            type="Study Materials"
+            title="Exam Strategies"
+            link="#"
+            items={resources.examStrategies}
+          />
+        ) : (
+          <ResourceCard
+            type="Study Materials"
+            title="Additional Resources"
+            link="#"
+            items={[]}
+          />
+        )}
       </div>
     </>
   );
