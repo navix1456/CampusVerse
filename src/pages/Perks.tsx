@@ -20,7 +20,7 @@ const perksData = [
     logo: "https://www.perplexity.ai/favicon.ico",
     title: "Perplexity AI Pro",
     description: "Advanced AI research assistant for academic work and projects.",
-    link: "https://www.perplexity.ai/"
+    link: "https://www.perplexity.ai/referrals/C21J3TVQ"
   },
   {
     logo: "https://azurecomcdn.azureedge.net/cvt-1c2e480f8fb41a998b2bb498f9b53946d0b8c38123213583bf5c6142f7297d9f/images/icon/favicon.ico",
@@ -41,7 +41,7 @@ const perksData = [
     link: "https://discord.com/nitro"
   },
   {
-    logo: "https://cdn-icons-png.flaticon.com/512/2111/2111615.png",
+    logo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ASpotify_logo_without_text.svg&psig=AOvVaw1rk8maEmlDAGVF37XN9LAD&ust=1746166475063000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLD_oZbPgY0DFQAAAAAdAAAAABAQ.png",
     title: "Spotify Premium",
     description: "50% discount on Spotify Premium subscription.",
     link: "https://www.spotify.com/us/student/"

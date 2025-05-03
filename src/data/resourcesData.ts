@@ -639,6 +639,52 @@ export const subjectResources: Record<string, {
     ],
     syllabus: 'https://drive.google.com/file/d/1uQyOIFlqvm5SdSdOHVIdrvDRuj9PqX8z/view?usp=drive_link'
   },
+  'dsm101': {
+    pyqs: [
+      { name: 'BATCH 1 COMPLETE CT PAPERS', link: 'https://drive.google.com/file/d/1hVLjQXu9MjJ-bpD_Y9VVf_2znETRmIIC/view' },
+      { name: 'BATCH 2 COMPLETE CT PAPERS', link: 'https://drive.google.com/file/d/1YQ54oL3E8y7mdh3SvdUl5IwLdVjPBSo4/view?usp=sharing' },
+      { name: 'PYQ DECEMBER 2022', link: 'https://drive.google.com/file/d/1FvzizREDVlKhG-fDiGKoQc67A8Hbda7j/view?usp=sharing' },
+      { name: 'PYQ DECEMBER 2023', link: 'https://drive.google.com/drive/folders/1Mgt2VtpzOxARAGFm6D2_cNl-s0PBHbAp?usp=drive_link' },
+      { name: 'PYQ NOVEMBER 2023', link: 'https://drive.google.com/file/d/1Zist4UJRcxCaMMacDU_OVKjwtSMG6la1/view?usp=sharing' },
+      { name: 'PYQ MAY 2024', link: 'https://drive.google.com/file/d/1KRwjCpmnhHCI7E5QOgibcH_B3KiYdZhD/view?usp=sharing' },
+    ],
+    studyMaterials: [
+      { name: 'Chapter 1', link: 'https://drive.google.com/file/d/1O6zRsAU1yPOuNN0PS5LmALDzU0_sQiip/view' },
+      { name: 'Chapter 2', link: 'https://drive.google.com/file/d/1EOOgYSDbtp-f5-4fI7gIVUrE3MVzUoUG/view' },
+      { name: 'Chapter 3', link: 'https://drive.google.com/file/d/1-iLQDoT8tFDNIJd_NadXAiRujaHFkmAz/view' },
+      { name: 'Chapter 4', link: 'https://drive.google.com/file/d/1ssQsSJNF0bS4YvpWvG3ynOqyfr-LGImQ/view?usp=sharing' },
+      { name: 'Chapter 5', link: 'https://drive.google.com/file/d/1rxRu22vHgCi6EFQ7cWSQefIsR_vZblMU/view?usp=sharing' },
+      { name: 'Chapter 1 MCQ', link: 'https://drive.google.com/file/d/1lVHxeCFN8I3-66XQ-C9SuZpr-FF8Hy9J/view' },
+      { name: 'Chapter 2 MCQ', link: 'https://drive.google.com/file/d/1ssQsSJNF0bS4YvpWvG3ynOqyfr-LGImQ/view?usp=sharing' },
+      { name: 'Chapter 3 MCQ', link: 'https://drive.google.com/file/d/1rxRu22vHgCi6EFQ7cWSQefIsR_vZblMU/view?usp=sharing' },
+      { name: 'Chapter 4 MCQ', link: 'https://drive.google.com/file/d/1u-nTTGlL8UV9N9eSUQu5QSiRcr8ONdaF/view?usp=drive_link' },
+      { name: 'Chapter 5 MCQ', link: 'https://drive.google.com/file/d/1zLkHUp3cJLkBbW7b3PSnxgxACeAxsI0S/view' }
+    ]
+    
+  },
+  
+  'fla101': {
+    pyqs: [
+      { name: 'BATCH 1 COMPLETE CT PAPERS', link: 'https://drive.google.com/file/d/1hVLjQXu9MjJ-bpD_Y9VVf_2znETRmIIC/view' },
+      { name: 'BATCH 2 COMPLETE CT PAPERS', link: 'https://drive.google.com/file/d/1YQ54oL3E8y7mdh3SvdUl5IwLdVjPBSo4/view?usp=sharing' },
+      { name: 'PYQ DECEMBER 2022', link: 'https://drive.google.com/file/d/1FvzizREDVlKhG-fDiGKoQc67A8Hbda7j/view?usp=sharing' },
+      { name: 'PYQ DECEMBER 2023', link: 'https://drive.google.com/drive/folders/1Mgt2VtpzOxARAGFm6D2_cNl-s0PBHbAp?usp=drive_link' },
+      { name: 'PYQ NOVEMBER 2023', link: 'https://drive.google.com/file/d/1Zist4UJRcxCaMMacDU_OVKjwtSMG6la1/view?usp=sharing' },
+      { name: 'PYQ MAY 2024', link: 'https://drive.google.com/file/d/1KRwjCpmnhHCI7E5QOgibcH_B3KiYdZhD/view?usp=sharing' },
+    ],
+    studyMaterials: [
+      { name: 'Chapter 1', link: 'https://drive.google.com/file/d/1MStJtVG7F1aSXjnJF3rfqMrXKInWoMit/view?usp=sharing' },
+      { name: 'Chapter 2', link: 'https://drive.google.com/file/d/1QDICPe0huuOkYYuhAeIcDzGaYbWKrcp6/view?usp=sharing' },
+      { name: 'Chapter 3', link: 'https://drive.google.com/file/d/1DORe2E4Zz8f_7wTP1Qh0K_CLWD90dCjh/view?usp=sharing' },
+      { name: 'Chapter 4', link: 'https://drive.google.com/file/d/1-kVwi_UHPiYMdUCuqxz_uYaF_HdWEFqr/view?usp=sharing' },
+      { name: 'Chapter 5', link: 'https://drive.google.com/file/d/1CWA3LwKySunvicnJoodZcFIoa0oUlEQr/view?usp=sharing' },
+      { name: 'Chapter 1 MCQ', link: 'https://drive.google.com/file/d/1lVHxeCFN8I3-66XQ-C9SuZpr-FF8Hy9J/view' },
+      { name: 'Chapter 2 MCQ', link: 'https://drive.google.com/file/d/1ssQsSJNF0bS4YvpWvG3ynOqyfr-LGImQ/view?usp=sharing' },
+      { name: 'Chapter 3 MCQ', link: 'https://drive.google.com/file/d/1rxRu22vHgCi6EFQ7cWSQefIsR_vZblMU/view?usp=sharing' },
+      { name: 'Chapter 4 MCQ', link: 'https://drive.google.com/file/d/1u-nTTGlL8UV9N9eSUQu5QSiRcr8ONdaF/view?usp=drive_link' },
+      { name: 'Chapter 5 MCQ', link: 'https://drive.google.com/file/d/1zLkHUp3cJLkBbW7b3PSnxgxACeAxsI0S/view' }
+    ],
+  },
   'soe101': {
     pyqs: [
       { name: 'PYQ CT Papers', link: 'https://drive.google.com/file/d/1WwlOwVuqvm8pIV9PFEo1fvnkBjc3WF5-/view?usp=sharing' },
@@ -648,6 +694,7 @@ export const subjectResources: Record<string, {
       { name: 'Study Materials', link: 'https://drive.google.com/drive/folders/16XDz1RuY1zKHIqvso0-CB3G8iV0QAE5c?usp=drive_link' },
     ]
   },
+
   'dld101': {
     pyqs: [
       { name: 'Coming Soon', link: '' },
@@ -661,6 +708,11 @@ export const subjectResources: Record<string, {
       { name: 'More Study Materials', link: 'https://drive.google.com/drive/folders/1katPtttHZZkMHGHH1cnaemdCoMDZgF1J?usp=drive_link' },
     ]
   }
+
+  
+  
+  
+
 };
 
 // For backward compatibility - this structure is used in other components
