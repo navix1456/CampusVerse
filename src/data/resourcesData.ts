@@ -557,9 +557,110 @@ export const subjectResources: Record<string, {
     studyMaterials: [
       { name: 'Resources', link: 'https://drive.google.com/drive/folders/1vmkBdyFo_hXLKW6xj9VwuMKhC5k_X_5E?usp=drive_link' },
       { name: 'Resources From NCR Campus By BTECH CRUX', link: 'https://drive.google.com/drive/folders/1V4PNoRvTRjm1aQJHL3uD5LbnrdCvHTYJ?usp=drive_link' },
-    ],
-    syllabus: ''
+    ]
   },
+  'daa101': {
+    pyqs: [
+      { name: 'CT Papers', link: 'https://drive.google.com/drive/folders/1IzvDy3fB1W64JdNJkaHlLuVcUQ1bWdfv?usp=sharing' },
+      { name: 'Question Bank', link: 'https://drive.google.com/file/d/1Wnirz2pevIw-_1eeju5dtzyT3bxqC27F/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://drive.google.com/drive/folders/1yIK7ebssi3KRjUnlS9MAFV0K21T2NSBY?usp=drive_link' },
+      { name: 'Unit 2', link: 'https://drive.google.com/drive/folders/1r3tWP772ZvAThmnwlnoFd1GV525he4i6?usp=drive_link' },
+      { name: 'Unit 3', link: 'https://drive.google.com/drive/folders/1uTp_NyR75-VZhGRGPPIk--WsmKzu1Z2R?usp=drive_link' },
+      { name: 'Unit 4', link: 'https://drive.google.com/drive/folders/13qLzPMsJzt1-AT0U5dpKKgg8tWjf4Y1P?usp=drive_link' },
+      { name: 'Unit 5', link: 'https://drive.google.com/drive/folders/1b2AP_DxNXnWStenXwkLN1Yw5bZBGJw4R?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1ob48DPdNU5P4ZRjZLoHVqAeojuE8c2Vs/view?usp=drive_link'
+  },
+  'dbms101': {
+    pyqs: [
+      { name: 'CT Papers', link: 'https://drive.google.com/drive/folders/1a9PAOLGwtLBLxVYwW1ZBc6fDHJ8o5DeG?usp=sharing' },
+      { name: 'SEM Papers', link: 'https://drive.google.com/drive/folders/1uQLtuQyuoBwXBur2ZQPUp2Q16MjaXtxK?usp=sharing' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://drive.google.com/file/d/1Zms_a-iDpB5IvaDh-3xa0fKfdpjj4sjg/view?usp=sharing' },
+      { name: 'Unit 2', link: 'Coming Soon' },
+      { name: 'Unit 3', link: 'https://docs.google.com/presentation/d/1t6wFh5KHGIhBjR3RrLyxouYg7aoYhhOg/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 4', link: 'Coming Soon' },
+      { name: 'Unit 5', link: 'https://drive.google.com/file/d/1UY8C997l3CSttVgd2nUdzgm8dXs2yhlU/view?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1k2atwtw5sX0MuOyZl7sXIs3gQBM52ZKw/view?usp=drive_link'
+  },
+  'ai101': {
+    pyqs: [
+      { name: 'PYQ CT Papers', link: 'https://drive.google.com/drive/folders/1RrLhgU-P1EN-eu_-BN2kOB_EqVSHaeOt?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://docs.google.com/presentation/d/1ZCRSq-FFGaMC10X3vyhu7SvVjFA9KB22/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 2', link: 'https://drive.google.com/file/d/1P96TlpUT79A8ASB9hGmShyWzi-nFCXX1/view?usp=drive_link' },
+      { name: 'Unit 3', link: 'https://drive.google.com/file/d/1LIH8WDTktg4puEc2iCHSAfbnbLYWy1R2/view?usp=drive_link' },
+      { name: 'Unit 4', link: 'https://drive.google.com/file/d/1ZJtOxtm99edfoTFK7Nziw9V5ckQdcOqY/view?usp=drive_link' },
+      { name: 'Unit 5', link: 'https://drive.google.com/file/d/1cQcqSBNFAGbWPjSCYCzZy9NZtJCQHaIN/view?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1wupYNBNpFVPNeonkKvTM5RGyoA_MFRXJ/view?usp=drive_link'
+  },
+  'swp101': {
+    pyqs: [
+      { name: 'Coming Soon', link: '' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://drive.google.com/file/d/1918nLjWj9e8y7CuaKnCo6puSoj8xWIji/view?usp=drive_link' },
+      { name: 'Unit 2', link: 'https://drive.google.com/file/d/1fgIOGqljq6_qt374aI5BCOTITrx50B39/view?usp=drive_link' },
+      { name: 'Unit 3', link: 'Coming Soon' },
+      { name: 'Unit 4', link: 'Coming Soon' },
+      { name: 'Unit 5', link: 'Coming Soon' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1G4b2XgLgJqa8GGFg8clzeo_AOaZnR1Mg/view?usp=sharing'
+  },
+  'iot101': {
+    pyqs: [
+      { name: 'CT PYQs', link: 'https://drive.google.com/file/d/1Iizy1bV8yNpDemFB5ZMxsipzR_5xsvBC/view?usp=sharing' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://docs.google.com/presentation/d/18S2osQF1TUo4p2ZEdRbBimJMoD9YD0Uj/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 2', link: 'https://drive.google.com/file/d/1FqkiokSjvNtuza_W88Wvio2Q2MwIthTP/view?usp=drive_link' },
+      { name: 'Unit 3 (COMING SOON)', link: '' },
+      { name: 'Unit 4 (COMING SOON)', link: '' },
+      { name: 'Unit 5 (COMING SOON)', link: '' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1G4b2XgLgJqa8GGFg8clzeo_AOaZnR1Mg/view?usp=sharing'
+  },
+  'pqt101': {
+    pyqs: [
+      { name: 'CT Papers Compilation', link: 'https://drive.google.com/file/d/1zQh4mtmGc7YuIYe0IbfOzbjGUIH1crrz/view?usp=sharing' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://drive.google.com/drive/folders/1hQn53A49uYx3KlGZDRc7L6AQZFwc75py?usp=drive_link' },
+      { name: 'Unit 2', link: 'https://drive.google.com/drive/folders/1sw02282tT2-XlIg2Qh9Z45fJxKP2GscM?usp=drive_link' },
+      { name: 'Unit 3', link: 'Coming Soon' },
+      { name: 'Unit 4', link: 'https://drive.google.com/drive/folders/1czNeYg50hxuE46PdZVjeiDV9xOhnxmXl?usp=drive_link' },
+      { name: 'Unit 5', link: 'https://drive.google.com/drive/folders/14RHVvOfS_BWSW_bMBnHlff2OUPF4Jzso?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1uQyOIFlqvm5SdSdOHVIdrvDRuj9PqX8z/view?usp=drive_link'
+  },
+  'soe101': {
+    pyqs: [
+      { name: 'PYQ CT Papers', link: 'https://drive.google.com/file/d/1WwlOwVuqvm8pIV9PFEo1fvnkBjc3WF5-/view?usp=sharing' },
+      { name: 'Imp Questions & MCQs', link: 'https://drive.google.com/drive/folders/1o91F0pHEIFDO95eVn_ad6UPyv8Qq7HCS?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Study Materials', link: 'https://drive.google.com/drive/folders/16XDz1RuY1zKHIqvso0-CB3G8iV0QAE5c?usp=drive_link' },
+    ]
+  },
+  'dld101': {
+    pyqs: [
+      { name: 'Coming Soon', link: '' },
+    ],
+    studyMaterials: [
+      { name: 'Unit - 1', link: 'https://drive.google.com/drive/folders/1xQqYOtjZoKvAws6txapTEMtHa0d2LPZp?usp=drive_link' },
+      { name: 'Unit - 2', link: 'https://drive.google.com/drive/folders/1ByL8KGNqCqgihIPwtH8Y5JjPaJ0qZedw?usp=drive_link' },
+      { name: 'Unit - 3', link: 'https://drive.google.com/drive/folders/1VwSBY8CyS3OjoGhbcDhWhEoAceByexp1?usp=drive_link' },
+      { name: 'Unit - 4', link: 'https://drive.google.com/drive/folders/1H6n01_wsopN0X8mrcUNZLsg8wpRcKRm1?usp=drive_link' },
+      { name: 'Unit - 5', link: 'https://drive.google.com/drive/folders/1nr3dBk1enGeU9GtQhWlxLprvFlD37J3-?usp=drive_link' },
+      { name: 'More Study Materials', link: 'https://drive.google.com/drive/folders/1katPtttHZZkMHGHH1cnaemdCoMDZgF1J?usp=drive_link' },
+    ]
+  }
 };
 
 // For backward compatibility - this structure is used in other components

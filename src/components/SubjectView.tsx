@@ -93,8 +93,8 @@ const SubjectView = ({ subject, onBackClick }: SubjectViewProps) => {
           />
         ) : (
           <ResourceCard
-            type="Study Materials"
-            title="Additional Resources"
+            type="YouTube"
+            title="YouTube Resources"
             link="#"
             items={[]}
           />
