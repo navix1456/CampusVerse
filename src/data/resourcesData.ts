@@ -222,7 +222,6 @@ export const subjectResources: Record<string, {
     ],
     syllabus: 'https://drive.google.com/file/d/14YAIXtPPiSaW_JlQ37rFHyUjOMzwAG8V/view?usp=sharing'
   },
-  // Adding new subjects
   'chy101': {
     pyqs: [
       { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1ltQ5xHHFgB1gmbocWo52uYIYYtnj-pkm/view?usp=drive_link' },
@@ -407,7 +406,160 @@ export const subjectResources: Record<string, {
       { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1-glXA09mYYMcQRQDhudOrXPTWlu5E-ic?usp=drive_link' },
     ],
     syllabus: 'https://drive.google.com/file/d/1DjvYADrNMAhnaGBj2r4yZV3j3MF6l8qE/view?usp=drive_link'
-  }
+  },
+  'mec101': {
+    pyqs: [
+      { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1hLqpPQnVxOitjPBRfZOZcXoE_RQooaSg/view?usp=drive_link' },
+      { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1ZmFx9psuHqbn60JlaRnYjsC__dJnnS-G/view?usp=drive_link' },
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1nP8m2a8b5CknFqCxZuVbx76C0HM2X-Y1/view?usp=drive_link' },
+      { name: 'PYQ Jul 2024', link: 'https://drive.google.com/file/d/1kqEx0EQRoEWqfPbVivydRSBtUnt-z2_b/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Complete Study Materials', link: 'https://drive.google.com/drive/folders/1-XQVidvAI_7gQrmO35x4tZ09GO-N_Ax1?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1HFYejQgbGbvHcwJs1hou3VjL85ThWehv/view?usp=drive_link'
+  },
+  'mcb101': {
+    pyqs: [
+      { name: 'No PYQ Available', link: '' },       
+    ],
+    studyMaterials: [
+      { name: 'Chapter 1: Cell Basic Unit Of Life', link: 'https://drive.google.com/file/d/1NRFIYVvPyYih-WuhBQnQGVWPhv7ASqYD/view?usp=drive_link' },
+      { name: 'Chapter 2: Macromolecules And Metabolism', link: 'https://drive.google.com/file/d/1RCrH9GGmoI50OIbebr-HTq_xTPQo3T2r/view?usp=drive_link' },
+      { name: 'Chapter 3: Microbiology In Human Life', link: 'https://drive.google.com/file/d/1UazVTgPXBXMdNn2_AUWpZSLvojCxmIaW/view?usp=drive_link' },
+      { name: 'Chapter 4: Basics Of Biosensors And Molecular Motors', link: 'https://drive.google.com/file/d/1uAAaIla-HrgxRNK7B3xWYguTn4WiGEpA/view?usp=drive_link' },
+      { name: 'Chapter 5: Basics Of Biomaterials And Its Applications', link: 'https://drive.google.com/file/d/18XsScrneIkTnubSSC8x5wPxIslfE3VwU/view?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1GstO6YIhVnp3YkzmnXLboryZ7pt144e4?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1jh_gGXy9sl49KdoNXJovZ_b2v1NIavEQ/view?usp=drive_link'
+  },
+  'erm101': {
+    pyqs: [
+      { name: 'PYQ May 2022', link: 'https://drive.google.com/file/d/1tNHHQUDHh2XjWIBwuZEzAUWO4s7FgrzH/view?usp=drive_link' },
+      { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1h5IKT4P75kHK5VVJlHOQKMJ7Pir8uNer/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1wEqW5D0mbxHCamg_GsAbV6ejvPgqHbtN/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Chapter 1: Statics Of Particles And Rigid Bodies', link: 'https://drive.google.com/file/d/1ehp9LpWVmZK6iolUU3ZIitTyBdHxlyjQ/view?usp=drive_link' },
+      { name: 'Chapter 2: Analysis Of Friction And Trusses', link: 'https://drive.google.com/file/d/1gJihOk16LcxHv8ksQZyuQCpZXQ3xaf2y/view?usp=drive_link' },
+      { name: 'Chapter 3: Centroid And Moment Of Inertia', link: 'https://drive.google.com/file/d/1D7P7kteOwQ9mR3Spn9hDeOuqOipyMhbw/view?usp=drive_link' },
+      { name: 'Chapter 4: Dynamics Of Particles', link: 'https://drive.google.com/file/d/1YoRW-ktfYUsgkDr7jHvqNOADL5adHd1i/view?usp=drive_link' },
+      { name: 'Chapter 5: Dynamics Of Rigit Bodies', link: 'https://drive.google.com/file/d/1wGJmZkFRhTHs4LJ87XRa9cMnjz8Rr-6Y/view?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1rAg-nqvBY8sGLzk9suY8Z0yymRKcewkK?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1uFyCWN8nkYK7EXh8JDoVLAaXzUgdW5V-/view?usp=drive_link'
+  },
+  'esp101': {
+    pyqs: [
+      { name: 'CT PYQs', link: 'https://drive.google.com/file/d/1OrYUe3ap-dzi_cgKfXxU8SKfme9og5QY/view?usp=sharing' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1FLZ8_bkvssS3XCpB4WoK0f4uXSyxgCRg/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Chapter 1', link: 'https://drive.google.com/file/d/1xLz8rvWEIGNx5G_xp7pbj16PXc1RePzD/view?usp=drive_link' },
+      { name: 'Chapter 2', link: 'https://drive.google.com/file/d/1vLoBG06uZynECvwDH4HB7K1VUAGP-s5u/view?usp=drive_link' },
+      { name: 'Chapter 3', link: 'https://drive.google.com/file/d/1mSBNgA_GDDc78NI2EuYnOhYwcuLhBrfc/view?usp=drive_link' },
+      { name: 'Chapter 4', link: 'https://drive.google.com/file/d/1b_ZiLpNGmThJd6ICmdWEcczsG9-9kLVI/view?usp=drive_link' },
+      { name: 'Chapter 5', link: 'https://drive.google.com/file/d/14bViNuwvrQ_IWrSro7brk6PdmXIvpVck/view?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1Ricox9G6hNpqKtrTis8xzZX0JrEqSxz-?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1G4b2XgLgJqa8GGFg8clzeo_AOaZnR1Mg/view?usp=sharing'
+  },
+  'dsa101': {
+    pyqs: [
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1IvLrYkAcUwCKHPzcomRLtJv30gXvLngi/view?usp=drive_link' },
+      { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1IrQvSjQtiR3K-Z4iN093mFFxhpSDM29B/view?usp=drive_link' },
+      { name: 'More PYQs', link: 'https://drive.google.com/file/d/10cziTTAO-iOLZpT59yAgC71aOaPZCGW9/view?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://drive.google.com/drive/folders/1lIdRl7YsgQ2RkQhK5vSiSRsAR1gGlPw0?usp=drive_link' },
+      { name: 'Unit 2', link: 'https://drive.google.com/drive/folders/1groFGtdFkSdtEgthRuHpSB_cK55XS7s-?usp=drive_link' },
+      { name: 'Unit 3', link: 'https://drive.google.com/drive/folders/1kPrci5eE-_hKj2UHI1yT26rJbq2wkm0B?usp=drive_link' },
+      { name: 'Unit 4', link: 'https://drive.google.com/drive/folders/1E7_xHlBjkMK3rg4MHMk2SE-zpZkDnZqP?usp=drive_link' },
+      { name: 'Unit 5', link: 'https://drive.google.com/drive/folders/1xs6z1DihDEky_uGenw4VgkE3OhVqJBeu?usp=drive_link' },
+      { name: 'Notes From NCR Campus By BTECH CRUX', link: 'https://drive.google.com/drive/folders/132mfASnN4ME3t21gaX9bym8An0Y9DG3_?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1_LGhUEvQS77V6n1TwLYU2RSH-z-TOQLj/view?usp=sharing'
+  },
+  'coa101': {
+    pyqs: [
+      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1IpxPWpYGwOxZYq2HdkAXbvc8GSM7K5C4/view?usp=drive_link' },
+      { name: 'PYQ Jul 2024', link: 'https://drive.google.com/file/d/1IkibJYwurcgOPP1HDKldcNe2Ndj2VNwH/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1JQHzeYSwPDMBceOrHdE8YPv5BkEtq2NC/view?usp=drive_link' },
+      { name: 'PYQ Nov 2023', link: 'https://drive.google.com/file/d/1Ij3hfEHeOgvmZFvBlqUMV6QQzXDB16U-/view?usp=drive_link' },
+      { name: 'PYQ Dec 2022', link: 'https://drive.google.com/file/d/1ACBeURjKfbfWZC6qMpm-ZRV7eOwjaGvc/view?usp=drive_link' },
+      { name: 'CT Papers', link: 'https://drive.google.com/drive/folders/1A2_a59TwkR-ECsJPz6na9TP-MunSLvIj?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://drive.google.com/drive/folders/1Oo_LMKe1yEnkDvdHkV8tPD7i-QWKfqLs?usp=drive_link' },
+      { name: 'Unit 2', link: 'https://drive.google.com/drive/folders/1BgyufGkVIKcoWtFjvSYqxJw8P8Z60xmU?usp=drive_link' },
+      { name: 'Unit 3', link: 'https://drive.google.com/drive/folders/1Ofrtaw2CBusjNLjw_FgW0faEy904G8TM?usp=drive_link' },
+      { name: 'Unit 4', link: 'https://drive.google.com/drive/folders/15Qt4iB8sOfegMPD14x0z6rJNbJmJU76O?usp=drive_link' },
+      { name: 'Unit 5', link: 'https://drive.google.com/drive/folders/1m-H8Z00cT9KBcomtdMyxAAetboOzX7rD?usp=drive_link' },
+      { name: 'Notes From NCR Campus By BTECH CRUX', link: 'https://drive.google.com/drive/folders/1fNBUxK7KsdINSCeMAgIpoLfRD1X7RFa5?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1UUnQR1X_RgCplqgm10B085OzUmQtEvuj/view?usp=drive_link'
+  },
+  'ops101': {
+    pyqs: [
+      { name: 'PYQ Jun 2023', link: 'https://drive.google.com/file/d/1J11Bof7VLzkGdu0i9HQfYd4lH07I6UVo/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1JbsMpAnBDBAuqvyendtizPJo89LktUkx/view?usp=drive_link' },
+      { name: 'PYQ May 2022', link: 'https://drive.google.com/file/d/1J0CwoGcPNSCWL1OT6cqE--BdaMkcLWNF/view?usp=drive_link' },
+      { name: 'More PYQs', link: 'https://drive.google.com/file/d/1bdPmFfypqJyalCqI1c8FVMmZ6YOv-09t/view?usp=drive_link' },
+      { name: 'CT Papers', link: 'https://drive.google.com/drive/folders/1J62hkGVN_URlqlrh4op0Fri6yzHqugkx?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://drive.google.com/file/d/1m3HahaUEUwqWUjJlfIoc5rxeELcOsoDw/view?usp=drive_link' },
+      { name: 'Unit 2', link: 'https://drive.google.com/file/d/1o0MvhOteH2FcJgM4NjNv-ELFnYk3Xo9I/view?usp=drive_link' },
+      { name: 'Unit 3', link: 'https://docs.google.com/presentation/d/1yhwbr_TyOnhN0_a7DVM66HkyokiGKSMq/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 4', link: 'https://docs.google.com/presentation/d/1yBWMnmc2wUY_D8FZmxylgV7nAQWx51VC/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 5', link: 'https://drive.google.com/file/d/17PzA2FJpaubuIn8SvVvFhWVWHlWwCRU_/view?usp=drive_link' },
+      { name: 'Handwritten Notes by AbT', link: 'https://drive.google.com/file/d/18of6HCcqiixs6UfgMMZUYQOuaRzq5prY/view?usp=drive_link' },
+      { name: 'Notes From NCR Campus By BTECH CRUX', link: 'https://drive.google.com/drive/folders/1Qt82PVY7dtlQZVS7ajLqAzaTZbYCQCq9?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/13u9nWuP9Z6q6R7NmL_PMoSxfe3j6oQrn/view?usp=drive_link'
+  },
+  'tbv101': {
+    pyqs: [
+      { name: 'PYQ May 2022', link: 'https://drive.google.com/file/d/1IeiKIk2Jf91cvDUMoiT5By1IWzAJ6Vts/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1IatAfuH0FGQCK3n3RdUgsGBy-DZ1dx--/view?usp=drive_link' },
+      { name: 'PYQ Jun 2023', link: 'https://drive.google.com/file/d/1I_KA9T-6ZaA7o_RKxthoLRnP6bAYVrWc/view?usp=drive_link' },
+      { name: 'PYQ Dec 2018', link: 'https://drive.google.com/file/d/1Et4fx5R1OFZL3uIWk-Cw9muVNjFjcZ5N/view?usp=drive_link' },
+      { name: 'CT Papers', link: 'https://drive.google.com/drive/folders/1PzGdoiUpM8V8DKCwroYG9fWCg3ZYmYv7?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1 (Best Handwritten Notes + PPTs', link: 'https://drive.google.com/drive/folders/1E6YAjd1lIhLWNkApnl0tJk02AhL2EDfl?usp=drive_link' },
+      { name: 'Unit 2 (Best Handwritten Notes + PPTs', link: 'https://drive.google.com/drive/folders/1pQZBKHul5peCHSUJiBSuxjztMnKr7Nqm?usp=drive_link' },
+      { name: 'Unit 3 (Best Handwritten Notes + PPTs', link: 'https://drive.google.com/drive/folders/115nd_bx3wHrmr8xkfYPCrRdwcZA3mBCf?usp=drive_link' },
+      { name: 'Unit 4 (Best Handwritten Notes + PPTs', link: 'https://drive.google.com/drive/folders/1OVGL9y5ROBwKElRdYWsYImzuvkdKw-Ld?usp=drive_link' },
+      { name: 'Unit 5 (Best Handwritten Notes + PPTs', link: 'https://drive.google.com/drive/folders/1A9E_HXs_LFfqZpHtbd1WXSF0oSWqQMDj?usp=drive_link' },
+      { name: 'Notes From NCR Campus By BTECH CRUX', link: 'https://drive.google.com/drive/folders/10KZ2BVcADYifvqwItw84v6OXT00GB8G7?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1817TcuyeTBy1V0sJ_Cn8pYyPaW32aY9p/view?usp=drive_link'
+  },
+  'app101': {
+    pyqs: [
+      { name: 'CT Papers', link: 'https://drive.google.com/drive/folders/1usLNaymcsmP-3msDKyT5tC-M0A78f2hM?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Unit 1', link: 'Coming Soon' },
+      { name: 'Unit 2', link: 'Coming Soon' },
+      { name: 'Unit 3', link: 'https://docs.google.com/presentation/d/1ZIypQgRLg8JmBc-RSisOabjXBhTFxsdz/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 4', link: 'https://docs.google.com/presentation/d/1MUKOxP5YPVYl1AnlX16snckb2f0bsClr/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 5', link: 'https://docs.google.com/presentation/d/1aRIsf3PCsd-Fe7M91_h88uPECMWiPhk3/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Notes From NCR Campus By BTECH CRUX', link: 'https://drive.google.com/drive/folders/1WbKVOCdpoPCCqTKKbJKhoAcnRlf4sD9h?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1xe79XCLWCMDbRrSnMN7H1m_90VY7Mjw-/view?usp=drive_link'
+  },
+  'dtm101': {
+    pyqs: [
+      { name: 'NO EXAMS!', link: '' },
+    ],
+    studyMaterials: [
+      { name: 'Resources', link: 'https://drive.google.com/drive/folders/1vmkBdyFo_hXLKW6xj9VwuMKhC5k_X_5E?usp=drive_link' },
+      { name: 'Resources From NCR Campus By BTECH CRUX', link: 'https://drive.google.com/drive/folders/1V4PNoRvTRjm1aQJHL3uD5LbnrdCvHTYJ?usp=drive_link' },
+    ],
+    syllabus: ''
+  },
 };
 
 // For backward compatibility - this structure is used in other components
@@ -416,4 +568,3 @@ export const resourceData = {
   studyMaterials: subjectResources['mat101'].studyMaterials,
   youtube: subjectResources['mat101'].youtube || [],
 };
-
