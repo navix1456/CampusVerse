@@ -54,14 +54,14 @@ export const subjectResources: Record<string, {
         thumbnail: '/lovable-uploads/yt_suresh.jpg',
       },
       {
-        name: 'Dr. E. Sujatha - Mathemagic',
-        link: 'https://www.youtube.com/@sujathae4270',
-        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
-      },
-      {
         name: 'Dr. P. Godhanda Raman',
         link: 'https://www.youtube.com/@profpgraman/videos',
         thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
+      },
+      {
+        name: 'Dr. E. Sujatha - Mathemagic',
+        link: 'https://www.youtube.com/@sujathae4270',
+        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
       },
       {
         name: 'Alex Maths',
@@ -307,14 +307,14 @@ export const subjectResources: Record<string, {
         thumbnail: '/lovable-uploads/yt_suresh.jpg',
       },
       {
-        name: 'Dr. E. Sujatha - Mathemagic',
-        link: 'https://www.youtube.com/@sujathae4270',
-        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
-      },
-      {
         name: 'Dr. P. Godhanda Raman',
         link: 'https://www.youtube.com/@profpgraman/videos',
         thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
+      },
+      {
+        name: 'Dr. E. Sujatha - Mathemagic',
+        link: 'https://www.youtube.com/@sujathae4270',
+        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
       },
       {
         name: 'Alex Maths',
@@ -612,6 +612,28 @@ export const subjectResources: Record<string, {
       { name: 'Unit 5 (Best Handwritten Notes + PPTs', link: 'https://drive.google.com/drive/folders/1A9E_HXs_LFfqZpHtbd1WXSF0oSWqQMDj?usp=drive_link' },
       { name: 'Notes From NCR Campus By BTECH CRUX', link: 'https://drive.google.com/drive/folders/10KZ2BVcADYifvqwItw84v6OXT00GB8G7?usp=drive_link' },
     ],
+    youtube: [
+      {
+        name: 'Dr. E. Suresh',
+        link: 'https://www.youtube.com/@dresuresh/featured',
+        thumbnail: '/lovable-uploads/yt_suresh.jpg',
+      },
+      {
+        name: 'Dr. P. Godhanda Raman',
+        link: 'https://www.youtube.com/@profpgraman/videos',
+        thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
+      },
+      {
+        name: 'Dr. E. Sujatha - Mathemagic',
+        link: 'https://www.youtube.com/@sujathae4270',
+        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
+      },
+      {
+        name: 'Alex Maths',
+        link: 'https://www.youtube.com/@AlexMathsEngineering/videos',
+        thumbnail: '/lovable-uploads/yt_alexmaths.jpg',
+      },
+    ],
     syllabus: 'https://drive.google.com/file/d/1817TcuyeTBy1V0sJ_Cn8pYyPaW32aY9p/view?usp=drive_link'
   },
   'app101': {
@@ -785,14 +807,14 @@ export const subjectResources: Record<string, {
         thumbnail: '/lovable-uploads/yt_suresh.jpg',
       },
       {
-        name: 'Dr. E. Sujatha - Mathemagic',
-        link: 'https://www.youtube.com/@sujathae4270',
-        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
-      },
-      {
         name: 'Dr. P. Godhanda Raman',
         link: 'https://www.youtube.com/@profpgraman/videos',
         thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
+      },
+      {
+        name: 'Dr. E. Sujatha - Mathemagic',
+        link: 'https://www.youtube.com/@sujathae4270',
+        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
       },
       {
         name: 'Alex Maths',
@@ -803,24 +825,51 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1uQyOIFlqvm5SdSdOHVIdrvDRuj9PqX8z/view?usp=drive_link'
   },
   'dsm101': {
-    name: 'DSM101',
-    code: 'DSM101',
+    name: 'Discrete Mathematics',
+    code: '',
     pyqs: [
-      { name: 'BATCH 1 COMPLETE CT PAPERS', link: 'https://drive.google.com/file/d/1hVLjQXu9MjJ-bpD_Y9VVf_2znETRmIIC/view' },
+      { name: 'BATCH 1 COMPLETE CT PAPERS', link: 'https://drive.google.com/file/d/1hVLjQXu9MjJ-bpD_Y9VVf_2znETRmIIC/view?usp=sharing' },
       { name: 'BATCH 2 COMPLETE CT PAPERS', link: 'https://drive.google.com/file/d/1YQ54oL3E8y7mdh3SvdUl5IwLdVjPBSo4/view?usp=sharing' },
-      { name: 'PYQ DECEMBER 2022', link: 'https://drive.google.com/file/d/1FvzizREDVlKhG-fDiGKoQc67A8Hbda7j/view?usp=sharing' },
-      { name: 'PYQ DECEMBER 2023', link: 'https://drive.google.com/drive/folders/1Mgt2VtpzOxARAGFm6D2_cNl-s0PBHbAp?usp=drive_link' },
+      { name: 'PYQ DECEMBER 2022', link: 'https://drive.google.com/file/d/1hwMThAQ1Psc7pb_YipBtuXHgFD2voNWD/view?usp=sharing' },
+      { name: 'PYQ DECEMBER 2023', link: 'https://drive.google.com/file/d/1FvzizREDVlKhG-fDiGKoQc67A8Hbda7j/view?usp=sharing' },
       { name: 'PYQ NOVEMBER 2023', link: 'https://drive.google.com/file/d/1Zist4UJRcxCaMMacDU_OVKjwtSMG6la1/view?usp=sharing' },
       { name: 'PYQ MAY 2024', link: 'https://drive.google.com/file/d/1KRwjCpmnhHCI7E5QOgibcH_B3KiYdZhD/view?usp=sharing' },
     ],
     studyMaterials: [
-      { name: 'Unit 1', link: 'https://drive.google.com/file/d/1Zms_a-iDpB5IvaDh-3xa0fKfdpjj4sjg/view?usp=sharing' },
-      { name: 'Unit 2', link: 'Coming Soon' },
-      { name: 'Unit 3', link: 'https://docs.google.com/presentation/d/1t6wFh5KHGIhBjR3RrLyxouYg7aoYhhOg/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
-      { name: 'Unit 4', link: 'Coming Soon' },
-      { name: 'Unit 5', link: 'https://drive.google.com/file/d/1UY8C997l3CSttVgd2nUdzgm8dXs2yhlU/view?usp=drive_link' },
+      { name: 'UNIT 1', link: 'https://drive.google.com/file/d/1O6zRsAU1yPOuNN0PS5LmALDzU0_sQiip/view?usp=sharing' },
+      { name: 'UNIT 2', link: 'https://drive.google.com/file/d/1EOOgYSDbtp-f5-4fI7gIVUrE3MVzUoUG/view?usp=sharing' },
+      { name: 'UNIT 3', link: 'https://drive.google.com/file/d/1-iLQDoT8tFDNIJd_NadXAiRujaHFkmAz/view?usp=sharing' },
+      { name: 'UNIT 4', link: 'https://drive.google.com/file/d/1ssQsSJNF0bS4YvpWvG3ynOqyfr-LGImQ/view?usp=sharing' },
+      { name: 'UNIT 5', link: 'https://drive.google.com/file/d/1rxRu22vHgCi6EFQ7cWSQefIsR_vZblMU/view?usp=sharing' },
+      { name: 'UNIT 1 MCQ', link: 'https://drive.google.com/file/d/1lVHxeCFN8I3-66XQ-C9SuZpr-FF8Hy9J/view?usp=sharing' },
+      { name: 'UNIT 2 MCQ', link: 'https://drive.google.com/file/d/1bDALN1XfX7CgZwsRujdkuuVzJdeTlcYK/view?usp=sharing' },
+      { name: 'UNIT 3 MCQ', link: 'https://drive.google.com/file/d/17WwCeKzLLDvtq5XSZ7LwzPXwBbVV6CKv/view?usp=sharing' },
+      { name: 'UNIT 4 MCQ', link: 'https://drive.google.com/file/d/1-FfGkS1wE5IqjgbPaJxiwWUGIuqP9RET/view?usp=sharing' },
+      { name: 'UNIT 5 MCQ', link: 'https://drive.google.com/file/d/1zLkHUp3cJLkBbW7b3PSnxgxACeAxsI0S/view?usp=sharing' },
+      { name: 'IMPORTANT TOPICS', link: 'https://drive.google.com/file/d/1oXrFaVmlNvjN0Pn13kw1cDkBZy-MAzTa/view?usp=sharing' },
     ],
-    syllabus: 'https://drive.google.com/file/d/1k2atwtw5sX0MuOyZl7sXIs3gQBM52ZKw/view?usp=drive_link'
+    youtube: [
+      {
+        name: 'Dr. E. Suresh',
+        link: 'https://www.youtube.com/@dresuresh/featured',
+        thumbnail: '/lovable-uploads/yt_suresh.jpg',
+      },
+      {
+        name: 'Dr. P. Godhanda Raman',
+        link: 'https://www.youtube.com/@profpgraman/videos',
+        thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
+      },
+      {
+        name: 'Dr. E. Sujatha - Mathemagic',
+        link: 'https://www.youtube.com/@sujathae4270',
+        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
+      },
+      {
+        name: 'Alex Maths',
+        link: 'https://www.youtube.com/@AlexMathsEngineering/videos',
+        thumbnail: '/lovable-uploads/yt_alexmaths.jpg',
+      },
+    ],
   },
   'soe101': {
     name: 'SOE101',
@@ -891,16 +940,19 @@ export const subjectResources: Record<string, {
     youtube: []
   },
   'fla101': {
-    name: 'FLA101',
-    code: 'FLA101',
+    name: 'Formal Language And Automata',
+    code: '',
     pyqs: [
-      { name: 'PYQ CT Papers', link: 'https://drive.google.com/file/d/1WwlOwVuqvm8pIV9PFEo1fvnkBjc3WF5-/view?usp=sharing' },
-      { name: 'Imp Questions & MCQs', link: 'https://drive.google.com/drive/folders/1o91F0pHEIFDO95eVn_ad6UPyv8Qq7HCS?usp=drive_link' },
+      { name: 'PYQ DEC 2022', link: 'https://drive.google.com/file/d/1UFUvBMiv_xdRxKXJD9Pepa4_6o2Gv4LL/view?usp=sharing' },
+      { name: 'PYQ NOV 2024', link: 'https://drive.google.com/file/d/1qqpmDSJTXSyFvr_5d8jtU71ibYhukHDj/view?usp=sharing' },
     ],
     studyMaterials: [
-      { name: 'Study Materials', link: 'https://drive.google.com/drive/folders/16XDz1RuY1zKHIqvso0-CB3G8iV0QAE5c?usp=drive_link' },
+      { name: 'UNIT 1', link: 'https://drive.google.com/file/d/1MStJtVG7F1aSXjnJF3rfqMrXKInWoMit/view?usp=sharing' },
+      { name: 'UNIT 2', link: 'https://drive.google.com/file/d/1QDICPe0huuOkYYuhAeIcDzGaYbWKrcp6/view?usp=sharing' },
+      { name: 'UNIT 3', link: 'https://drive.google.com/file/d/1DORe2E4Zz8f_7wTP1Qh0K_CLWD90dCjh/view?usp=sharing' },
+      { name: 'UNIT 4', link: 'https://drive.google.com/file/d/1-kVwi_UHPiYMdUCuqxz_uYaF_HdWEFqr/view?usp=sharing' },
+      { name: 'UNIT 5', link: 'https://drive.google.com/file/d/1CWA3LwKySunvicnJoodZcFIoa0oUlEQr/view?usp=sharing' },
     ],
-    syllabus: 'https://drive.google.com/file/d/1G4b2XgLgJqa8GGFg8clzeo_AOaZnR1Mg/view?usp=sharing'
   },
   'fla102': {
     name: 'FLA102',
@@ -976,28 +1028,32 @@ export const subjectResources: Record<string, {
     youtube: []
   },
   'cd101': {
-    name: 'CD101',
-    code: 'CD101',
+    name: 'Compiler Design',
+    code: '',
     pyqs: [
-      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1xq84jouh4duoeqnUb-x2GRIvU3bcTzSP/view?usp=sharing' },
-      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/12MpUDfaevqFDeK5KY-FuSx6J4rBNoaK2/view?usp=sharing' },
-      { name: 'PYQ May 2022', link: 'https://drive.google.com/file/d/1zvz5-1zmcc3c85tWRML6VNTCbQcorhUQ/view?usp=sharing' },
-      { name: 'Unit 1 QB', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/UNIT-1-QB-CD.docx' },
-      { name: 'Unit 2 and 3 QB', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/UNIT-2-3-QB-CD%20.docx' },
-      { name: 'Unit 4 QB', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/UNIT-4-QB-CD.doc' },
-      { name: 'Unit 5 QB', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/UNIT-5-QB-CD.docx' },
-      { name: 'CT1 Important Questions', link: 'https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT1/ct1(2nd).jpg' },
-      { name: 'Important Questions', link: 'https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/IMP.txt' },
-      { name: 'All CTs with Answers', link: 'https://github.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/tree/main/18CSC304J/QP' }
+      { name: 'PYQ MAY 2023 (1)', link: 'https://drive.google.com/file/d/1xq84jouh4duoeqnUb-x2GRIvU3bcTzSP/view?usp=sharing' },
+      { name: 'PYQ MAY 2023 (2)', link: 'https://drive.google.com/file/d/12MpUDfaevqFDeK5KY-FuSx6J4rBNoaK2/view?usp=sharing' },
+      { name: 'PYQ MAY 2022', link: 'https://drive.google.com/file/d/1zvz5-1zmcc3c85tWRML6VNTCbQcorhUQ/view?usp=sharing' },
+      { name: 'ALL CTS WITH ANSWERS', link: 'https://github.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/tree/main/18CSC304J/QP' },
     ],
     studyMaterials: [
-      { name: 'Unit 1 PPT', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT1/Compier%20Design_Unit%20I.pptx' },
-      { name: 'Unit 1 Notes', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT1/CD%20UNIT1.pdf&embedded=true' },
-      { name: 'Unit 2 and 3 Notes', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/UNIT%20-%202%20%26%203.pdf&embedded=true' },
-      { name: 'Unit 2 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/Compiler%20Design%20Unit-2.pdf&embedded=true' },
-      { name: 'Unit 3 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/Compiler%20Design%20Unit-3.pdf&embedded=true' }
+      { name: 'UNIT 1 QUESTION BANK', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/UNIT-1-QB-CD.docx' },
+      { name: 'UNIT 2 AND 3 QUESTION BANK', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/UNIT-2-3-QB-CD%20.docx' },
+      { name: 'UNIT 4 QUESTION BANK', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/UNIT-4-QB-CD.doc' },
+      { name: 'UNIT 5 QUESTION BANK', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/UNIT-5-QB-CD.docx' },
+      { name: 'UNIT 1 PPT', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT1/Compier%20Design_Unit%20I.pptx' },
+      { name: 'UNIT 1 NOTES', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT1/CD%20UNIT1.pdf&embedded=true' },
+      { name: 'CT1 IMPORTANT QUESTIONS', link: 'https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT1/ct1(2nd).jpg' },
+      { name: 'UNIT 2 AND 3 NOTES', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/UNIT%20-%202%20%26%203.pdf&embedded=true' },
+      { name: 'UNIT 2 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/Compiler%20Design%20Unit-2.pdf&embedded=true' },
+      { name: 'UNIT 3 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/Compiler%20Design%20Unit-3.pdf&embedded=true' },
+      { name: 'UNIT 4 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT3/notes%20cd%20Unit%20-%20IV.pdf&embedded=true' },
+      { name: 'UNIT 4 NOTES', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT3/PCD_Unit4.pdf&embedded=true' },
+      { name: 'UNIT 5 NOTES', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT3/notes%20cd%20unit%205.pdf&embedded=true' },
+      { name: 'IMPORTANT QUESTIONS', link: 'https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/IMP.txt' },
+      { name: 'LAB MANUAL', link: 'https://drive.google.com/file/d/1in2QaiqHWymDZslLzfQWJH085LvqjrLG/view?usp=sharing' },
+      { name: 'EXTRA RESOURCES', link: 'https://github.com/shushrutsharma/18CSC304J-CD' },
     ],
-    youtube: []
   },
   'cep101': {
     name: 'Computer Engineering Principles',
@@ -1034,13 +1090,36 @@ export const subjectResources: Record<string, {
     studyMaterials: [],
     youtube: []
   },
-  
-  
-
-  
-  
-  
-
+  'cnt101': {
+    name: 'Computer Networks',
+    code: '',
+    pyqs: [
+      { name: 'CT1 WITH KEY', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/Mam%20qbs/CT1%20-%20QUESTIONS%20WITH%20KEY.pdf&embedded=true' },
+      { name: 'CT2 WITH KEY', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/Mam%20qbs/CT2%20-%20QUESTIONS%20WITH%20KEY.pdf&embedded=true' },
+      { name: 'CT3 WITH KEY', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/Mam%20qbs/CT3%20-%20QUESTIONS%20WITH%20KEY.pdf&embedded=true' },
+      { name: 'PYQ MAY 2022 (Alternative)', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/18CSC302J-%205%20Sem.pdf&embedded=true' },
+      { name: 'PYQ MAY 2024', link: 'https://drive.google.com/file/d/1kS60iVGfPT7vv6mtgWw-yHjf04vpCbHP/view?usp=sharing' },
+      { name: 'PYQ JUNE 2023', link: 'https://drive.google.com/file/d/1xqp8WM2OYR9rR2BP8HQLOirtIelQLcXf/view?usp=sharing' },
+      { name: 'PYQ MAY 2022', link: 'https://drive.google.com/file/d/1aNZhjmLR_TzlroETXs9zXgF-MmfKvY9G/view?usp=sharing' },
+    ],
+    studyMaterials: [
+      { name: 'UNIT 1 PPT (SHORT)', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT1/UNIT-1.pptx' },
+      { name: 'UNIT 1 (COMPLETE)', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT1/Complete%20Unit%201.pdf&embedded=true' },
+      { name: 'UNIT 1 MCQ QB', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT1/UNIT%201%20MCQ%20Question%20bank.docx' },
+      { name: 'UNIT 2 NOTES', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT2/Unit-2.pdf&embedded=true' },
+      { name: 'UNIT 2 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT2/Unit%202%20ppt.pdf&embedded=true' },
+      { name: 'UNIT 3 PPT', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT2/UNIT%203.pptx' },
+      { name: 'UNIT 4 PPT', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT3/UNIT%204.pptx' },
+      { name: 'UNIT 5 PPT', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT3/UNIT%205.pptx' },
+      { name: 'UNIT 1 QUESTION BANK', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CN_QUESTION%20BANK/CN%20QB%20UNIT%201.doc' },
+      { name: 'UNIT 2 QUESTION BANK', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CN_QUESTION%20BANK/CN%20QB%20UNIT%202.doc' },
+      { name: 'UNIT 3 QUESTION BANK', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CN_QUESTION%20BANK/CN%20QB%20UNIT%203.doc' },
+      { name: 'UNIT 4 QUESTION BANK', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CN_QUESTION%20BANK/CN%20QB%20UNIT%204.docx' },
+      { name: 'UNIT 5 QUESTION BANK', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CN_QUESTION%20BANK/CN%20QB%20unit%205.docx' },
+      { name: 'MCQ QUESTION BANK (ALL UNITS)', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/CN_MCQ_GOD.pdf&embedded=true' },
+    ],
+    syllabus: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Syllabus.pdf&embedded=true'
+  },
 };
 
 // For backward compatibility - this structure is used in other components
