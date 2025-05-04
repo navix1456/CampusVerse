@@ -62,7 +62,7 @@ const perksData = {
       link: "https://www.notion.so/students"
     },
     {
-      logo: "https://www.datacamp.com/favicon.ico",
+      logo: "/lovable-uploads/a3567f39-5479-41c1-b930-6a902f50b1bb.png",
       title: "Datacamp",
       description: "50% off data science & AI courses. Perfect for building your data science skills!",
       link: "https://www.datacamp.com/github-students"
@@ -80,7 +80,7 @@ const perksData = {
       link: "https://education.github.com/pack/redeem/coursera"
     },
     {
-      logo: "https://www.udacity.com/favicon.ico",
+      logo: "/lovable-uploads/e5b190c5-046c-4547-8791-35468a237d7e.png",
       title: "Udacity",
       description: "Free trials on Nanodegree programs via GitHub Student Pack. Build industry-ready skills!",
       link: "https://education.github.com/pack"
