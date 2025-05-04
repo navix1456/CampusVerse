@@ -1,4 +1,3 @@
-
 import SubjectCard from '../components/SubjectCard';
 import { ChevronLeft } from 'lucide-react';
 
@@ -14,10 +13,10 @@ const SemesterView = ({ semester, subjects, onSubjectClick, onBackClick }: Semes
     <>
       <button
         onClick={onBackClick}
-        className="mb-8 flex items-center text-campus-neonBlue hover:underline"
+        className="mb-8 glass-card-hover rounded-lg px-4 py-2 flex items-center gap-2 text-campus-neonBlue hover:text-white transition-all duration-300"
       >
         <ChevronLeft size={20} />
-        <span>Back to Semesters</span>
+        <span className="font-medium">Back to Semesters</span>
       </button>
 
       <h1 className="text-3xl font-bold mb-8 text-center">
