@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 import ResourceCard from '../components/ResourceCard';
 import { ChevronLeft } from 'lucide-react';
@@ -27,15 +26,33 @@ const SubjectView = ({ subject, onBackClick }: SubjectViewProps) => {
 
   useEffect(() => {
     const subjectData = subjectResources[subject.id];
-    
-    // Default to Calculus and Linear Algebra if the subject is not found
-    setResources(subjectData || subjectResources['mat101']);
+    if (!subjectData || (!subjectData.pyqs?.length && !subjectData.studyMaterials?.length)) {
+      setResources(null);
+      return;
+    }
+    // Sort studyMaterials by Unit/Chapter number
+    const sortedStudyMaterials = [...(subjectData.studyMaterials || [])].sort((a, b) => {
+      const getNum = (name: string) => {
+        const match = name.match(/(Unit|Chapter)[^\d]*(\d+)/i);
+        return match ? parseInt(match[2], 10) : 1000; // Non-units/chapters go last
+      };
+      return getNum(a.name) - getNum(b.name);
+    });
+    // Sort pyqs by year (descending)
+    const sortedPyqs = [...(subjectData.pyqs || [])].sort((a, b) => {
+      const getYear = (name: string) => {
+        const match = name.match(/(20\d{2}|19\d{2})/);
+        return match ? parseInt(match[0], 10) : 0;
+      };
+      return getYear(b.name) - getYear(a.name);
+    });
+    setResources({
+      ...subjectData,
+      studyMaterials: sortedStudyMaterials,
+      pyqs: sortedPyqs,
+    });
   }, [subject.id]);
   
-  if (!resources) {
-    return <div className="text-center">Loading resources...</div>;
-  }
-
   return (
     <>
       <button
@@ -51,7 +68,7 @@ const SubjectView = ({ subject, onBackClick }: SubjectViewProps) => {
       </h1>
       <p className="text-center text-gray-400 mb-8">{subject.code}</p>
       
-      {resources.syllabus && (
+      {resources?.syllabus && (
         <div className="max-w-5xl mx-auto mb-8">
           <a 
             href={resources.syllabus}
@@ -69,36 +86,23 @@ const SubjectView = ({ subject, onBackClick }: SubjectViewProps) => {
           type="PYQs"
           title="Previous Year Papers"
           link="#"
-          items={resources.pyqs}
+          items={resources?.pyqs || []}
+          emptyMessage="Coming Soon"
         />
         <ResourceCard
           type="Study Materials"
           title="Notes, Slides, PDFs"
           link="#"
-          items={resources.studyMaterials}
+          items={resources?.studyMaterials || []}
+          emptyMessage="Coming Soon"
         />
-        {resources.youtube && resources.youtube.length > 0 ? (
-          <ResourceCard
-            type="YouTube"
-            title="YouTube Channels & Playlists"
-            link="#"
-            items={resources.youtube}
-          />
-        ) : resources.examStrategies && resources.examStrategies.length > 0 ? (
-          <ResourceCard
-            type="Study Materials"
-            title="Exam Strategies"
-            link="#"
-            items={resources.examStrategies}
-          />
-        ) : (
-          <ResourceCard
-            type="YouTube"
-            title="YouTube Resources"
-            link="#"
-            items={[]}
-          />
-        )}
+        <ResourceCard
+          type="YouTube"
+          title="YouTube Resources"
+          link="#"
+          items={resources?.youtube || []}
+          emptyMessage="Coming Soon"
+        />
       </div>
     </>
   );

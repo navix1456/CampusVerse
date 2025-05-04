@@ -1,4 +1,3 @@
-
 import { FileText, Video, ExternalLink } from 'lucide-react';
 
 interface ResourceItem {
@@ -12,9 +11,10 @@ interface ResourceCardProps {
   title: string;
   link: string;
   items?: ResourceItem[];
+  emptyMessage?: string;
 }
 
-const ResourceCard = ({ type, title, link, items = [] }: ResourceCardProps) => {
+const ResourceCard = ({ type, title, link, items = [], emptyMessage = 'No items available' }: ResourceCardProps) => {
   const getIcon = () => {
     switch (type) {
       case 'PYQs':
@@ -58,7 +58,7 @@ const ResourceCard = ({ type, title, link, items = [] }: ResourceCardProps) => {
               <li key={index} className="border-t border-white/10 pt-3">
                 {type === 'YouTube' && item.thumbnail ? (
                   <div className="flex items-center gap-2">
-                    <div className="w-10 h-10 rounded overflow-hidden flex-shrink-0">
+                    <div className="w-16 h-16 rounded overflow-hidden flex-shrink-0">
                       <img 
                         src={item.thumbnail} 
                         alt={item.name}
@@ -91,7 +91,7 @@ const ResourceCard = ({ type, title, link, items = [] }: ResourceCardProps) => {
           </ul>
         </div>
       ) : (
-        <p className="text-sm text-center text-gray-400 mt-4">No items available</p>
+        <p className="text-sm text-center text-gray-400 mt-4">{emptyMessage}</p>
       )}
     </div>
   );
