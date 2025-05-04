@@ -14,8 +14,8 @@ export const subjectResources: Record<string, {
   syllabus?: string;
 }> = {
   'mat101': {
-    name: 'MAT101',
-    code: 'MAT101',
+    name: 'Calculus',
+    code: '',
     pyqs: [
       { name: 'PYQ Dec 2024', link: 'https://drive.google.com/file/d/146A_fcSXISYTj2fiLGKSmNrJ5JDewgBr/view?usp=sharing' },
       { name: 'PYQ Nov 2024', link: 'https://drive.google.com/file/d/1w_FrCYPLnCgyUDODgX7-qp0x8J-D-b7I/view?usp=sharing' },
@@ -69,11 +69,11 @@ export const subjectResources: Record<string, {
         thumbnail: '/lovable-uploads/yt_alexmaths.jpg',
       },
     ],
-    syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
+    syllabus: 'https://drive.google.com/file/d/10f9OfiEaM3I3k3lEZgMob4GtyKW7FWIt/view'
   },
   'foe101': {
-    name: 'FOE101',
-    code: 'FOE101',
+    name: 'Linear Algebra',
+    code: '',
     pyqs: [
       { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1LY9QRZLJCCdcvAi0Z_g-fASLnJA8GddP/view?usp=drive_link' },
       { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/115biaX6rf_yNU4TUqDLwubw-yeDKIG-o/view?usp=drive_link' },
@@ -82,14 +82,14 @@ export const subjectResources: Record<string, {
       { name: 'Questions Bank', link: 'https://docs.google.com/document/d/1HW-C1-X8DRIdmMUOB2APuuq8YCKV1RtH/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
     ],
     studyMaterials: [
-      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link' },
+      { name: 'Syllabus', link: 'https://drive.google.com/file/d/10f9OfiEaM3I3k3lEZgMob4GtyKW7FWIt/view' },
       { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1D0GFFKWgIjw5tGWK-NLgscvaOULlJHeY?usp=drive_link' },
     ],
-    syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
+    syllabus: 'https://drive.google.com/file/d/10f9OfiEaM3I3k3lEZgMob4GtyKW7FWIt/view'
   },
   'bms101': {
-    name: 'BMS101',
-    code: 'BMS101',
+    name: 'Business Management',
+    code: '',
     pyqs: [
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1q4mE8pPVbznCaoaKbhfGt7EazS2vmQyn/view?usp=drive_link' },
     ],
@@ -100,8 +100,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/10iVchNAH7GkcjS6NYpCtdvjXmWi45rBf/view?usp=drive_link'
   },
   'poe101': {
-    name: 'POE101',
-    code: 'POE101',
+    name: 'Philosophy of Engineering',
+    code: '',
     pyqs: [
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1jY9prBMQWKPtEpCa1BJdrrDollc3Ut0j/view?usp=drive_link' },
       { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1nd5fsd1RNSB8NApQT7qe8gywcny8LR5o/view?usp=drive_link' },
@@ -126,8 +126,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1W78ErNNrFzNixKGBGO11I8XZSkpDj59d/view?usp=drive_link'
   },
   'pps101': {
-    name: 'PPS101',
-    code: 'PPS101',
+    name: 'Programming for Problem Solving',
+    code: '',
     pyqs: [
       { name: 'PYQ Jun 2023', link: 'https://drive.google.com/file/d/1mrvBYe6mv42Tfein8AN2T8txeXHvk4Tw/view?usp=drive_link' },
       { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1_O9YsNWs3Vw-au0oG95glj-Y8CHZCugH/view?usp=drive_link' },
@@ -159,8 +159,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1oQ0a7mjBp1NVhihOBwv8mDTtHOsOuVKx/view?usp=drive_link'
   },
   'icb101': {
-    name: 'ICB101',
-    code: 'ICB101',
+    name: 'Introduction to Computational Biology',
+    code: '',
     pyqs: [
       { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1gLlh0fB1rctmKZBSPPZC35ryZt_K4Phg/view?usp=drive_link' },
       { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1pu7GK8lLq_KIBMdBOETeCVWMeJLHiUMb/view?usp=drive_link' },
@@ -188,8 +188,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1zA8VbbYE7jSHQFvl8BVRiKDDtVXtqXaG/view?usp=drive_link'
   },
   'clb101': {
-    name: 'CLB101',
-    code: 'CLB101',
+    name: 'Chemistry Lab',
+    code: '',
     pyqs: [
       { name: 'PYQ Jun 2023', link: 'https://drive.google.com/file/d/1LEARpqHIqcNqG3WWSJ63NSIt1DT4cos6/view?usp=drive_link' },
       { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/18F4sJ_pb7NdPphMMJUukAtviZZvpRgcA/view?usp=drive_link' },
@@ -207,8 +207,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
   },
   'pac101': {
-    name: 'PAC101',
-    code: 'PAC101',
+    name: 'Physical and Analytical Chemistry',
+    code: '',
     pyqs: [
       { name: 'PYQ Dec 2024', link: 'https://drive.google.com/file/d/1gjpajPAfUg84IUfeA9NjTluLobSwLUwB/view' },
       { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1KgRUBM_yZ_QvL6XwUQdWxMbGkgnV8cXg/view?usp=sharing' },
@@ -235,8 +235,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
   },
   'frl101': {
-    name: 'FRL101',
-    code: 'FRL101',
+    name: 'Foreign Language',
+    code: '',
     pyqs: [
       { name: 'PYQ For All Foreign Languages', link: 'https://drive.google.com/drive/folders/1ubbRRPwu5ycFEXOSFmCr3fWfUn_Xxlpf?usp=drive_linkf' },
     ],

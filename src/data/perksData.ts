@@ -62,24 +62,6 @@ export const perksData = {
       title: "Datacamp",
       description: "50% off data science & AI courses. Perfect for building your data science skills!",
       link: "https://www.datacamp.com/github-students"
-    },
-    {
-      logo: "https://www.skillshare.com/favicon.ico",
-      title: "Skillshare",
-      description: "30% off annual membership with access to thousands of creative courses and workshops.",
-      link: "https://www.skillshare.com/student-discount"
-    },
-    {
-      logo: "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/favicon-v2-96x96.png",
-      title: "Coursera",
-      description: "Free certificates & trials through GitHub Student Pack. Enhance your skills with top courses!",
-      link: "https://education.github.com/pack/redeem/coursera"
-    },
-    {
-      logo: "/lovable-uploads/e5b190c5-046c-4547-8791-35468a237d7e.png",
-      title: "Udacity",
-      description: "Free trials on Nanodegree programs via GitHub Student Pack. Build industry-ready skills!",
-      link: "https://education.github.com/pack"
     }
   ],
   entertainment: [
@@ -93,13 +75,13 @@ export const perksData = {
       logo: "https://www.amazon.com/favicon.ico",
       title: "Amazon Prime Student",
       description: "6-12 months free Prime + Prime Video (via UNiDAYS). Free shipping and entertainment!",
-      link: "https://www.amazon.com/Amazon-Student/b?node=668781011"
+      link: "https://www.amazon.com/Amazon-Student/b?ie=UTF8&node=668781011"
     },
     {
       logo: "https://www.apple.com/favicon.ico",
       title: "Apple Music + Apple TV+",
       description: "1 month free student plan with access to millions of songs and Apple TV+ content.",
-      link: "https://www.apple.com/apple-music/student/"
+      link: "https://support.apple.com/en-in/106008"
     },
     {
       logo: "/lovable-uploads/e2773877-f6f9-43fb-90cd-1720fb5707e8.png",
@@ -130,22 +112,16 @@ export const perksData = {
   ],
   travel: [
     {
-      logo: "https://www.airalo.com/favicon.ico",
-      title: "Airalo",
-      description: "15% off international eSIMs. Stay connected while traveling with affordable data!",
-      link: "https://www.airalo.com/student-discount"
-    },
-    {
       logo: "https://www.kayak.com/favicon.ico",
       title: "KAYAK",
       description: "Up to 40% off student fares. Find the best deals on flights, hotels, and car rentals!",
-      link: "https://www.kayak.com/student-discount"
+      link: "https://www.kayak.com/c/students/"
     },
     {
       logo: "https://www.airindia.com/favicon.ico",
       title: "Air India Student Discounts",
       description: "Up to 25% off domestic/international flights. Travel home for less!",
-      link: "https://www.airindia.com/in/en/deals-and-offers/student-discount.html"
+      link: "https://www.airindia.com/in/en/book/exclusive-deals/student-flight-offer.html"
     }
   ],
   lifestyle: [
@@ -156,34 +132,22 @@ export const perksData = {
       link: "https://www.headspace.com/studentplan"
     },
     {
-      logo: "/lovable-uploads/9b747ec9-581b-405d-96e6-e10de69f2b37.png",
-      title: "Blinkist",
-      description: "25% off non-fiction summaries. Get key insights from books in just 15 minutes!",
-      link: "https://www.blinkist.com/student-discount"
-    },
-    {
       logo: "https://www.chess.com/favicon.ico",
       title: "Chess.com Premium",
       description: "50% off membership. Improve your chess skills with lessons, puzzles, and analysis!",
-      link: "https://www.chess.com/membership/students"
+      link: "https://www.chess.com/students"
     },
     {
       logo: "/lovable-uploads/75188cb6-32ff-46cd-86a9-a07690876509.png",
       title: "Rakuten Kobo",
       description: "30% off eBooks & audiobooks. Build your digital library for less!",
-      link: "https://www.kobo.com/student-discount"
-    },
-    {
-      logo: "https://www.perlego.com/favicon.ico",
-      title: "Perlego",
-      description: "Discounted online textbooks. Access thousands of academic books for your studies!",
-      link: "https://www.perlego.com/student"
+      link: "https://www.kobo.com/us/en/p/student?srsltid=AfmBOopcft6E__O5009fCHPzgEpxK0Kvcu17b-IFOZw36k8LlxbEsdut"
     },
     {
       logo: "/lovable-uploads/8a1c1760-eff8-4a35-b366-113d8f2e9020.png",
       title: "Medium",
       description: "25% off annual membership. Read unlimited articles from top writers and publications!",
-      link: "https://medium.com/membership"
+      link: "https://help.medium.com/hc/en-us/articles/12846216085143-Redeeming-student-discounts"
     }
   ]
 };
@@ -208,3 +172,5 @@ export interface PerkItem {
   description: string;
   link: string;
 }
+
+
