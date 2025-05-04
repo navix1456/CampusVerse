@@ -1,6 +1,5 @@
 import Navbar from '../components/Navbar';
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
-import { Upload, Book, Video, AlertTriangle, MessageSquare, Github } from 'lucide-react';
+import { Upload, Book, Video, AlertTriangle, MessageSquare } from 'lucide-react';
 
 const ContributionCard = ({ icon, title, description, link }: {
   icon: React.ReactNode;
@@ -24,89 +23,6 @@ const ContributionCard = ({ icon, title, description, link }: {
     </a>
   </div>
 );
-
-const ContributorCard = ({ name, role, image, contribution }: {
-  name: string;
-  role: string;
-  image: string;
-  contribution: string;
-}) => (
-  <div className="flex flex-col items-center text-center p-4">
-    <Avatar className="w-20 h-20 border-2 border-campus-purple mb-3">
-      <AvatarImage src={image} alt={name} />
-      <AvatarFallback>{name.charAt(0)}</AvatarFallback>
-    </Avatar>
-    <h4 className="font-semibold text-lg">{name}</h4>
-    <p className="text-campus-neonPink text-sm mb-2">{role}</p>
-    <p className="text-gray-400 text-sm">{contribution}</p>
-  </div>
-);
-
-const CreditsCard = ({ name, role, image, link }: {
-  name: string;
-  role: string;
-  image: string;
-  link: string;
-}) => (
-  <div className="flex flex-col items-center text-center p-4">
-    <Avatar className="w-24 h-24 border-2 border-campus-neonBlue mb-3">
-      <AvatarImage src={image} alt={name} />
-      <AvatarFallback>{name.charAt(0)}</AvatarFallback>
-    </Avatar>
-    <h4 className="font-semibold text-xl">{name}</h4>
-    <p className="text-campus-neonBlue text-sm mb-2">{role}</p>
-    <a 
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-gray-400 hover:text-campus-neonBlue transition-colors"
-    >
-      {link}
-    </a>
-  </div>
-);
-
-const credits = [
-  {
-    name: "Navin Kumar",
-    role: "Project Lead",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-    link: "https://github.com/navix1456"
-  },
-  {
-    name: "Rahul Sharma",
-    role: "Technical Lead",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
-    link: "https://github.com/rahulsharma"
-  }
-];
-
-const contributors = [
-  {
-    name: "Aditya Sharma",
-    role: "Frontend Developer",
-    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952",
-    contribution: "UI Design & React Components"
-  },
-  {
-    name: "Priya Mehta",
-    role: "Content Curator",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-    contribution: "Study Materials & Resources"
-  },
-  {
-    name: "Karthik R",
-    role: "Backend Developer",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    contribution: "Data Management & APIs"
-  },
-  {
-    name: "Sneha Gupta",
-    role: "Content Writer",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-    contribution: "Documentation & Tutorials"
-  }
-];
 
 const Contribute = () => {
   return (
@@ -164,47 +80,6 @@ const Contribute = () => {
             <MessageSquare size={20} className="mr-2" />
             <span>Join Our WhatsApp Community</span>
           </a>
-        </div>
-        
-        <div className="mt-16">
-          <h3 className="text-2xl font-semibold mb-6 text-center">Credits</h3>
-          <div className="glass-card rounded-lg p-6 mb-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-              {credits.map((credit, index) => (
-                <CreditsCard
-                  key={index}
-                  name={credit.name}
-                  role={credit.role}
-                  image={credit.image}
-                  link={credit.link}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-        
-        <div className="mt-16">
-          <h3 className="text-2xl font-semibold mb-6 text-center">Our Contributors</h3>
-          <div className="glass-card rounded-lg p-6 mb-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              {contributors.map((contributor, index) => (
-                <ContributorCard
-                  key={index}
-                  name={contributor.name}
-                  role={contributor.role}
-                  image={contributor.image}
-                  contribution={contributor.contribution}
-                />
-              ))}
-            </div>
-            
-            <div className="text-center mt-8">
-              <a href="https://github.com/navix1456/campusverse" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-campus-neonBlue hover:underline">
-                <Github size={16} className="mr-2" />
-                <span>Become a Contributor on GitHub</span>
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
