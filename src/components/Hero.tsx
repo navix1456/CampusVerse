@@ -118,10 +118,10 @@ const Hero = ({ onGetResources }: HeroProps) => {
             CampusVerse
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-3">
-            Your all-in-one student toolkit.
+            Your all-in-one SRM student toolkit.
           </p>
           <p className="text-md md:text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
-            Access semester-wise PYQs, notes, and more – crafted by students, for students.
+            Access semester-wise PYQs, notes, and more – crafted by SRM Student, for SRM students.
           </p>
           
           <button
@@ -129,7 +129,7 @@ const Hero = ({ onGetResources }: HeroProps) => {
             className="button-glow group"
           >
             <span className="relative z-10 flex items-center">
-              🎯 Get Resources
+              🎯 Get SRM Resources
               <ArrowRight className="ml-2 transition-transform group-hover:translate-x-1" size={18} />
             </span>
           </button>
