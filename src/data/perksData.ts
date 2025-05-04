@@ -1,4 +1,3 @@
-
 // Mock perks data organized by categories
 export const perksData = {
   development: [
@@ -45,7 +44,7 @@ export const perksData = {
       link: "https://www.figma.com/education/"
     },
     {
-      logo: "/lovable-uploads/6fa17ef2-4ddb-4e45-a3d3-e8fecde50574.png",
+      logo: "/lovable-uploads/c86a8de3-d83a-480a-b3dd-773a80fd5b99.png",
       title: "AWS Educate",
       description: "Free learning resources and credit programs for cloud computing. Build on AWS for free!",
       link: "https://aws.amazon.com/education/awseducate/"
@@ -157,7 +156,7 @@ export const perksData = {
       link: "https://www.headspace.com/studentplan"
     },
     {
-      logo: "/lovable-uploads/e7a4077d-9183-4e34-a5b8-20ea30c2fa5e.png",
+      logo: "/lovable-uploads/9b747ec9-581b-405d-96e6-e10de69f2b37.png",
       title: "Blinkist",
       description: "25% off non-fiction summaries. Get key insights from books in just 15 minutes!",
       link: "https://www.blinkist.com/student-discount"
@@ -181,7 +180,7 @@ export const perksData = {
       link: "https://www.perlego.com/student"
     },
     {
-      logo: "/lovable-uploads/dd5db36e-5575-4ddf-9487-58a876c273de.png",
+      logo: "/lovable-uploads/8a1c1760-eff8-4a35-b366-113d8f2e9020.png",
       title: "Medium",
       description: "25% off annual membership. Read unlimited articles from top writers and publications!",
       link: "https://medium.com/membership"
