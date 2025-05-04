@@ -40,28 +40,28 @@ const Contribute = () => {
             icon={<Upload size={32} className="text-campus-neonBlue" />}
             title="Upload Notes"
             description="Share your class notes, presentations, and study materials."
-            link="#"
+            link="https://chat.whatsapp.com/GJApsQYmqZ18rJk822MZe4"
           />
           
           <ContributionCard
             icon={<Book size={32} className="text-campus-neonPink" />}
             title="Share PYQs"
             description="Upload previous year question papers and solutions."
-            link="#"
+            link="https://chat.whatsapp.com/GJApsQYmqZ18rJk822MZe4"
           />
           
           <ContributionCard
             icon={<Video size={32} className="text-red-500" />}
             title="Recommend Resources"
             description="Suggest YouTube channels and online resources."
-            link="#"
+            link="https://chat.whatsapp.com/GJApsQYmqZ18rJk822MZe4"
           />
           
           <ContributionCard
             icon={<AlertTriangle size={32} className="text-yellow-500" />}
             title="Report Errors"
             description="Help us improve by reporting any errors or issues."
-            link="#"
+            link="https://chat.whatsapp.com/GJApsQYmqZ18rJk822MZe4"
           />
         </div>
         
@@ -72,7 +72,7 @@ const Contribute = () => {
           </p>
           
           <a
-            href="#"
+            href="https://chat.whatsapp.com/GJApsQYmqZ18rJk822MZe4"
             className="inline-flex items-center px-6 py-3 rounded-lg bg-[#25D366] hover:bg-[#25D366]/90 transition-colors mb-16"
             target="_blank"
             rel="noopener noreferrer"
