@@ -1,6 +1,6 @@
-
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
+import PlacementModal from '../components/PlacementModal';
 import { ChevronDown, ChevronUp, Link, FileText, Book, ExternalLink, Building, FileCheck, Video, FileSpreadsheet } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
@@ -72,9 +72,22 @@ const ResourceLink = ({ item }: { item: { name: string; link: string; icon?: Rea
 );
 
 const Placement = () => {
+  const [showModal, setShowModal] = useState(true);
+
+  const handlePortalClick = () => {
+    window.open('https://sp.srmist.edu.in/srmiststudentportal/students/loginManager/youLogin.jsp', '_blank');
+    setShowModal(false);
+  };
+
   return (
     <div className="min-h-screen pb-12">
       <Navbar />
+      
+      <PlacementModal
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        onPortalClick={handlePortalClick}
+      />
       
       <div className="container mx-auto px-4 pt-24">
         <h1 className="text-4xl font-bold mb-2 text-center gradient-text">Placement Resources</h1>
@@ -92,33 +105,31 @@ const Placement = () => {
             </ul>
           </div>
           
-          <div className="text-center mt-16 mb-8">
-            <h3 className="text-2xl font-bold text-campus-neonBlue mb-4">For More Information About Placements</h3>
-            <a
-              href="https://sp.srmist.edu.in/srmiststudentportal/students/loginManager/youLogin.jsp"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xl font-semibold hover:underline"
-            >
-              Use SRMIST STUDENT PORTAL
-            </a>
+          <h3 className="text-2xl font-bold text-campus-neonBlue mb-4">For More Information About Placements</h3>
+          <a
+            href="https://sp.srmist.edu.in/srmiststudentportal/students/loginManager/youLogin.jsp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xl font-semibold hover:underline"
+          >
+            Use SRMIST STUDENT PORTAL
+          </a>
+          
+          <div className="mt-8 flex flex-col items-center gap-6">
+            <div className="glass-card p-4 rounded-lg max-w-md">
+              <img 
+                src="/lovable-uploads/d95674d1-2c4b-4f94-84c2-dbc4cf607e30.png" 
+                alt="Placement Insight Dashboard Logo" 
+                className="w-full"
+              />
+            </div>
             
-            <div className="mt-8 flex flex-col items-center gap-6">
-              <div className="glass-card p-4 rounded-lg max-w-md">
-                <img 
-                  src="/lovable-uploads/d95674d1-2c4b-4f94-84c2-dbc4cf607e30.png" 
-                  alt="Placement Insight Dashboard Logo" 
-                  className="w-full"
-                />
-              </div>
-              
-              <div className="glass-card p-4 rounded-lg w-full">
-                <img 
-                  src="/lovable-uploads/3cfa8070-714e-47c5-a960-4376b3e71a08.png" 
-                  alt="Placement Insight Dashboard Interface" 
-                  className="w-full rounded"
-                />
-              </div>
+            <div className="glass-card p-4 rounded-lg w-full">
+              <img 
+                src="/lovable-uploads/3cfa8070-714e-47c5-a960-4376b3e71a08.png" 
+                alt="Placement Insight Dashboard Interface" 
+                className="w-full rounded"
+              />
             </div>
           </div>
         </div>

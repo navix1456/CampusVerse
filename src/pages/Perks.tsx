@@ -1,55 +1,42 @@
-
 import Navbar from '../components/Navbar';
 import PerksCard from '../components/PerksCard';
 
 // Mock perks data
 const perksData = [
   {
-    logo: "https://github.githubassets.com/favicons/favicon-dark.svg",
+    logo: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
     title: "GitHub Student Pack",
-    description: "Access developer tools, learning resources, and cloud credits for free.",
+    description: "Access developer tools, learning resources, and cloud credits for free. Made for SRM Students!",
     link: "https://education.github.com/pack"
   },
   {
     logo: "https://resources.jetbrains.com/storage/products/jetbrains/img/meta/jetbrains_logo_300x300.png",
     title: "JetBrains Developer Tools",
-    description: "Free access to JetBrains IDEs including IntelliJ, PyCharm, and more.",
+    description: "Free access to JetBrains IDEs including IntelliJ, PyCharm, and more. Exclusive for SRM Students!",
     link: "https://www.jetbrains.com/student/"
   },
   {
     logo: "https://www.perplexity.ai/favicon.ico",
     title: "Perplexity AI Pro",
-    description: "Advanced AI research assistant for academic work and projects.",
+    description: "Advanced AI research assistant for academic work and projects. Perfect for SRM Students!",
     link: "https://www.perplexity.ai/referrals/C21J3TVQ"
   },
   {
     logo: "https://azurecomcdn.azureedge.net/cvt-1c2e480f8fb41a998b2bb498f9b53946d0b8c38123213583bf5c6142f7297d9f/images/icon/favicon.ico",
     title: "Microsoft Azure",
-    description: "$100 Azure credit for cloud computing experiments and projects.",
+    description: "$100 Azure credit for cloud computing experiments and projects. Special offer for SRM Students!",
     link: "https://azure.microsoft.com/en-us/free/students/"
   },
   {
-    logo: "https://www.canva.com/favicon.ico",
-    title: "Canva Pro",
-    description: "Free premium Canva access for students to create professional designs.",
-    link: "https://www.canva.com/education/students/"
-  },
-  {
-    logo: "https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6818292917dbccbc1e_icon_clyde_black_RGB.png",
-    title: "Discord Nitro",
-    description: "Get 2 months of Discord Nitro for free.",
-    link: "https://discord.com/nitro"
-  },
-  {
-    logo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ASpotify_logo_without_text.svg&psig=AOvVaw1rk8maEmlDAGVF37XN9LAD&ust=1746166475063000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLD_oZbPgY0DFQAAAAAdAAAAABAQ.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg",
     title: "Spotify Premium",
-    description: "50% discount on Spotify Premium subscription.",
+    description: "50% discount on Spotify Premium subscription. Made for SRM Students!",
     link: "https://www.spotify.com/us/student/"
   },
   {
-    logo: "https://static-00.iconduck.com/assets.00/notion-icon-2048x2048-r5vxrxfo.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
     title: "Notion Personal Pro",
-    description: "Free Notion Personal Pro plan for students.",
+    description: "Free Notion Personal Pro plan for students. Exclusive for SRM Students!",
     link: "https://www.notion.so/students"
   },
 ];
@@ -62,7 +49,7 @@ const Perks = () => {
       <div className="container mx-auto px-4 pt-24">
         <h1 className="text-4xl font-bold mb-2 text-center gradient-text">Student Perks</h1>
         <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-          Exclusive tools, discounts, and resources available to students. Boost your productivity and learning with these offers.
+          Exclusive tools, discounts, and resources available to SRM Students. Boost your productivity and learning with these special offers.
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

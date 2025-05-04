@@ -6,12 +6,16 @@ export interface ResourceItem {
 
 // Detailed subject resources
 export const subjectResources: Record<string, {
+  name: string;
+  code: string;
   pyqs: ResourceItem[];
   studyMaterials: ResourceItem[];
   youtube?: ResourceItem[];
   syllabus?: string;
 }> = {
   'mat101': {
+    name: 'MAT101',
+    code: 'MAT101',
     pyqs: [
       { name: 'PYQ Dec 2024', link: 'https://drive.google.com/file/d/146A_fcSXISYTj2fiLGKSmNrJ5JDewgBr/view?usp=sharing' },
       { name: 'PYQ Nov 2024', link: 'https://drive.google.com/file/d/1w_FrCYPLnCgyUDODgX7-qp0x8J-D-b7I/view?usp=sharing' },
@@ -68,6 +72,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
   },
   'foe101': {
+    name: 'FOE101',
+    code: 'FOE101',
     pyqs: [
       { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1LY9QRZLJCCdcvAi0Z_g-fASLnJA8GddP/view?usp=drive_link' },
       { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/115biaX6rf_yNU4TUqDLwubw-yeDKIG-o/view?usp=drive_link' },
@@ -82,6 +88,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
   },
   'bms101': {
+    name: 'BMS101',
+    code: 'BMS101',
     pyqs: [
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1q4mE8pPVbznCaoaKbhfGt7EazS2vmQyn/view?usp=drive_link' },
     ],
@@ -92,6 +100,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/10iVchNAH7GkcjS6NYpCtdvjXmWi45rBf/view?usp=drive_link'
   },
   'poe101': {
+    name: 'POE101',
+    code: 'POE101',
     pyqs: [
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1jY9prBMQWKPtEpCa1BJdrrDollc3Ut0j/view?usp=drive_link' },
       { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1nd5fsd1RNSB8NApQT7qe8gywcny8LR5o/view?usp=drive_link' },
@@ -116,6 +126,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1W78ErNNrFzNixKGBGO11I8XZSkpDj59d/view?usp=drive_link'
   },
   'pps101': {
+    name: 'PPS101',
+    code: 'PPS101',
     pyqs: [
       { name: 'PYQ Jun 2023', link: 'https://drive.google.com/file/d/1mrvBYe6mv42Tfein8AN2T8txeXHvk4Tw/view?usp=drive_link' },
       { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1_O9YsNWs3Vw-au0oG95glj-Y8CHZCugH/view?usp=drive_link' },
@@ -147,6 +159,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1oQ0a7mjBp1NVhihOBwv8mDTtHOsOuVKx/view?usp=drive_link'
   },
   'icb101': {
+    name: 'ICB101',
+    code: 'ICB101',
     pyqs: [
       { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1gLlh0fB1rctmKZBSPPZC35ryZt_K4Phg/view?usp=drive_link' },
       { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1pu7GK8lLq_KIBMdBOETeCVWMeJLHiUMb/view?usp=drive_link' },
@@ -174,6 +188,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1zA8VbbYE7jSHQFvl8BVRiKDDtVXtqXaG/view?usp=drive_link'
   },
   'clb101': {
+    name: 'CLB101',
+    code: 'CLB101',
     pyqs: [
       { name: 'PYQ Jun 2023', link: 'https://drive.google.com/file/d/1LEARpqHIqcNqG3WWSJ63NSIt1DT4cos6/view?usp=drive_link' },
       { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/18F4sJ_pb7NdPphMMJUukAtviZZvpRgcA/view?usp=drive_link' },
@@ -191,6 +207,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
   },
   'pac101': {
+    name: 'PAC101',
+    code: 'PAC101',
     pyqs: [
       { name: 'PYQ Dec 2024', link: 'https://drive.google.com/file/d/1gjpajPAfUg84IUfeA9NjTluLobSwLUwB/view' },
       { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1KgRUBM_yZ_QvL6XwUQdWxMbGkgnV8cXg/view?usp=sharing' },
@@ -217,6 +235,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
   },
   'frl101': {
+    name: 'FRL101',
+    code: 'FRL101',
     pyqs: [
       { name: 'PYQ For All Foreign Languages', link: 'https://drive.google.com/drive/folders/1ubbRRPwu5ycFEXOSFmCr3fWfUn_Xxlpf?usp=drive_linkf' },
     ],
@@ -233,6 +253,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/14YAIXtPPiSaW_JlQ37rFHyUjOMzwAG8V/view?usp=sharing'
   },
   'chy101': {
+    name: 'CHY101',
+    code: 'CHY101',
     pyqs: [
       { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1ltQ5xHHFgB1gmbocWo52uYIYYtnj-pkm/view?usp=drive_link' },
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1kDnKDaw8oMrL61uBZVrOvM6xfZfMTmit/view?usp=drive_link' },
@@ -257,6 +279,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1u8-CK7wHUpbGnnh36vbRjtsuW4DA1zuu/view?usp=drive_link'
   },
   'mat102': {
+    name: 'MAT102',
+    code: 'MAT102',
     pyqs: [
       { name: 'CT Papers Compilation', link: 'https://drive.google.com/file/d/1EPidinguoZeL9azdQzBy20iik9YSaVoH/view?usp=drive_link' },
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1gL76tsTW8bWE2wlABNMlQIrBA4-kwKWR/view?usp=drive_link' },
@@ -301,6 +325,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1Z4x2a6CdBriOTDFbWWG4R77o-hk1BdiB/view?usp=drive_link'
   },
   'eee101': {
+    name: 'EEE101',
+    code: 'EEE101',
     pyqs: [
       { name: 'PYQ Jul 2022', link: 'https://drive.google.com/file/d/1hn8RJ-Rfu_ypFUtx_8NFCWOuB1AWU98e/view?usp=drive_link' },
       { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1hiPjHJ4qRxZvsUCOZBPl71TPnoRxLZTE/view?usp=drive_link' },
@@ -332,6 +358,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1dNcJUoFAOa7Pze0Vdy93sDyxEpeb1AUC/view?usp=drive_link'
   },
   'spc101': {
+    name: 'SPC101',
+    code: 'SPC101',
     pyqs: [
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/191qeMWiqNaGlgXRsiPJlnF-mpJY8CgDy/view?usp=drive_link' },
       { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1YWdcCS6GGsd9dNrvgqEFNFuJpwL51I3D/view?usp=drive_link' },
@@ -359,6 +387,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1TdY3n8HG3mbHuHu0U792PFSt4j760xBW/view?usp=drive_link'
   },
   'oop101': {
+    name: 'Object Oriented Design And Programming',
+    code: 'OOP101',
     pyqs: [
       { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1gsBe7bQAH64ExMz8lKS5Gzjq3InHseyb/view?usp=drive_link' },
       { name: 'PYQ Dec 2022', link: 'https://drive.google.com/file/d/1oeZSXRyPGT0_HxUD55Zm9Kfh28ukVMxd/view?usp=drive_link' },
@@ -368,37 +398,34 @@ export const subjectResources: Record<string, {
       { name: 'Important Questions', link: 'https://drive.google.com/file/d/14pwsNMxHBLdd2T57GuInfIJK032JDxmt/view?usp=drive_link' },
       { name: 'MCQ For All Units', link: 'https://drive.google.com/file/d/1u6-169zEmbaG4uJ6PfD0C7lPJqhHUg7z/view?usp=drive_link' },
       { name: 'Question Bank', link: 'https://drive.google.com/file/d/19Ej9QRZcqDCrN_1qOPCxu0gsTvVvfj98/view?usp=drive_link' },
-      { name: 'More Questions', link: 'https://drive.google.com/file/d/1gUeqNXL3SeVyhahUh6x-KsCG3ldF1eys/view?usp=sharing' },
+      { name: 'More Questions', link: 'https://drive.google.com/file/d/1gUeqNXL3SeVyhahUh6x-KsCG3ldF1eys/view?usp=sharing' }
     ],
     studyMaterials: [
-      { name: 'Syllabus', link: 'https://drive.google.com/file/d/13Uo3zCTnPxD8G8dYmiMbLe9mh9JnmoRz/view?usp=drive_link' },
       { name: 'Chapter 1: Introduction To OOPS', link: 'https://drive.google.com/file/d/19FDqGruYLCRlY5X5QMs9Yv9T8ud0_vjH/view?usp=drive_link' },
       { name: 'Chapter 2: Methods And Polymorphism', link: 'https://drive.google.com/file/d/1oZGWe7fU9IUy9UXifmRzii91BCuA3OEJ/view?usp=drive_link' },
       { name: 'Chapter 3: Inheritence', link: 'https://drive.google.com/file/d/1aqEFFQ3xJutAmWnRt5UW9xRNxlhhPyHH/view?usp=drive_link' },
       { name: 'Chapter 4: Generic Programming', link: 'https://drive.google.com/file/d/1OlzxlgqgTa8epRI9VFKkKWyyz0AW8KiN/view?usp=drive_link' },
       { name: 'Chapter 5: Standard Template Library', link: 'https://drive.google.com/file/d/1vFqpdYIbEiQgR0PS8y4Ked8EdkAjKHu6/view?usp=drive_link' },
-      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1S5aCLxCbvepfvEvfCwd9jMRjA8tHW9SW?usp=drive_link' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1S5aCLxCbvepfvEvfCwd9jMRjA8tHW9SW?usp=drive_link' }
     ],
     syllabus: 'https://drive.google.com/file/d/13Uo3zCTnPxD8G8dYmiMbLe9mh9JnmoRz/view?usp=drive_link'
   },
   'eng101': {
+    name: 'Communicative English',
+    code: 'ENG101',
     pyqs: [
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1xfHj8XLY0PCkchUP-RPR1rp24YAtaZub/view?usp=drive_link' },
       { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/15lTkxE31u9Ihca4hGGYVpBou_TVTFGxy/view?usp=drive_link' },
       { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1HWGB__HxMZN0V10kh1a4VeNNAPGqxw9_/view?usp=drive_link' },
       { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/1oo1NSE58jRw9QEBPj3gRDgi-OkpUVC71/view?usp=drive_link' },
-      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1Dw6Z0rXNZpH0txKJQaRZGyk3mYLNluOM/view?usp=drive_link' },
-      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1h3ULSiDifLSUTIPjNY6iPIpM4arn1xoW/view?usp=drive_link' },
-      { name: 'Writing Format', link: 'https://drive.google.com/file/d/1sgL0f5YJxYC7uwN8f0RReU5ynoRSn6DX/view?usp=drive_link' },
-      { name: 'More PYQs', link: 'https://drive.google.com/drive/folders/1XRWZb4k2c0WhYPZTs1t3Jaflydg5Rxxv?usp=drive_link' },
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1Dw6Z0rXNZpH0txKJQaRZGyk3mY' }
     ],
-    studyMaterials: [
-      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1Q3pPItjdhgNNqceUPKvcu_4fC5uuUDY8/view?usp=drive_link' },
-      { name: 'Complete Notes', link: 'https://drive.google.com/drive/folders/1EZN7OFedecezHibAfhjruQu1SWXd5107?usp=drive_link' },
-    ],
-    syllabus: 'https://drive.google.com/file/d/1Q3pPItjdhgNNqceUPKvcu_4fC5uuUDY8/view?usp=drive_link'
+    studyMaterials: [],
+    youtube: []
   },
   'bcm101': {
+    name: 'BCM101',
+    code: 'BCM101',
     pyqs: [
       { name: 'PYQ Dec 2022', link: 'https://drive.google.com/file/d/1NFeTHf3AecgZbNzYrZ8nU8vG1hNqLQ1n/view?usp=drive_link' },
       { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1dAvNUKrVeJJMOQA-XDld7JcHXJYoKeir/view?usp=drive_link' },
@@ -420,6 +447,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1Y2Ufh9bwiQMAL8pBF5aIuKyX75TrjAtW/view?usp=drive_link'
   },
   'emp101': {
+    name: 'EMP101',
+    code: 'EMP101',
     pyqs: [
       { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/118beVBmNagV4Ls0D1R8sbEKU4VYQzh5M/view?usp=drive_link' },
       { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/19WJ19wKB2KDcwFoflj53theersZQJhhl/view?usp=drive_link' },
@@ -441,6 +470,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1DjvYADrNMAhnaGBj2r4yZV3j3MF6l8qE/view?usp=drive_link'
   },
   'mec101': {
+    name: 'MEC101',
+    code: 'MEC101',
     pyqs: [
       { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1hLqpPQnVxOitjPBRfZOZcXoE_RQooaSg/view?usp=drive_link' },
       { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1ZmFx9psuHqbn60JlaRnYjsC__dJnnS-G/view?usp=drive_link' },
@@ -453,6 +484,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1HFYejQgbGbvHcwJs1hou3VjL85ThWehv/view?usp=drive_link'
   },
   'mcb101': {
+    name: 'MCB101',
+    code: 'MCB101',
     pyqs: [
       { name: 'No PYQ Available', link: '' },       
     ],
@@ -467,6 +500,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1jh_gGXy9sl49KdoNXJovZ_b2v1NIavEQ/view?usp=drive_link'
   },
   'erm101': {
+    name: 'ERM101',
+    code: 'ERM101',
     pyqs: [
       { name: 'PYQ May 2022', link: 'https://drive.google.com/file/d/1tNHHQUDHh2XjWIBwuZEzAUWO4s7FgrzH/view?usp=drive_link' },
       { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1h5IKT4P75kHK5VVJlHOQKMJ7Pir8uNer/view?usp=drive_link' },
@@ -483,6 +518,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1uFyCWN8nkYK7EXh8JDoVLAaXzUgdW5V-/view?usp=drive_link'
   },
   'esp101': {
+    name: 'ESP101',
+    code: 'ESP101',
     pyqs: [
       { name: 'CT PYQs', link: 'https://drive.google.com/file/d/1OrYUe3ap-dzi_cgKfXxU8SKfme9og5QY/view?usp=sharing' },
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1FLZ8_bkvssS3XCpB4WoK0f4uXSyxgCRg/view?usp=drive_link' },
@@ -498,6 +535,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1G4b2XgLgJqa8GGFg8clzeo_AOaZnR1Mg/view?usp=sharing'
   },
   'dsa101': {
+    name: 'Data Structures And Algorithm',
+    code: 'DSA101',
     pyqs: [
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1IvLrYkAcUwCKHPzcomRLtJv30gXvLngi/view?usp=drive_link' },
       { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1IrQvSjQtiR3K-Z4iN093mFFxhpSDM29B/view?usp=drive_link' },
@@ -514,6 +553,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1_LGhUEvQS77V6n1TwLYU2RSH-z-TOQLj/view?usp=sharing'
   },
   'coa101': {
+    name: 'Computer Organization And Architecture',
+    code: 'COA101',
     pyqs: [
       { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1IpxPWpYGwOxZYq2HdkAXbvc8GSM7K5C4/view?usp=drive_link' },
       { name: 'PYQ Jul 2024', link: 'https://drive.google.com/file/d/1IkibJYwurcgOPP1HDKldcNe2Ndj2VNwH/view?usp=drive_link' },
@@ -533,6 +574,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1UUnQR1X_RgCplqgm10B085OzUmQtEvuj/view?usp=drive_link'
   },
   'ops101': {
+    name: 'Operating Systems',
+    code: 'OPS101',
     pyqs: [
       { name: 'PYQ Jun 2023', link: 'https://drive.google.com/file/d/1J11Bof7VLzkGdu0i9HQfYd4lH07I6UVo/view?usp=drive_link' },
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1JbsMpAnBDBAuqvyendtizPJo89LktUkx/view?usp=drive_link' },
@@ -552,6 +595,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/13u9nWuP9Z6q6R7NmL_PMoSxfe3j6oQrn/view?usp=drive_link'
   },
   'tbv101': {
+    name: 'Transforms And Boundary Value Problems',
+    code: 'TBV101',
     pyqs: [
       { name: 'PYQ May 2022', link: 'https://drive.google.com/file/d/1IeiKIk2Jf91cvDUMoiT5By1IWzAJ6Vts/view?usp=drive_link' },
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1IatAfuH0FGQCK3n3RdUgsGBy-DZ1dx--/view?usp=drive_link' },
@@ -567,31 +612,11 @@ export const subjectResources: Record<string, {
       { name: 'Unit 5 (Best Handwritten Notes + PPTs', link: 'https://drive.google.com/drive/folders/1A9E_HXs_LFfqZpHtbd1WXSF0oSWqQMDj?usp=drive_link' },
       { name: 'Notes From NCR Campus By BTECH CRUX', link: 'https://drive.google.com/drive/folders/10KZ2BVcADYifvqwItw84v6OXT00GB8G7?usp=drive_link' },
     ],
-    youtube: [
-      {
-        name: 'Dr. E. Suresh',
-        link: 'https://www.youtube.com/@dresuresh/featured',
-        thumbnail: '/lovable-uploads/yt_suresh.jpg',
-      },
-      {
-        name: 'Dr. E. Sujatha - Mathemagic',
-        link: 'https://www.youtube.com/@sujathae4270',
-        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
-      },
-      {
-        name: 'Dr. P. Godhanda Raman',
-        link: 'https://www.youtube.com/@profpgraman/videos',
-        thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
-      },
-      {
-        name: 'Alex Maths',
-        link: 'https://www.youtube.com/@AlexMathsEngineering/videos',
-        thumbnail: '/lovable-uploads/yt_alexmaths.jpg',
-      },
-    ],
     syllabus: 'https://drive.google.com/file/d/1817TcuyeTBy1V0sJ_Cn8pYyPaW32aY9p/view?usp=drive_link'
   },
   'app101': {
+    name: 'APP101',
+    code: 'APP101',
     pyqs: [
       { name: 'CT Papers', link: 'https://drive.google.com/drive/folders/1usLNaymcsmP-3msDKyT5tC-M0A78f2hM?usp=drive_link' },
     ],
@@ -606,6 +631,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1xe79XCLWCMDbRrSnMN7H1m_90VY7Mjw-/view?usp=drive_link'
   },
   'dtm101': {
+    name: 'DTM101',
+    code: 'DTM101',
     pyqs: [
       { name: 'NO EXAMS!', link: '' },
     ],
@@ -615,6 +642,8 @@ export const subjectResources: Record<string, {
     ]
   },
   'daa101': {
+    name: 'Design and Analysis of Algorithms',
+    code: 'DAA101',
     pyqs: [
       { name: 'CT Papers', link: 'https://drive.google.com/drive/folders/1IzvDy3fB1W64JdNJkaHlLuVcUQ1bWdfv?usp=sharing' },
       { name: 'Question Bank', link: 'https://drive.google.com/file/d/1Wnirz2pevIw-_1eeju5dtzyT3bxqC27F/view?usp=drive_link' },
@@ -629,6 +658,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1ob48DPdNU5P4ZRjZLoHVqAeojuE8c2Vs/view?usp=drive_link'
   },
   'dbms101': {
+    name: 'Database Management Systems',
+    code: 'DBMS101',
     pyqs: [
       { name: 'CT Papers', link: 'https://drive.google.com/drive/folders/1a9PAOLGwtLBLxVYwW1ZBc6fDHJ8o5DeG?usp=sharing' },
       { name: 'SEM Papers', link: 'https://drive.google.com/drive/folders/1uQLtuQyuoBwXBur2ZQPUp2Q16MjaXtxK?usp=sharing' },
@@ -643,6 +674,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1k2atwtw5sX0MuOyZl7sXIs3gQBM52ZKw/view?usp=drive_link'
   },
   'ai101': {
+    name: 'AI101',
+    code: 'AI101',
     pyqs: [
       { name: 'PYQ CT Papers', link: 'https://drive.google.com/drive/folders/1RrLhgU-P1EN-eu_-BN2kOB_EqVSHaeOt?usp=drive_link' },
       { name: 'AI QB ALL UNITS', link: 'https://drive.google.com/file/d/1ThSSPa-ide0CLsmu5D24COgaUX5ybNQh/view?usp=sharing' },
@@ -660,6 +693,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1wupYNBNpFVPNeonkKvTM5RGyoA_MFRXJ/view?usp=drive_link'
   },
   'ml101': {
+    name: 'ML101',
+    code: 'ML101',
     pyqs: [
       { name: 'PYQ ML JAN 2023', link: 'https://drive.google.com/file/d/1PPI5uM9XaFD11dV0wyOXWVAO8uwzPKVR/view?usp=sharing' },
       { name: 'PYQ ML MAY 2022', link: 'https://drive.google.com/file/d/1QxeF-qmoSQ2ObNhLFYGhKn_LECd5LbDS/view?usp=sharing' },
@@ -678,6 +713,8 @@ export const subjectResources: Record<string, {
     ]
   },
   'egd101': {
+    name: 'EGD101',
+    code: 'EGD101',
     pyqs: [
       { name: 'PYQ April 2025', link: 'https://drive.google.com/file/d/1o_SSGmmYviZS7IJrUL8PGu1OZPJV3Z3f/view?usp=sharing' }
     ],
@@ -699,6 +736,8 @@ export const subjectResources: Record<string, {
     ]
   },
   'swp101': {
+    name: 'SWP101',
+    code: 'SWP101',
     pyqs: [
       { name: 'Coming Soon', link: '' },
     ],
@@ -712,6 +751,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1G4b2XgLgJqa8GGFg8clzeo_AOaZnR1Mg/view?usp=sharing'
   },
   'iot101': {
+    name: 'IOT101',
+    code: 'IOT101',
     pyqs: [
       { name: 'CT PYQs', link: 'https://drive.google.com/file/d/1Iizy1bV8yNpDemFB5ZMxsipzR_5xsvBC/view?usp=sharing' },
     ],
@@ -725,6 +766,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1G4b2XgLgJqa8GGFg8clzeo_AOaZnR1Mg/view?usp=sharing'
   },
   'pqt101': {
+    name: 'PQT101',
+    code: 'PQT101',
     pyqs: [
       { name: 'CT Papers Compilation', link: 'https://drive.google.com/file/d/1zQh4mtmGc7YuIYe0IbfOzbjGUIH1crrz/view?usp=sharing' },
     ],
@@ -760,6 +803,8 @@ export const subjectResources: Record<string, {
     syllabus: 'https://drive.google.com/file/d/1uQyOIFlqvm5SdSdOHVIdrvDRuj9PqX8z/view?usp=drive_link'
   },
   'dsm101': {
+    name: 'DSM101',
+    code: 'DSM101',
     pyqs: [
       { name: 'BATCH 1 COMPLETE CT PAPERS', link: 'https://drive.google.com/file/d/1hVLjQXu9MjJ-bpD_Y9VVf_2znETRmIIC/view' },
       { name: 'BATCH 2 COMPLETE CT PAPERS', link: 'https://drive.google.com/file/d/1YQ54oL3E8y7mdh3SvdUl5IwLdVjPBSo4/view?usp=sharing' },
@@ -769,46 +814,18 @@ export const subjectResources: Record<string, {
       { name: 'PYQ MAY 2024', link: 'https://drive.google.com/file/d/1KRwjCpmnhHCI7E5QOgibcH_B3KiYdZhD/view?usp=sharing' },
     ],
     studyMaterials: [
-      { name: 'Chapter 1', link: 'https://drive.google.com/file/d/1O6zRsAU1yPOuNN0PS5LmALDzU0_sQiip/view' },
-      { name: 'Chapter 2', link: 'https://drive.google.com/file/d/1EOOgYSDbtp-f5-4fI7gIVUrE3MVzUoUG/view' },
-      { name: 'Chapter 3', link: 'https://drive.google.com/file/d/1-iLQDoT8tFDNIJd_NadXAiRujaHFkmAz/view' },
-      { name: 'Chapter 4', link: 'https://drive.google.com/file/d/1ssQsSJNF0bS4YvpWvG3ynOqyfr-LGImQ/view?usp=sharing' },
-      { name: 'Chapter 5', link: 'https://drive.google.com/file/d/1rxRu22vHgCi6EFQ7cWSQefIsR_vZblMU/view?usp=sharing' },
-      { name: 'Chapter 1 MCQ', link: 'https://drive.google.com/file/d/1lVHxeCFN8I3-66XQ-C9SuZpr-FF8Hy9J/view' },
-      { name: 'Chapter 2 MCQ', link: 'https://drive.google.com/file/d/1ssQsSJNF0bS4YvpWvG3ynOqyfr-LGImQ/view?usp=sharing' },
-      { name: 'Chapter 3 MCQ', link: 'https://drive.google.com/file/d/1rxRu22vHgCi6EFQ7cWSQefIsR_vZblMU/view?usp=sharing' },
-      { name: 'Chapter 4 MCQ', link: 'https://drive.google.com/file/d/1u-nTTGlL8UV9N9eSUQu5QSiRcr8ONdaF/view?usp=drive_link' },
-      { name: 'Chapter 5 MCQ', link: 'https://drive.google.com/file/d/1zLkHUp3cJLkBbW7b3PSnxgxACeAxsI0S/view' }
+      { name: 'Unit 1', link: 'https://drive.google.com/file/d/1Zms_a-iDpB5IvaDh-3xa0fKfdpjj4sjg/view?usp=sharing' },
+      { name: 'Unit 2', link: 'Coming Soon' },
+      { name: 'Unit 3', link: 'https://docs.google.com/presentation/d/1t6wFh5KHGIhBjR3RrLyxouYg7aoYhhOg/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 4', link: 'Coming Soon' },
+      { name: 'Unit 5', link: 'https://drive.google.com/file/d/1UY8C997l3CSttVgd2nUdzgm8dXs2yhlU/view?usp=drive_link' },
     ],
-    youtube: [
-      {
-        name: 'Dr. E. Suresh',
-        link: 'https://www.youtube.com/@dresuresh/featured',
-        thumbnail: '/lovable-uploads/yt_suresh.jpg',
-      },
-      {
-        name: 'Dr. E. Sujatha - Mathemagic',
-        link: 'https://www.youtube.com/@sujathae4270',
-        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
-      },
-      {
-        name: 'Dr. P. Godhanda Raman',
-        link: 'https://www.youtube.com/@profpgraman/videos',
-        thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
-      },
-      {
-        name: 'Alex Maths',
-        link: 'https://www.youtube.com/@AlexMathsEngineering/videos',
-        thumbnail: '/lovable-uploads/yt_alexmaths.jpg',
-      },
-    ],
-    syllabus: 'https://drive.google.com/file/d/1u8-CK7wHUpbGnnh36vbRjtsuW4DA1zuu/view?usp=drive_link'
+    syllabus: 'https://drive.google.com/file/d/1k2atwtw5sX0MuOyZl7sXIs3gQBM52ZKw/view?usp=drive_link'
   },
-  
-  
   'soe101': {
+    name: 'SOE101',
+    code: 'SOE101',
     pyqs: [
-      
       { name: 'PYQ CT Papers', link: 'https://drive.google.com/file/d/1WwlOwVuqvm8pIV9PFEo1fvnkBjc3WF5-/view?usp=sharing' },
       { name: 'Imp Questions & MCQs', link: 'https://drive.google.com/drive/folders/1o91F0pHEIFDO95eVn_ad6UPyv8Qq7HCS?usp=drive_link' },
     ],
@@ -816,45 +833,132 @@ export const subjectResources: Record<string, {
       { name: 'Study Materials', link: 'https://drive.google.com/drive/folders/16XDz1RuY1zKHIqvso0-CB3G8iV0QAE5c?usp=drive_link' },
     ]
   },
-
   'dld101': {
+    name: 'Digital Logic Design',
+    code: 'DLD101',
     pyqs: [
-      { name: 'Coming Soon', link: '' },
+      { name: 'PYQ DEC 2023', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/digital-logic-design/digital-logic-design-pyq/111143499/download/digital-logic-design-pyq.pdf' },
+      { name: 'Question Bank', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/digital-logic-design/question-bank/115444900?origin=university-course-page' }
+    ],
+    studyMaterials: [],
+    youtube: []
+  },
+  'ssd101': {
+    name: 'Solid State Devices',
+    code: 'SSD101',
+    pyqs: [
+      { name: 'SSD Problems Chapterwise', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/solid-state-devices/ssd-problems-chapterwise/81461331/download/ssd-problems-chapterwise.pdf' },
+      { name: 'PYQ DEC 2023', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/solid-state-devices/21ecc201tqp-21ecc201203t-qp/81706082/download/21ecc201tqp-21ecc201203t-qp.pdf' }
+    ],
+    studyMaterials: [],
+    youtube: [],
+    syllabus: ''
+  },
+  'bio101': {
+    name: 'Biochemistry',
+    code: 'BIO101',
+    pyqs: [
+      { name: 'PYQ MAY 2023', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/biochemistry/21btc101t-may-2023/94347429/download/21btc101t-may-2023.pdf' },
+      { name: 'PYQ 2017-2022', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/biochemistry/biochemistry-pyp-previous-year-question-paper-2017-2022/69367194/download/biochemistry-pyp-previous-year-question-paper-2017-2022.pdf' },
+      { name: 'PYQ MAY 2016', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/biochemistry/15bt103-2-sem-past-question-paper/94347318/download/15bt103-2-sem-past-question-paper.pdf' }
     ],
     studyMaterials: [
-      { name: 'Unit - 1', link: 'https://drive.google.com/drive/folders/1xQqYOtjZoKvAws6txapTEMtHa0d2LPZp?usp=drive_link' },
-      { name: 'Unit - 2', link: 'https://drive.google.com/drive/folders/1ByL8KGNqCqgihIPwtH8Y5JjPaJ0qZedw?usp=drive_link' },
-      { name: 'Unit - 3', link: 'https://drive.google.com/drive/folders/1VwSBY8CyS3OjoGhbcDhWhEoAceByexp1?usp=drive_link' },
-      { name: 'Unit - 4', link: 'https://drive.google.com/drive/folders/1H6n01_wsopN0X8mrcUNZLsg8wpRcKRm1?usp=drive_link' },
-      { name: 'Unit - 5', link: 'https://drive.google.com/drive/folders/1nr3dBk1enGeU9GtQhWlxLprvFlD37J3-?usp=drive_link' },
-      { name: 'More Study Materials', link: 'https://drive.google.com/drive/folders/1katPtttHZZkMHGHH1cnaemdCoMDZgF1J?usp=drive_link' },
-    ]
+      { name: 'Unit 1', link: 'https://drive.google.com/file/d/1bdPmFfypqJyalCqI1c8FVMmZ6YOv-09t/view?usp=drive_link' },
+      { name: 'Unit 2', link: '' },
+      { name: 'Unit 3', link: '' },
+      { name: 'Unit 4', link: '' },
+      { name: 'Unit 5', link: '' },
+    ],
+    youtube: []
+  },
+  'emt101': {
+    name: 'Electromagnetic Theory And Interference',
+    code: 'EMT101',
+    pyqs: [
+      { name: 'PYQ DEC 2023', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/electromagnetic-theory-and-interference/21ecc205t-semester-qp/100444776/download/21ecc205t-semester-qp.pdf' }
+    ],
+    studyMaterials: [],
+    youtube: [],
+    syllabus: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/emt-quantum-mechanics-waves-and-optics/21ecc205t-electromagnetic-theory-and-interference-syllabus/70504987/download/21ecc205t-electromagnetic-theory-and-interference-syllabus.pdf'
+  },
+  'bce101': {
+    name: 'Basic Chemical Engineering',
+    code: 'BCE101',
+    pyqs: [
+      { name: 'CT 3 2023', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/chemical-engineering-principles/1-bce-cla-t-3-set-a-qp-and-key/84556187/download/1-bce-cla-t-3-set-a-qp-and-key.pdf' }
+    ],
+    studyMaterials: [],
+    youtube: []
   },
   'fla101': {
+    name: 'FLA101',
+    code: 'FLA101',
     pyqs: [
-      { name: 'PYQ DEC 2022', link: 'https://drive.google.com/file/d/1UFUvBMiv_xdRxKXJD9Pepa4_6o2Gv4LL/view?usp=sharing' },
-      { name: 'PYQ NOV 2024', link: 'https://drive.google.com/file/d/1qqpmDSJTXSyFvr_5d8jtU71ibYhukHDj/view?usp=sharing' }
+      { name: 'PYQ CT Papers', link: 'https://drive.google.com/file/d/1WwlOwVuqvm8pIV9PFEo1fvnkBjc3WF5-/view?usp=sharing' },
+      { name: 'Imp Questions & MCQs', link: 'https://drive.google.com/drive/folders/1o91F0pHEIFDO95eVn_ad6UPyv8Qq7HCS?usp=drive_link' },
     ],
     studyMaterials: [
-      { name: 'Unit 1', link: 'https://drive.google.com/file/d/1MStJtVG7F1aSXjnJF3rfqMrXKInWoMit/view?usp=sharing' },
-      { name: 'Unit 2', link: 'https://drive.google.com/file/d/1QDICPe0huuOkYYuhAeIcDzGaYbWKrcp6/view?usp=sharing' },
-      { name: 'Unit 3', link: 'https://drive.google.com/file/d/1DORe2E4Zz8f_7wTP1Qh0K_CLWD90dCjh/view?usp=sharing' },
-      { name: 'Unit 4', link: 'https://drive.google.com/file/d/1-kVwi_UHPiYMdUCuqxz_uYaF_HdWEFqr/view?usp=sharing' },
-      { name: 'Unit 5', link: 'https://drive.google.com/file/d/1CWA3LwKySunvicnJoodZcFIoa0oUlEQr/view?usp=sharing' }
-    ]
+      { name: 'Study Materials', link: 'https://drive.google.com/drive/folders/16XDz1RuY1zKHIqvso0-CB3G8iV0QAE5c?usp=drive_link' },
+    ],
+    syllabus: 'https://drive.google.com/file/d/1G4b2XgLgJqa8GGFg8clzeo_AOaZnR1Mg/view?usp=sharing'
+  },
+  'fla102': {
+    name: 'FLA102',
+    code: 'FLA102',
+    pyqs: [
+      { name: 'PYQ CT Papers', link: 'https://drive.google.com/file/d/1WwlOwVuqvm8pIV9PFEo1fvnkBjc3WF5-/view?usp=sharing' },
+      { name: 'Imp Questions & MCQs', link: 'https://drive.google.com/drive/folders/1o91F0pHEIFDO95eVn_ad6UPyv8Qq7HCS?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Study Materials', link: 'https://drive.google.com/drive/folders/16XDz1RuY1zKHIqvso0-CB3G8iV0QAE5c?usp=drive_link' },
+    ],
+    youtube: []
+  },
+  'fla103': {
+    name: 'FLA103',
+    code: 'FLA103',
+    pyqs: [
+      { name: 'PYQ CT Papers', link: 'https://drive.google.com/file/d/1WwlOwVuqvm8pIV9PFEo1fvnkBjc3WF5-/view?usp=sharing' },
+      { name: 'Imp Questions & MCQs', link: 'https://drive.google.com/drive/folders/1o91F0pHEIFDO95eVn_ad6UPyv8Qq7HCS?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Study Materials', link: 'https://drive.google.com/drive/folders/16XDz1RuY1zKHIqvso0-CB3G8iV0QAE5c?usp=drive_link' },
+    ],
+    youtube: []
+  },
+  'fla105': {
+    name: 'FLA105',
+    code: 'FLA105',
+    pyqs: [
+      { name: 'PYQ CT Papers', link: 'https://drive.google.com/file/d/1WwlOwVuqvm8pIV9PFEo1fvnkBjc3WF5-/view?usp=sharing' },
+      { name: 'Imp Questions & MCQs', link: 'https://drive.google.com/drive/folders/1o91F0pHEIFDO95eVn_ad6UPyv8Qq7HCS?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Study Materials', link: 'https://drive.google.com/drive/folders/16XDz1RuY1zKHIqvso0-CB3G8iV0QAE5c?usp=drive_link' },
+    ],
+    youtube: []
+  },
+  'fla106': {
+    name: 'FLA106',
+    code: 'FLA106',
+    pyqs: [
+      { name: 'PYQ CT Papers', link: 'https://drive.google.com/file/d/1WwlOwVuqvm8pIV9PFEo1fvnkBjc3WF5-/view?usp=sharing' },
+      { name: 'Imp Questions & MCQs', link: 'https://drive.google.com/drive/folders/1o91F0pHEIFDO95eVn_ad6UPyv8Qq7HCS?usp=drive_link' },
+    ],
+    studyMaterials: [
+      { name: 'Study Materials', link: 'https://drive.google.com/drive/folders/16XDz1RuY1zKHIqvso0-CB3G8iV0QAE5c?usp=drive_link' },
+    ],
+    youtube: []
   },
   'cn101': {
+    name: 'CN101',
+    code: 'CN101',
     pyqs: [
-      { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1kS60iVGfPT7vv6mtgWw-yHjf04vpCbHP/view?usp=sharing' },
-      { name: 'PYQ June 2023', link: 'https://drive.google.com/file/d/1xqp8WM2OYR9rR2BP8HQLOirtIelQLcXf/view?usp=sharing' },
-      { name: 'PYQ May 2022', link: 'https://drive.google.com/file/d/1aNZhjmLR_TzlroETXs9zXgF-MmfKvY9G/view?usp=sharing' },
-      { name: 'CT1 with Key', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/Mam%20qbs/CT1%20-%20QUESTIONS%20WITH%20KEY.pdf&embedded=true' },
-      { name: 'CT2 with Key', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/Mam%20qbs/CT2%20-%20QUESTIONS%20WITH%20KEY.pdf&embedded=true' },
-      { name: 'CT3 with Key', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/Mam%20qbs/CT3%20-%20QUESTIONS%20WITH%20KEY.pdf&embedded=true' }
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1xq84jouh4duoeqnUb-x2GRIvU3bcTzSP/view?usp=sharing' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/12MpUDfaevqFDeK5KY-FuSx6J4rBNoaK2/view?usp=sharing' },
+      { name: 'PYQ May 2022', link: 'https://drive.google.com/file/d/1zvz5-1zmcc3c85tWRML6VNTCbQcorhUQ/view?usp=sharing' }
     ],
     studyMaterials: [
-      { name: 'Unit 1 PPT (Short)', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT1/UNIT-1.pptx' },
-      { name: 'Unit 1 (Complete)', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT1/Complete%20Unit%201.pdf&embedded=true' },
       { name: 'Unit 1 MCQ QB', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT1/UNIT%201%20MCQ%20Question%20bank.docx' },
       { name: 'Unit 2 Notes', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT2/Unit-2.pdf&embedded=true' },
       { name: 'Unit 2 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CT2/Unit%202%20ppt.pdf&embedded=true' },
@@ -868,9 +972,12 @@ export const subjectResources: Record<string, {
       { name: 'Unit 5 QB', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Theory/CN_QUESTION%20BANK/CN%20QB%20unit%205.docx' },
       { name: 'MCQ QB for All Units', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/CN_MCQ_GOD.pdf&embedded=true' }
     ],
-    syllabus: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Syllabus.pdf&embedded=true'
+    syllabus: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Syllabus.pdf&embedded=true',
+    youtube: []
   },
   'cd101': {
+    name: 'CD101',
+    code: 'CD101',
     pyqs: [
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1xq84jouh4duoeqnUb-x2GRIvU3bcTzSP/view?usp=sharing' },
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/12MpUDfaevqFDeK5KY-FuSx6J4rBNoaK2/view?usp=sharing' },
@@ -888,35 +995,47 @@ export const subjectResources: Record<string, {
       { name: 'Unit 1 Notes', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT1/CD%20UNIT1.pdf&embedded=true' },
       { name: 'Unit 2 and 3 Notes', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/UNIT%20-%202%20%26%203.pdf&embedded=true' },
       { name: 'Unit 2 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/Compiler%20Design%20Unit-2.pdf&embedded=true' },
-      { name: 'Unit 3 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/Compiler%20Design%20Unit-3.pdf&embedded=true' },
-      { name: 'Unit 4 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT3/notes%20cd%20Unit%20-%20IV.pdf&embedded=true' },
-      { name: 'Unit 4 Notes', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT3/PCD_Unit4.pdf&embedded=true' },
-      { name: 'Unit 5 Notes', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT3/notes%20cd%20unit%205.pdf&embedded=true' },
-      { name: 'Lab Manual', link: 'https://drive.google.com/file/d/1in2QaiqHWymDZslLzfQWJH085LvqjrLG/view?usp=sharing' },
-      { name: 'Extra Resources', link: 'https://github.com/shushrutsharma/18CSC304J-CD' }
-    ]
-  },
-  'cep101': { pyqs: [], studyMaterials: [] },
-  'ccs101': { pyqs: [], studyMaterials: [] },
-  'mob101': { pyqs: [], studyMaterials: [] },
-  'bpe101': { pyqs: [], studyMaterials: [] },
-  'gac101': { pyqs: [], studyMaterials: [] },
-  'emt101': { pyqs: [], studyMaterials: [] },
-  'ssd101': {
-    pyqs: [
-      { name: 'Important Topics', link: 'https://drive.google.com/drive/folders/1sREDu5FC3d1DLqf6PWADtlmP3VS9WBBu?usp=drive_link' },
-      { name: 'PYQs Coming Soon', link: '' },
+      { name: 'Unit 3 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/Compiler%20Design%20Unit-3.pdf&embedded=true' }
     ],
-    studyMaterials: [
-      { name: 'Unit 1', link: 'https://drive.google.com/drive/folders/1NceSQDrGjzfmcdewiDRf3nzSBhxnWXNb?usp=drive_link' },
-      { name: 'Unit 2', link: 'https://drive.google.com/drive/folders/1MCoTgJN7wiUEdjFooqV82peKjquOg8Wo?usp=drive_link' },
-      { name: 'Unit 3', link: 'https://drive.google.com/drive/folders/1uJkWbvrMgR4AIMkTCCTau-8aLI9hHJez?usp=drive_link' },
-      { name: 'Unit 4', link: 'https://drive.google.com/drive/folders/1fFaBsG-N66CzIK6mCZmUjaDEBHJwdyAQ?usp=drive_link' },
-      { name: 'Unit 5', link: 'https://drive.google.com/drive/folders/1ZTvkcUARfHnOqMhxJo2mcDi4wcA4QveA?usp=drive_link' },
-      { name: 'More Study Materials', link: 'https://drive.google.com/drive/folders/1YYADKgMDkHxAntThXYyY2bAbV_qkGMzm?usp=drive_link' },
-    ],
-    syllabus: ''
+    youtube: []
   },
+  'cep101': {
+    name: 'Computer Engineering Principles',
+    code: 'CEP101',
+    pyqs: [],
+    studyMaterials: [],
+    youtube: []
+  },
+  'ccs101': {
+    name: 'Computer Communication Systems',
+    code: 'CCS101',
+    pyqs: [],
+    studyMaterials: [],
+    youtube: []
+  },
+  'mob101': {
+    name: 'Mobile Computing',
+    code: 'MOB101',
+    pyqs: [],
+    studyMaterials: [],
+    youtube: []
+  },
+  'bpe101': {
+    name: 'Basic Programming Engineering',
+    code: 'BPE101',
+    pyqs: [],
+    studyMaterials: [],
+    youtube: []
+  },
+  'gac101': {
+    name: 'Graphics and Animation',
+    code: 'GAC101',
+    pyqs: [],
+    studyMaterials: [],
+    youtube: []
+  },
+  
+  
 
   
   
