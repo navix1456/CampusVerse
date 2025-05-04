@@ -41,6 +41,7 @@ export const subjectResources: Record<string, {
       { name: 'Chapter 3: Ordinary Differential Equations (PPT)', link: 'https://drive.google.com/file/d/13LsREawRTw38KjCnVM3d-1Fg01zJnI3o/view?usp=sharing' },
       { name: 'Chapter 4: Differential Calculus And Beta Gamma Functions (PPT)', link: 'https://docs.google.com/presentation/d/1n5lMSNnErCp0FLCUKm1w0KAxn0scqX8T/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
       { name: 'Chapter 5: Sequence And Series (PPT)', link: 'https://drive.google.com/file/d/1rDg--eBJLAU4GgazGCNKr7nbaMU2CtR7/view?usp=sharing' },
+      { name: 'More Resources and Video Lectures from SRM', link: 'https://drive.google.com/drive/folders/1sJuCZdgQhQKVo6CRfOMH8gQCRzcYYxBG' }
     ],
     youtube: [
       {
@@ -191,12 +192,29 @@ export const subjectResources: Record<string, {
   },
   'pac101': {
     pyqs: [
-      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1F10dw18lGsWIt57qHf75vqD9oMMJiXPf/view?usp=drive_link' },
+      { name: 'PYQ Dec 2024', link: 'https://drive.google.com/file/d/1gjpajPAfUg84IUfeA9NjTluLobSwLUwB/view' },
+      { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1KgRUBM_yZ_QvL6XwUQdWxMbGkgnV8cXg/view?usp=sharing' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1hbrqGKecd5zDMoG5jvvdl7MoSCvjcpmN/view?usp=drive_link' },
+      { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1Y1EZ_B-ioHQ15BFFjfbjniQN201k27Ky/view?usp=drive_link' },
+      { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/14ESt98Kx7f_QUdGdLfK-aALfNboZNOUL/view?usp=drive_link' },
+      { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1AkcM9g-yT12JK5IfCafbFi5ACZR4zdnX/view?usp=drive_link' },
+      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1zY89vKAr_-ding4XTgF-t-amR7SIfmDK/view?usp=drive_link' },
+      { name: 'CT PYQs', link: 'https://drive.google.com/drive/folders/1uo6dIWYACYSKr6x2pW8V1q8XaiLoLwRm?usp=sharing' },
+      { name: 'Important Topics', link: 'https://drive.google.com/file/d/1A5DzyF0VL2zOst3BbWvFb6CDmJ-YItzJ/view?usp=drive_link' },
+      { name: 'Important Questions', link: 'https://drive.google.com/file/d/1F1zXemq5Cw91y2m7lMaaq_QJOLPqXS0t/view?usp=drive_link' },
+      { name: 'Question Bank', link: 'https://drive.google.com/file/d/1YTRBDy_KOpeV3lsVcRYZ4Vb6sSZNW3p2/view?usp=drive_link' },
+      { name: 'MCQ Question Bank', link: 'https://drive.google.com/file/d/1aYOQ5vJHjkQ7KXMO4EMRka9IFrO01PvK/view?usp=drive_link' },
+      { name: 'Calculator List Updated For 2024', link: 'https://drive.google.com/file/d/1IR6Jk4-t-eYSJB-EX2uvBbyFTxc1oK0F/view?usp=drive_link' },
     ],
     studyMaterials: [
-      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1n4zfMLMsgU-PFucwYOT1t7_XwpeSctR5/view?usp=drive_link' },
+      { name: 'Unit 1: Atomic Structure', link: '' },
+      { name: 'Unit 2: Chemical Bonding', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/chemistry/the-language-of-analytical-chemistry/31000862/download/the-language-of-analytical-chemistry.pdf' },
+      { name: 'Unit 3: Chemical Thermodynamics', link: '' },
+      { name: 'Unit 4: Chemical Kinetics', link: '' },
+      { name: 'Unit 5: Electrochemistry', link: '' },
+      { name: 'LAB MANUAL', link: 'https://webstor.srmist.edu.in/web_assets/downloads/2024/physical-analytical-chemistry-lab-manual.pdf' }
     ],
-    syllabus: 'https://drive.google.com/file/d/1n4zfMLMsgU-PFucwYOT1t7_XwpeSctR5/view?usp=drive_link'
+    syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
   },
   'frl101': {
     pyqs: [
@@ -291,6 +309,7 @@ export const subjectResources: Record<string, {
       { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/14ESt98Kx7f_QUdGdLfK-aALfNboZNOUL/view?usp=drive_link' },
       { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1AkcM9g-yT12JK5IfCafbFi5ACZR4zdnX/view?usp=drive_link' },
       { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1zY89vKAr_-ding4XTgF-t-amR7SIfmDK/view?usp=drive_link' },
+      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/11U0xNrrD6x0J7cHf_bpBcE_rpMyM2RKX/view?usp=sharing' },
       { name: 'CT PYQs', link: 'https://drive.google.com/drive/folders/1uo6dIWYACYSKr6x2pW8V1q8XaiLoLwRm?usp=sharing' },
       { name: 'Important Topics', link: 'https://drive.google.com/file/d/1A5DzyF0VL2zOst3BbWvFb6CDmJ-YItzJ/view?usp=drive_link' },
       { name: 'Important Questions', link: 'https://drive.google.com/file/d/1F1zXemq5Cw91y2m7lMaaq_QJOLPqXS0t/view?usp=drive_link' },
@@ -626,6 +645,10 @@ export const subjectResources: Record<string, {
   'ai101': {
     pyqs: [
       { name: 'PYQ CT Papers', link: 'https://drive.google.com/drive/folders/1RrLhgU-P1EN-eu_-BN2kOB_EqVSHaeOt?usp=drive_link' },
+      { name: 'AI QB ALL UNITS', link: 'https://drive.google.com/file/d/1ThSSPa-ide0CLsmu5D24COgaUX5ybNQh/view?usp=sharing' },
+      { name: 'PYQ JULY 2023', link: 'https://drive.google.com/file/d/1EuJp_nv8fWejORSvODTETTwA9ek610ma/view?usp=sharing' },
+      { name: 'PYQ MAY 2023', link: 'https://drive.google.com/file/d/1F3ygG7xC_OcoKCFjxQZoDVJ8EPn6F1uH/view?usp=sharing' },
+      { name: 'PYQ MAY 2024', link: 'https://drive.google.com/file/d/1Pt-H9txIJI3xDQH4B_T3Rj1DXawCXvN8/view?usp=sharing' }
     ],
     studyMaterials: [
       { name: 'Unit 1', link: 'https://docs.google.com/presentation/d/1ZCRSq-FFGaMC10X3vyhu7SvVjFA9KB22/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
@@ -635,6 +658,45 @@ export const subjectResources: Record<string, {
       { name: 'Unit 5', link: 'https://drive.google.com/file/d/1cQcqSBNFAGbWPjSCYCzZy9NZtJCQHaIN/view?usp=drive_link' },
     ],
     syllabus: 'https://drive.google.com/file/d/1wupYNBNpFVPNeonkKvTM5RGyoA_MFRXJ/view?usp=drive_link'
+  },
+  'ml101': {
+    pyqs: [
+      { name: 'PYQ ML JAN 2023', link: 'https://drive.google.com/file/d/1PPI5uM9XaFD11dV0wyOXWVAO8uwzPKVR/view?usp=sharing' },
+      { name: 'PYQ ML MAY 2022', link: 'https://drive.google.com/file/d/1QxeF-qmoSQ2ObNhLFYGhKn_LECd5LbDS/view?usp=sharing' },
+      { name: 'PYQ ML NOV 2018', link: 'https://drive.google.com/file/d/1SCXnSb37AtRP7xunsLPV-SxznGAiSahp/view?usp=sharing' },
+      { name: 'PYQ ML JUNE 2019', link: 'https://drive.google.com/file/d/1yHA4MhOoxRYH7DAhVX2Mq8o-3uCNRj3O/view?usp=sharing' },
+      { name: 'ML CT2 2017', link: 'https://drive.google.com/file/d/19REJXCLeEzItsgueFFO-ZU6TLsdZZH8W/view?usp=sharing' },
+      { name: 'ML CT1 2018', link: 'https://drive.google.com/file/d/1PXhM8TDYKssQINUbEQqLh1BxozIesyfD/view?usp=sharing' },
+      { name: 'ML QUESTION BANK', link: 'https://drive.google.com/file/d/1Q52QGfIQuqpryWgtDIxo24dyVPxk3bzh/view?usp=sharing' }
+    ],
+    studyMaterials: [
+      { name: 'UNIT 1 ML', link: 'https://drive.google.com/file/d/1r72xsDwyYohfp7U-gWwHo2ByqrWFQ_sR/view?usp=sharing' },
+      { name: 'UNIT 2 ML', link: 'https://drive.google.com/file/d/1ajYOLAzQbBfgoFLRwqPNSBk6A3scAmwO/view?usp=sharing' },
+      { name: 'UNIT 3 ML', link: 'https://drive.google.com/file/d/1Z84wvJRWftOJHQlzkSp1NSPTWPpaT6Q9/view?usp=sharing' },
+      { name: 'UNIT 4 ML', link: 'https://drive.google.com/file/d/1gMHagoLGjovaNt4pM3WlNH-LlrHflLwx/view?usp=sharing' },
+      { name: 'UNIT 5 ML', link: 'https://drive.google.com/file/d/1h7ZNPn2CSMAHUjrM6ebZuzUt_stKL_rS/view?usp=sharing' }
+    ]
+  },
+  'egd101': {
+    pyqs: [
+      { name: 'PYQ April 2025', link: 'https://drive.google.com/file/d/1o_SSGmmYviZS7IJrUL8PGu1OZPJV3Z3f/view?usp=sharing' }
+    ],
+    studyMaterials: [
+      { name: 'DRAWING PDFS', link: 'https://drive.google.com/drive/folders/1W_aVgz8ahqB3YIlbZNIEZsRc9sM87D1q' },
+      { name: 'ALL EXPERIMENT VIDEOS', link: 'https://drive.google.com/drive/folders/1KwmLFX0e0PNH-iMCgCnsgFZdNZICTKEY' }
+    ],
+    youtube: [
+      {
+        name: 'Paulraj Ganesan Drawing [CAD DRAFTER]',
+        link: 'https://www.youtube.com/@paulrajganesan7698',
+        thumbnail: '/lovable-uploads/yt_paulraj.jpg'
+      },
+      {
+        name: 'AutoCAD SRM',
+        link: 'https://www.youtube.com/@Autocadtr/videos',
+        thumbnail: '/lovable-uploads/yt_autocad.jpg'
+      }
+    ]
   },
   'swp101': {
     pyqs: [
