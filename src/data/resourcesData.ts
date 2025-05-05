@@ -944,8 +944,15 @@ export const subjectResources: Record<string, {
     pyqs: [
       { name: 'CT 3 2023', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/chemical-engineering-principles/1-bce-cla-t-3-set-a-qp-and-key/84556187/download/1-bce-cla-t-3-set-a-qp-and-key.pdf' }
     ],
-    studyMaterials: [],
-    youtube: []
+    studyMaterials: [
+      { name: 'Unit - 1', link: 'https://drive.google.com/drive/folders/1mZVdTKuVKQOrykbLFezy38bUgwyDIfcN?usp=drive_link' },
+      { name: 'Unit - 2', link: 'https://drive.google.com/drive/folders/1CTlGQCzhezIz_Y94oYK2ixlwDlOnJYpV?usp=drive_link' },
+      { name: 'Unit - 3', link: 'https://drive.google.com/drive/folders/1L3IrAluTTFhMbjRRuq-z72-LxuH9aXGf?usp=drive_link' },
+      { name: 'Unit - 4', link: 'https://drive.google.com/drive/folders/1-5D8OWGYpDGwFNrSfEJ5QijGPK0e9z0n?usp=drive_link' },
+      { name: 'Unit - 5', link: 'https://drive.google.com/drive/folders/16z0IvoRKru89LrJnD0_s-o2QH2tblSjo?usp=drive_link' },
+      { name: 'Handwritten Notes', link: 'https://drive.google.com/file/d/1CQ0KTBV9ig6KG_-emb-gJ8u2TncXI3ok/view?usp=drive_link' },
+      { name: 'More Study Materials', link: 'https://drive.google.com/drive/folders/1exhsgpKYt-nfqqCo8EMioOXMikGWoVBQ?usp=drive_link' }
+    ]
   },
   'fla101': {
     name: 'Formal Language And Automata',
