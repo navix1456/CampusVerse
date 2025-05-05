@@ -11,6 +11,7 @@ import AboutUs from "./pages/AboutUs";
 import Contribute from "./pages/Contribute";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
+import WhatsAppPopup from "./components/WhatsAppPopup";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <WhatsAppPopup />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/subjects" element={<Subjects />} />
