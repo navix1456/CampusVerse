@@ -3,7 +3,7 @@ export interface ResourceItem {
   link: string;
   thumbnail?: string; // Added for YouTube thumbnails
 }
-
+//hi
 // Detailed subject resources
 export const subjectResources: Record<string, {
   name: string;
