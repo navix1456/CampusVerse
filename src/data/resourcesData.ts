@@ -419,7 +419,7 @@ export const subjectResources: Record<string, {
     ],
     studyMaterials: [
       { name: 'Syllabus', link: 'https://drive.google.com/file/d/1Y2Ufh9bwiQMAL8pBF5aIuKyX75TrjAtW/view?usp=drive_link' },
-      { name: 'Chapter 1: Introduction To Biochemistry', link: 'https://drive.google.com/drive/folders/1AdyBBezaEKi2Z6yIgf_T-S9I3qJxDOrt?usp=sharing' },
+      { name: 'Chapter 1: Introduction To Biochemistry', link: 'https://drive.google.com/drive/folders/1AdyBBezaEKi2Z6jIgf_T-S9I3qJxDOrt' },
       { name: 'Chapter 2: Introduction To Metabolism, Bioenergetics And Photosynthesis', link: 'https://drive.google.com/drive/folders/1pF6WWT1TUqmP3U15ywNNUzqaL406bSS1?usp=sharing' },
       { name: 'Chapter 3: Carbohydrate Metabolism', link: 'https://drive.google.com/file/d/1QvAQc6JWvl-mQpgIAbWQj5FsVWCJ6EOo/view?usp=drive_link' },
       { name: 'Chapter 4: Protein Turnover And Amino Acids Metabolism', link: 'https://drive.google.com/file/d/1NVc_CcnFbfHcUs-0K4xcshszzn6xxU4a/view?usp=drive_link' },
@@ -892,7 +892,14 @@ export const subjectResources: Record<string, {
       { name: 'SSD Problems Chapterwise', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/solid-state-devices/ssd-problems-chapterwise/81461331/download/ssd-problems-chapterwise.pdf' },
       { name: 'PYQ DEC 2023', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/solid-state-devices/21ecc201tqp-21ecc201203t-qp/81706082/download/21ecc201tqp-21ecc201203t-qp.pdf' }
     ],
-    studyMaterials: [],
+    studyMaterials: [
+      { name: 'Unit - 1', link: 'https://drive.google.com/drive/folders/1NceSQDrGjzfmcdewiDRf3nzSBhxnWXNb?usp=drive_link' },
+      { name: 'Unit - 2', link: 'https://drive.google.com/drive/folders/1MCoTgJN7wiUEdjFooqV82peKjquOg8Wo?usp=drive_link' },
+      { name: 'Unit - 3', link: 'https://drive.google.com/drive/folders/1uJkWbvrMgR4AIMkTCCTau-8aLI9hHJez?usp=drive_link' },
+      { name: 'Unit - 4', link: 'https://drive.google.com/drive/folders/1fFaBsG-N66CzIK6mCZmUjaDEBHJwdyAQ?usp=drive_link' },
+      { name: 'Unit - 5', link: 'https://drive.google.com/drive/folders/1ZTvkcUARfHnOqMhxJo2mcDi4wcA4QveA?usp=drive_link' },
+      { name: 'More Study Materials', link: 'https://drive.google.com/drive/folders/1YYADKgMDkHxAntThXYyY2bAbV_qkGMzm?usp=drive_link' }
+    ],
     youtube: [],
     syllabus: ''
   },
