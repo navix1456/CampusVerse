@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import { Upload, Book, Video, AlertTriangle, MessageSquare } from 'lucide-react';
+import ContributorCard from '../components/ContributorCard';
 
 const ContributionCard = ({ icon, title, description, link }: {
   icon: React.ReactNode;
@@ -80,6 +81,21 @@ const Contribute = () => {
             <MessageSquare size={20} className="mr-2" />
             <span>Join Our WhatsApp Community</span>
           </a>
+        </div>
+
+        {/* Credits Section */}
+        <div className="mt-16">
+          <h2 className="text-3xl font-bold mb-8 text-center gradient-text">Credits</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <ContributorCard
+              name="The Helpers"
+              link="https://thehelpers.vercel.app/"
+            />
+            <ContributorCard
+              name="Bharathwaj Manoharan"
+              link="https://github.com/BharathwajManoharan"
+            />
+          </div>
         </div>
       </div>
     </div>

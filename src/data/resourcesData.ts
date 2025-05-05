@@ -332,11 +332,11 @@ export const subjectResources: Record<string, {
     ],
     studyMaterials: [
       { name: 'Syllabus', link: 'https://drive.google.com/file/d/1dNcJUoFAOa7Pze0Vdy93sDyxEpeb1AUC/view?usp=drive_link' },
-      { name: 'Electric Circuits', link: 'https://docs.google.com/presentation/d/1bPBwdQyolajpl_Yvnf9FN6PH9PLfFvHU/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
-      { name: 'Electronics', link: 'https://docs.google.com/presentation/d/1Fl_HnPxNwC-p8cwsiBbbXKU_JQ4pPiRQ/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
-      { name: 'Machines And Drives', link: 'https://docs.google.com/presentation/d/1ZiRH5sw__xM09kSlR4YVeLrHznPrNQx6/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
-      { name: 'Transducers And Sensors', link: 'https://docs.google.com/presentation/d/1j0drvyL_Rxl-h_hFfD3jrVe81eZes_X9/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
-      { name: 'Power Engineering', link: 'https://docs.google.com/presentation/d/1h1sL6cPtkkg__FsqnePeT1bh_ink0_qq/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 1 - Electric Circuits', link: 'https://docs.google.com/presentation/d/1bPBwdQyolajpl_Yvnf9FN6PH9PLfFvHU/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 2 - Electronics', link: 'https://docs.google.com/presentation/d/1Fl_HnPxNwC-p8cwsiBbbXKU_JQ4pPiRQ/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 3 - Machines And Drives', link: 'https://docs.google.com/presentation/d/1ZiRH5sw__xM09kSlR4YVeLrHznPrNQx6/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 4 - Transducers And Sensors', link: 'https://docs.google.com/presentation/d/1j0drvyL_Rxl-h_hFfD3jrVe81eZes_X9/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 5 - Power Engineering', link: 'https://docs.google.com/presentation/d/1h1sL6cPtkkg__FsqnePeT1bh_ink0_qq/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
       { name: 'EEE Lab Manual', link: 'https://drive.google.com/file/d/1rCMKo4AJaey13AEQ7vU3rWzw7WcxOm3f/view?usp=drive_link' },
       { name: 'EEE Book', link: 'https://drive.google.com/file/d/177_vU4n7lRah8dNuVtiiBp4t9MPEFZ0E/view?usp=drive_link' },
       { name: 'Handwritten Notes by THE HELPER', link: 'https://drive.google.com/drive/folders/1phV20ArTBNES6Dsp1nwYIb_BxYMBe4vt?usp=sharing' },
@@ -360,7 +360,6 @@ export const subjectResources: Record<string, {
       { name: 'Important Topics', link: 'https://docs.google.com/document/d/1d93T2rn1CXakIU8B9zFSdNvLcIIEFEmA5-XYnyEn6qo/edit?usp=drive_link' },
     ],
     studyMaterials: [
-      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1TdY3n8HG3mbHuHu0U792PFSt4j760xBW/view?usp=drive_link' },
       { name: 'Chapter 1: Energy Bands In Solids', link: 'https://drive.google.com/file/d/1EACIBHKWj8FMHb3veDMsKp-D-xofm6xB/view?usp=drive_link' },
       { name: 'Chapter 2: Carrier Transport Mechanism In Semiconductors', link: 'https://drive.google.com/file/d/1UHbGMqvhM6kc8R-ThV5KCKu7x5Km4Im1/view?usp=drive_link' },
       { name: 'Chapter 3: Optoelectronic Properties Of Semiconductors', link: 'https://drive.google.com/file/d/1Nly-gEdmq8x1InLEgVPC9Axx6JYAS00u/view?usp=drive_link' },
@@ -466,7 +465,7 @@ export const subjectResources: Record<string, {
       { name: 'PYQ Jul 2024', link: 'https://drive.google.com/file/d/1kqEx0EQRoEWqfPbVivydRSBtUnt-z2_b/view?usp=drive_link' },
     ],
     studyMaterials: [
-      { name: 'Complete Study Materials', link: 'https://drive.google.com/drive/folders/1-XQVidvAI_7gQrmO35x4tZ09GO-N_Ax1?usp=drive_link' },
+      { name: 'Complete Study Materials(Coming Soon)', link: 'https://drive.google.com/drive/folders/1-XQVidvAI_7gQrmO35x4tZ09GO-N_Ax1?usp=drive_link' },
     ],
     syllabus: 'https://drive.google.com/file/d/1HFYejQgbGbvHcwJs1hou3VjL85ThWehv/view?usp=drive_link'
   },
