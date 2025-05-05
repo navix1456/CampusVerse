@@ -1,4 +1,3 @@
-
 // Comprehensive subjects data by semester
 export const subjectsBySemseter: Record<number, Array<{ id: string; name: string; code: string }>> = {
   1: [
@@ -26,6 +25,7 @@ export const subjectsBySemseter: Record<number, Array<{ id: string; name: string
     { id: 'emp101', name: 'Electromagnetic Physics', code: '21PYB103T' },
     { id: 'erm101', name: 'Engineering Mechanics', code: '21CEB101T' },
     { id: 'esp101', name: 'Electronic System And PCB Design', code: '21ECB103J' },
+    { id: 'bcm101l', name: 'Basic Civil And Mechanical Lab', code: '21MES101L' },
   ],
   3: [
     { id: 'dsa101', name: 'Data Structures And Algorithm', code: '21CSB201J' },

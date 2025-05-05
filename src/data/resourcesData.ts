@@ -1107,6 +1107,16 @@ export const subjectResources: Record<string, {
     ],
     syllabus: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC302J/Syllabus.pdf&embedded=true'
   },
+  'bcm101l': {
+    name: 'Basic Civil And Mechanical Lab',
+    code: '21MES101L',
+    pyqs: [
+      { name: 'END EXAM FORMAT QP APRIL 2025', link: 'https://drive.google.com/file/d/1WSB7BCYeH1WHVYgheznj2yFmtLsA4rSa/view?usp=sharing' }
+    ],
+    studyMaterials: [
+      { name: 'CIVIL MECH RECORD WITH ANSWERS', link: 'https://drive.google.com/file/d/1CzKK0w2jM17thuvhly5aItOhLQqxTjkk/view?usp=sharing' }
+    ]
+  },
 };
 
 // For backward compatibility - this structure is used in other components
