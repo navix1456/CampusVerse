@@ -1104,11 +1104,22 @@ export const subjectResources: Record<string, {
     youtube: []
   },
   'bpe101': {
-    name: 'Basic Programming Engineering',
+    name: 'Bioprocess Engineering',
     code: 'BPE101',
     pyqs: [],
-    studyMaterials: [],
-    youtube: []
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://drive.google.com/drive/folders/1f3HpC92GBKGwWujw2mYluG01bnMO_Tx0?usp=drive_link' },
+      { name: 'Unit 2 and 3 part 1', link: 'https://drive.google.com/file/d/1uScuWo-_2G8rFmzm0dj4ednloWw6bg_u/view?usp=sharing' },
+      { name: 'Unit 2 and 3 part 2', link: 'https://drive.google.com/file/d/1RRTxNCGymB9DyQvLltDva2crf_nNqAli/view?usp=sharing' },
+      { name: 'Unit 3', link: 'https://drive.google.com/file/d/18PXoeiVcCik3qx-6kv2F70vDWifeL7Pz/view?usp=drive_link' },
+      { name: 'Unit 4', link: 'https://drive.google.com/file/d/1kPMJGcBcw5iD7vYxvW-hU_r7vO5EGuhg/view?usp=drive_link' },
+      { name: 'Unit 5', link: 'https://drive.google.com/drive/folders/1F0GagwLhMu_zrG2UtXFIfx2ldGZ4h1vs?usp=drive_link' },
+      { name: 'Lab', link: 'https://drive.google.com/drive/folders/12Ui2wlTnYs5nkHN_Q-gvhYELXV7AjloC?usp=drive_link' },
+      { name: 'Assignments', link: 'https://drive.google.com/drive/folders/11Yr89FzwWLJ88QLpbJ6ruGw3NDbSJRec?usp=drive_link' },
+      { name: 'More Study Materials', link: 'https://drive.google.com/drive/folders/1xRxjQprhr0nLi-pWtqA4jB8WRn7KFxCp?usp=drive_link' }
+    ],
+    youtube: [],
+    syllabus: ''
   },
   'gac101': {
     name: 'Graphics and Animation',
