@@ -1,7 +1,6 @@
-
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Book, Home, Gift, Briefcase, Users, Github } from 'lucide-react';
+import { Menu, X, Book, Home, Gift, Briefcase, Users, Github, Shield } from 'lucide-react';
 
 const NavLink = ({ to, children, isActive }: { to: string; children: React.ReactNode; isActive: boolean }) => (
   <Link
@@ -85,16 +84,22 @@ const Navbar = () => {
                 <span>Placement</span>
               </div>
             </NavLink>
-            <NavLink to="/developer" isActive={location.pathname === '/developer'}>
+            <NavLink to="/about" isActive={location.pathname === '/about'}>
               <div className="flex items-center">
                 <Users size={16} className="mr-1" />
-                <span>Developer</span>
+                <span>About Us</span>
               </div>
             </NavLink>
             <NavLink to="/contribute" isActive={location.pathname === '/contribute'}>
               <div className="flex items-center">
                 <Github size={16} className="mr-1" />
                 <span>Contribute</span>
+              </div>
+            </NavLink>
+            <NavLink to="/privacy-policy" isActive={location.pathname === '/privacy-policy'}>
+              <div className="flex items-center">
+                <Shield size={16} className="mr-1" />
+                <span>Privacy</span>
               </div>
             </NavLink>
           </div>
@@ -135,16 +140,22 @@ const Navbar = () => {
                   <span>Placement</span>
                 </div>
               </Link>
-              <Link to="/developer" className="px-4 py-2 text-gray-200 hover:text-campus-neonBlue">
+              <Link to="/about" className="px-4 py-2 text-gray-200 hover:text-campus-neonBlue">
                 <div className="flex items-center">
                   <Users size={16} className="mr-2" />
-                  <span>Developer</span>
+                  <span>About Us</span>
                 </div>
               </Link>
               <Link to="/contribute" className="px-4 py-2 text-gray-200 hover:text-campus-neonBlue">
                 <div className="flex items-center">
                   <Github size={16} className="mr-2" />
                   <span>Contribute</span>
+                </div>
+              </Link>
+              <Link to="/privacy-policy" className="px-4 py-2 text-gray-200 hover:text-campus-neonBlue">
+                <div className="flex items-center">
+                  <Shield size={16} className="mr-2" />
+                  <span>Privacy</span>
                 </div>
               </Link>
             </div>

@@ -82,13 +82,12 @@ export const subjectResources: Record<string, {
       { name: 'Questions Bank', link: 'https://docs.google.com/document/d/1HW-C1-X8DRIdmMUOB2APuuq8YCKV1RtH/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
     ],
     studyMaterials: [
-      { name: 'Syllabus', link: 'https://drive.google.com/file/d/10f9OfiEaM3I3k3lEZgMob4GtyKW7FWIt/view' },
       { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1D0GFFKWgIjw5tGWK-NLgscvaOULlJHeY?usp=drive_link' },
     ],
-    syllabus: 'https://drive.google.com/file/d/10f9OfiEaM3I3k3lEZgMob4GtyKW7FWIt/view'
+    syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view'
   },
   'bms101': {
-    name: 'Business Management',
+    name: 'Biomedical Sensors',
     code: '',
     pyqs: [
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1q4mE8pPVbznCaoaKbhfGt7EazS2vmQyn/view?usp=drive_link' },
@@ -197,32 +196,21 @@ export const subjectResources: Record<string, {
       { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1Mgt2VtpzOxARAGFm6D2_cNl-s0PBHbAp?usp=drive_link' },
     ],
     studyMaterials: [
-      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link' },
+     
       { name: 'Chapter 1', link: 'https://drive.google.com/file/d/17QwIVxEPWAWVfVb8TIG3BWAerk2p2eHr/view?usp=drive_link' },
       { name: 'Chapter 2', link: 'https://drive.google.com/file/d/1fXqhZm_wb10iajTytYJX6jQeQEEfGRr0/view?usp=drive_link' },
       { name: 'Chapter 3', link: 'https://drive.google.com/file/d/1u-nTTGlL8UV9N9eSUQu5QSiRcr8ONdaF/view?usp=drive_link' },
       { name: 'Chapter 4', link: 'https://drive.google.com/file/d/1kqf6H-97BfmAg0IHQphi_s5wWPGOr9qe/view?usp=drive_link' },
       { name: 'Chapter 5', link: 'https://drive.google.com/file/d/1IjKM8Rr5JLIfAKbElM7UR_Oy2WXHZgV7/view?usp=drive_link' },
     ],
-    syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
+    
   },
   'pac101': {
     name: 'Physical and Analytical Chemistry',
     code: '',
     pyqs: [
-      { name: 'PYQ Dec 2024', link: 'https://drive.google.com/file/d/1gjpajPAfUg84IUfeA9NjTluLobSwLUwB/view' },
-      { name: 'PYQ Jan 2024', link: 'https://drive.google.com/file/d/1KgRUBM_yZ_QvL6XwUQdWxMbGkgnV8cXg/view?usp=sharing' },
-      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1hbrqGKecd5zDMoG5jvvdl7MoSCvjcpmN/view?usp=drive_link' },
-      { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1Y1EZ_B-ioHQ15BFFjfbjniQN201k27Ky/view?usp=drive_link' },
-      { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/14ESt98Kx7f_QUdGdLfK-aALfNboZNOUL/view?usp=drive_link' },
-      { name: 'PYQ Nov 2019', link: 'https://drive.google.com/file/d/1AkcM9g-yT12JK5IfCafbFi5ACZR4zdnX/view?usp=drive_link' },
-      { name: 'PYQ Dec 2023', link: 'https://drive.google.com/file/d/1zY89vKAr_-ding4XTgF-t-amR7SIfmDK/view?usp=drive_link' },
-      { name: 'CT PYQs', link: 'https://drive.google.com/drive/folders/1uo6dIWYACYSKr6x2pW8V1q8XaiLoLwRm?usp=sharing' },
-      { name: 'Important Topics', link: 'https://drive.google.com/file/d/1A5DzyF0VL2zOst3BbWvFb6CDmJ-YItzJ/view?usp=drive_link' },
-      { name: 'Important Questions', link: 'https://drive.google.com/file/d/1F1zXemq5Cw91y2m7lMaaq_QJOLPqXS0t/view?usp=drive_link' },
-      { name: 'Question Bank', link: 'https://drive.google.com/file/d/1YTRBDy_KOpeV3lsVcRYZ4Vb6sSZNW3p2/view?usp=drive_link' },
-      { name: 'MCQ Question Bank', link: 'https://drive.google.com/file/d/1aYOQ5vJHjkQ7KXMO4EMRka9IFrO01PvK/view?usp=drive_link' },
-      { name: 'Calculator List Updated For 2024', link: 'https://drive.google.com/file/d/1IR6Jk4-t-eYSJB-EX2uvBbyFTxc1oK0F/view?usp=drive_link' },
+      { name: 'Coming Soon', link: '' },
+      
     ],
     studyMaterials: [
       { name: 'Unit 1: Atomic Structure', link: '' },
@@ -232,7 +220,7 @@ export const subjectResources: Record<string, {
       { name: 'Unit 5: Electrochemistry', link: '' },
       { name: 'LAB MANUAL', link: 'https://webstor.srmist.edu.in/web_assets/downloads/2024/physical-analytical-chemistry-lab-manual.pdf' }
     ],
-    syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view?usp=drive_link'
+    
   },
   'frl101': {
     name: 'Foreign Language',
@@ -241,7 +229,7 @@ export const subjectResources: Record<string, {
       { name: 'PYQ For All Foreign Languages', link: 'https://drive.google.com/drive/folders/1ubbRRPwu5ycFEXOSFmCr3fWfUn_Xxlpf?usp=drive_linkf' },
     ],
     studyMaterials: [
-      { name: 'Syllabus', link: 'https://drive.google.com/file/d/14YAIXtPPiSaW_JlQ37rFHyUjOMzwAG8V/view?usp=sharing' },
+      
       { name: 'French Book', link: 'https://drive.google.com/file/d/1u_v_MLCXnprT6Ua9FyCxbXJocjaup4RF/view?usp=drive_link' },
       { name: 'French Book Translation', link: 'https://drive.google.com/file/d/1BB3d1Nd8IYgMY9KzoethflzkjUIRYRqk/view?usp=drive_link' },
       { name: 'German Book', link: 'https://drive.google.com/file/d/1r80qwekqlGVivHod9kOVWuxqc9pok3te/view?usp=drive_link' },
@@ -267,7 +255,6 @@ export const subjectResources: Record<string, {
       { name: 'Important Questions: CTs and SEM', link: 'https://drive.google.com/drive/folders/1yOXcvkndGCCtVDk6dlo1b0p-cGw5-2GD?usp=drive_link' },
     ],
     studyMaterials: [
-      { name: 'Syllabus', link: 'https://drive.google.com/file/d/1u8-CK7wHUpbGnnh36vbRjtsuW4DA1zuu/view?usp=drive_link' },
       { name: 'Chapter 1: Periodic Properties', link: 'https://drive.google.com/file/d/1PDJOwDIHMecthOEI2dgRgR0oULwHZYSV/view?usp=drive_link' },
       { name: 'Chapter 2: Use Of Free Energy In Chemical Equilibria', link: 'https://drive.google.com/file/d/1gV9B9r6yZo_t2oNlUPeVqrBiPgMzzjnE/view?usp=drive_link' },
       { name: 'Chapter 3: Stereo Chemistry And Organic Reactions', link: 'https://drive.google.com/file/d/110w12g6laqPUTXf9Jurb8MkJ6emkiYB7/view?usp=drive_link' },
