@@ -875,8 +875,15 @@ export const subjectResources: Record<string, {
       { name: 'PYQ DEC 2023', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/digital-logic-design/digital-logic-design-pyq/111143499/download/digital-logic-design-pyq.pdf' },
       { name: 'Question Bank', link: 'https://www.studocu.com/in/document/srm-institute-of-science-and-technology/digital-logic-design/question-bank/115444900?origin=university-course-page' }
     ],
-    studyMaterials: [],
-    youtube: []
+    studyMaterials: [
+      { name: 'Unit - 1', link: 'https://drive.google.com/drive/folders/1xQqYOtjZoKvAws6txapTEMtHa0d2LPZp?usp=drive_link' },
+      { name: 'Unit - 2', link: 'https://drive.google.com/drive/folders/1ByL8KGNqCqgihIPwtH8Y5JjPaJ0qZedw?usp=drive_link' },
+      { name: 'Unit - 3', link: 'https://drive.google.com/drive/folders/1VwSBY8CyS3OjoGhbcDhWhEoAceByexp1?usp=drive_link' },
+      { name: 'Unit - 4', link: 'https://drive.google.com/drive/folders/1H6n01_wsopN0X8mrcUNZLsg8wpRcKRm1?usp=drive_link' },
+      { name: 'Unit - 5', link: 'https://drive.google.com/drive/folders/1nr3dBk1enGeU9GtQhWlxLprvFlD37J3-?usp=drive_link' },
+      { name: 'More Study Materials', link: 'https://drive.google.com/drive/folders/1katPtttHZZkMHGHH1cnaemdCoMDZgF1J?usp=drive_link' }
+    ],
+    syllabus: 'https://drive.google.com/file/d/1XRr_XjXw6g1O8kXwF4k76-2hND8UyrVN/view'
   },
   'ssd101': {
     name: 'Solid State Devices',
