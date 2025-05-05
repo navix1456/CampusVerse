@@ -916,7 +916,7 @@ export const subjectResources: Record<string, {
       { name: 'Unit 2', link: '' },
       { name: 'Unit 3', link: '' },
       { name: 'Unit 4', link: '' },
-      { name: 'Unit 5', link: '' },
+      { name: 'Unit 5', link: '' }
     ],
     youtube: []
   },
@@ -1078,11 +1078,19 @@ export const subjectResources: Record<string, {
     youtube: []
   },
   'ccs101': {
-    name: 'Computer Communication Systems',
+    name: 'Cell Communication And Signaling',
     code: 'CCS101',
     pyqs: [],
-    studyMaterials: [],
-    youtube: []
+    studyMaterials: [
+      { name: 'Unit 1', link: 'https://drive.google.com/file/d/1j2EUJRPoww4wPiaDc1GBLswTJhVdmKQY/view?usp=drive_link' },
+      { name: 'Unit 2', link: 'https://drive.google.com/file/d/1sf-d1XeqwT4BTbzitIaH07bC58-sxFUs/view?usp=drive_link' },
+      { name: 'Unit 3', link: 'https://drive.google.com/file/d/1Ql3STcuvu0aM1QyPCu1jsj3CUxdkCqPY/view?usp=drive_link' },
+      { name: 'Unit 4', link: 'https://drive.google.com/file/d/1p0DjI44C9_mYna8jeEahjzrOGSd-jmak/view?usp=drive_linkk' },
+      { name: 'Unit 5', link: 'https://drive.google.com/file/d/1ZZMciffDKNeFfBe9UpL_yUTQghjK-9oN/view?usp=drive_link' },
+      { name: 'More Study Materials', link: 'https://drive.google.com/drive/folders/1hdedsw8Rbc2afD2iExQEBgPUtr7vGL6I?usp=drive_link' }
+    ],
+    youtube: [],
+    syllabus: ''
   },
   'mob101': {
     name: 'Mobile Computing',
