@@ -674,9 +674,9 @@ export const subjectResources: Record<string, {
     ],
     studyMaterials: [
       { name: 'Unit 1', link: 'https://drive.google.com/file/d/1Zms_a-iDpB5IvaDh-3xa0fKfdpjj4sjg/view?usp=sharing' },
-      { name: 'Unit 2', link: 'Coming Soon' },
+      { name: 'Unit 2', link: 'https://drive.google.com/file/d/1DUwBDQx2pFFSTVXU4kfMr75g9iwuxXj0/view?usp=sharing' },
       { name: 'Unit 3', link: 'https://docs.google.com/presentation/d/1t6wFh5KHGIhBjR3RrLyxouYg7aoYhhOg/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
-      { name: 'Unit 4', link: 'Coming Soon' },
+      { name: 'Unit 4', link: 'https://drive.google.com/file/d/18DNTjtr0TkrXxWd_lYtbG5_Fe2TP4xrU/view?usp=sharing' },
       { name: 'Unit 5', link: 'https://drive.google.com/file/d/1UY8C997l3CSttVgd2nUdzgm8dXs2yhlU/view?usp=drive_link' },
     ],
     syllabus: 'https://drive.google.com/file/d/1k2atwtw5sX0MuOyZl7sXIs3gQBM52ZKw/view?usp=drive_link'
@@ -778,11 +778,15 @@ export const subjectResources: Record<string, {
     code: 'PQT101',
     pyqs: [
       { name: 'CT Papers Compilation', link: 'https://drive.google.com/file/d/1zQh4mtmGc7YuIYe0IbfOzbjGUIH1crrz/view?usp=sharing' },
+      { name: 'PYQ 2024 MAY', link: 'https://drive.google.com/file/d/1EaA3bg8dothth-xDF7TYJ5-t3lWCVcuB/view?usp=sharing' },
+      { name: 'PYQ 2017', link: 'https://drive.google.com/file/d/1YnDHJrOFQaEy5ZwXxh4ZuoN5KTK7Xywt/view?usp=sharing' },
+      { name: 'IMPORTANT QUESTIONS(FOR TOPPERS)', link: 'https://drive.google.com/file/d/1WxjvglI6ZQwBfRmv7QEMBu7B9FkaBhae/view?usp=sharing' },
+      { name: 'IMPORTANT QUESTIONS PQT', link: 'https://drive.google.com/file/d/1H7InkuRF6aDN2xEQGffEVDRmPk5q9t0a/view?usp=sharing' }
     ],
     studyMaterials: [
       { name: 'Unit 1', link: 'https://drive.google.com/drive/folders/1hQn53A49uYx3KlGZDRc7L6AQZFwc75py?usp=drive_link' },
       { name: 'Unit 2', link: 'https://drive.google.com/drive/folders/1sw02282tT2-XlIg2Qh9Z45fJxKP2GscM?usp=drive_link' },
-      { name: 'Unit 3', link: 'Coming Soon' },
+      { name: 'Unit 3', link: 'https://drive.google.com/file/d/16oSkjNGG7z9G31dg9SA10EQR3j34p5Rv/view?usp=sharing' },
       { name: 'Unit 4', link: 'https://drive.google.com/drive/folders/1czNeYg50hxuE46PdZVjeiDV9xOhnxmXl?usp=drive_link' },
       { name: 'Unit 5', link: 'https://drive.google.com/drive/folders/14RHVvOfS_BWSW_bMBnHlff2OUPF4Jzso?usp=drive_link' },
     ],
@@ -1152,6 +1156,21 @@ export const subjectResources: Record<string, {
     studyMaterials: [
       { name: 'CIVIL MECH RECORD WITH ANSWERS', link: 'https://drive.google.com/file/d/1CzKK0w2jM17thuvhly5aItOhLQqxTjkk/view?usp=sharing' }
     ]
+  },
+  'bio102': {
+    name: 'Genetics And Cytogenetics',
+    code: 'BIO102',
+    pyqs: [ ],
+    studyMaterials: [
+      { name: 'Unit - 1', link: 'https://docs.google.com/presentation/d/1XgrULEDpBqQ8aIois6GvgfC6YdjXxvB1/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit - 2', link: 'https://docs.google.com/presentation/d/1pQHuogvkf9EKgNBnUwVC_1jF44IhH51Z/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit - 3', link: 'https://docs.google.com/presentation/d/1yQQ6M5bkt32MNT3cUdiWXCb2Vz3-VqCI/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit - 4', link: 'https://docs.google.com/presentation/d/1U2e-ZGEWa0o4HSklaspHj2emFIu1zbsz/edit?usp=drive' },
+      { name: 'Unit - 5', link: 'https://drive.google.com/drive/folders/16z0IvoRKru89LrJnD0_s-o2QH2tblSjo?usp=drive_link' },
+      { name: 'More Study Materials', link: 'https://drive.google.com/drive/folders/1093XFwC0u6Za2brAPUDcgLtvEGwFfrKB?usp=drive_link' }
+    ],
+    youtube: [],
+    syllabus: ''
   },
 };
 
