@@ -118,7 +118,7 @@ const Placement = () => {
           <div className="mt-8 flex flex-col items-center gap-6">
             <div className="glass-card p-4 rounded-lg max-w-md">
               <img 
-                src="/lovable-uploads/d95674d1-2c4b-4f94-84c2-dbc4cf607e30.png" 
+                src="/uploads/d95674d1-2c4b-4f94-84c2-dbc4cf607e30.png" 
                 alt="Placement Insight Dashboard Logo" 
                 className="w-full"
               />
@@ -126,7 +126,7 @@ const Placement = () => {
             
             <div className="glass-card p-4 rounded-lg w-full">
               <img 
-                src="/lovable-uploads/3cfa8070-714e-47c5-a960-4376b3e71a08.png" 
+                src="/uploads/3cfa8070-714e-47c5-a960-4376b3e71a08.png" 
                 alt="Placement Insight Dashboard Interface" 
                 className="w-full rounded"
               />

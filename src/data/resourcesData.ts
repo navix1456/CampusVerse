@@ -51,25 +51,25 @@ export const subjectResources: Record<string, {
       {
         name: 'Dr. E. Suresh',
         link: 'https://www.youtube.com/@dresuresh/featured',
-        thumbnail: '/lovable-uploads/yt_suresh.jpg',
+        thumbnail: '/uploads/yt_suresh.jpg',
       },
       {
         name: 'Dr. P. Godhanda Raman',
         link: 'https://www.youtube.com/@profpgraman/videos',
-        thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
+        thumbnail: '/uploads/yt_godhandaraman.jpg',
       },
       {
         name: 'Dr. E. Sujatha - Mathemagic',
         link: 'https://www.youtube.com/@sujathae4270',
-        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
+        thumbnail: '/uploads/yt_sujatha.jpg',
       },
       {
         name: 'Alex Maths',
         link: 'https://www.youtube.com/@AlexMathsEngineering/videos',
-        thumbnail: '/lovable-uploads/yt_alexmaths.jpg',
+        thumbnail: '/uploads/yt_alexmaths.jpg',
       },
     ],
-    syllabus: 'https://drive.google.com/file/d/10f9OfiEaM3I3k3lEZgMob4GtyKW7FWIt/view'
+    syllabus: 'https://drive.google.com/drive/folders/1PXNqDvXwL0a5HaaIhqUBU3DVsIjPQcki'
   },
   'foe101': {
     name: 'Linear Algebra',
@@ -291,22 +291,22 @@ export const subjectResources: Record<string, {
       {
         name: 'Dr. E. Suresh',
         link: 'https://www.youtube.com/@dresuresh/featured',
-        thumbnail: '/lovable-uploads/yt_suresh.jpg',
+        thumbnail: '/uploads/yt_suresh.jpg',
       },
       {
         name: 'Dr. P. Godhanda Raman',
         link: 'https://www.youtube.com/@profpgraman/videos',
-        thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
+        thumbnail: '/uploads/yt_godhandaraman.jpg',
       },
       {
         name: 'Dr. E. Sujatha - Mathemagic',
         link: 'https://www.youtube.com/@sujathae4270',
-        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
+        thumbnail: '/uploads/yt_sujatha.jpg',
       },
       {
         name: 'Alex Maths',
         link: 'https://www.youtube.com/@AlexMathsEngineering/videos',
-        thumbnail: '/lovable-uploads/yt_alexmaths.jpg',
+        thumbnail: '/uploads/yt_alexmaths.jpg',
       },
     ],
     syllabus: 'https://drive.google.com/file/d/1Z4x2a6CdBriOTDFbWWG4R77o-hk1BdiB/view?usp=drive_link'
@@ -602,22 +602,22 @@ export const subjectResources: Record<string, {
       {
         name: 'Dr. E. Suresh',
         link: 'https://www.youtube.com/@dresuresh/featured',
-        thumbnail: '/lovable-uploads/yt_suresh.jpg',
+        thumbnail: '/uploads/yt_suresh.jpg',
       },
       {
         name: 'Dr. P. Godhanda Raman',
         link: 'https://www.youtube.com/@profpgraman/videos',
-        thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
+        thumbnail: '/uploads/yt_godhandaraman.jpg',
       },
       {
         name: 'Dr. E. Sujatha - Mathemagic',
         link: 'https://www.youtube.com/@sujathae4270',
-        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
+        thumbnail: '/uploads/yt_sujatha.jpg',
       },
       {
         name: 'Alex Maths',
         link: 'https://www.youtube.com/@AlexMathsEngineering/videos',
-        thumbnail: '/lovable-uploads/yt_alexmaths.jpg',
+        thumbnail: '/uploads/yt_alexmaths.jpg',
       },
     ],
     syllabus: 'https://drive.google.com/file/d/1817TcuyeTBy1V0sJ_Cn8pYyPaW32aY9p/view?usp=drive_link'
@@ -734,12 +734,12 @@ export const subjectResources: Record<string, {
       {
         name: 'Paulraj Ganesan Drawing [CAD DRAFTER]',
         link: 'https://www.youtube.com/@paulrajganesan7698',
-        thumbnail: '/lovable-uploads/yt_paulraj.jpg'
+        thumbnail: '/uploads/yt_paulraj.jpg'
       },
       {
         name: 'AutoCAD SRM',
         link: 'https://www.youtube.com/@Autocadtr/videos',
-        thumbnail: '/lovable-uploads/yt_autocad.jpg'
+        thumbnail: '/uploads/yt_autocad.jpg'
       }
     ]
   },
@@ -794,22 +794,22 @@ export const subjectResources: Record<string, {
       {
         name: 'Dr. E. Suresh',
         link: 'https://www.youtube.com/@dresuresh/featured',
-        thumbnail: '/lovable-uploads/yt_suresh.jpg',
+        thumbnail: '/uploads/yt_suresh.jpg',
       },
       {
         name: 'Dr. P. Godhanda Raman',
         link: 'https://www.youtube.com/@profpgraman/videos',
-        thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
+        thumbnail: '/uploads/yt_godhandaraman.jpg',
       },
       {
         name: 'Dr. E. Sujatha - Mathemagic',
         link: 'https://www.youtube.com/@sujathae4270',
-        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
+        thumbnail: '/uploads/yt_sujatha.jpg',
       },
       {
         name: 'Alex Maths',
         link: 'https://www.youtube.com/@AlexMathsEngineering/videos',
-        thumbnail: '/lovable-uploads/yt_alexmaths.jpg',
+        thumbnail: '/uploads/yt_alexmaths.jpg',
       },
     ],
     syllabus: 'https://drive.google.com/file/d/1uQyOIFlqvm5SdSdOHVIdrvDRuj9PqX8z/view?usp=drive_link'
@@ -842,22 +842,22 @@ export const subjectResources: Record<string, {
       {
         name: 'Dr. E. Suresh',
         link: 'https://www.youtube.com/@dresuresh/featured',
-        thumbnail: '/lovable-uploads/yt_suresh.jpg',
+        thumbnail: '/uploads/yt_suresh.jpg',
       },
       {
         name: 'Dr. P. Godhanda Raman',
         link: 'https://www.youtube.com/@profpgraman/videos',
-        thumbnail: '/lovable-uploads/yt_godhandaraman.jpg',
+        thumbnail: '/uploads/yt_godhandaraman.jpg',
       },
       {
         name: 'Dr. E. Sujatha - Mathemagic',
         link: 'https://www.youtube.com/@sujathae4270',
-        thumbnail: '/lovable-uploads/yt_sujatha.jpg',
+        thumbnail: '/uploads/yt_sujatha.jpg',
       },
       {
         name: 'Alex Maths',
         link: 'https://www.youtube.com/@AlexMathsEngineering/videos',
-        thumbnail: '/lovable-uploads/yt_alexmaths.jpg',
+        thumbnail: '/uploads/yt_alexmaths.jpg',
       },
     ],
   },
@@ -1063,7 +1063,7 @@ export const subjectResources: Record<string, {
       { name: 'UNIT 1 PPT', link: 'https://view.officeapps.live.com/op/view.aspx?src=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT1/Compier%20Design_Unit%20I.pptx' },
       { name: 'UNIT 1 NOTES', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT1/CD%20UNIT1.pdf&embedded=true' },
       { name: 'CT1 IMPORTANT QUESTIONS', link: 'https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT1/ct1(2nd).jpg' },
-      { name: 'UNIT 2 AND 3 NOTES', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/UNIT%20-%202%20%26%203.pdf&embedded=true' },
+      { name: 'UNIT 2 AND 3 NOTES', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/UNIT%20-%202%26%203.pdf&embedded=true' },
       { name: 'UNIT 2 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/Compiler%20Design%20Unit-2.pdf&embedded=true' },
       { name: 'UNIT 3 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT2/Compiler%20Design%20Unit-3.pdf&embedded=true' },
       { name: 'UNIT 4 PPT', link: 'https://docs.google.com/viewer?url=https://raw.githubusercontent.com/BharathwajManoharan/SRM_CSE_NOTES_PART_03/main/18CSC304J/Theory/CT3/notes%20cd%20Unit%20-%20IV.pdf&embedded=true' },

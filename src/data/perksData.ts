@@ -44,7 +44,7 @@ export const perksData = {
       link: "https://www.figma.com/education/"
     },
     {
-      logo: "/lovable-uploads/c86a8de3-d83a-480a-b3dd-773a80fd5b99.png",
+      logo: "/uploads/c86a8de3-d83a-480a-b3dd-773a80fd5b99.png",
       title: "AWS Educate",
       description: "Free learning resources and credit programs for cloud computing. Build on AWS for free!",
       link: "https://aws.amazon.com/education/awseducate/"
@@ -58,7 +58,7 @@ export const perksData = {
       link: "https://www.notion.so/students"
     },
     {
-      logo: "/lovable-uploads/a3567f39-5479-41c1-b930-6a902f50b1bb.png",
+      logo: "/uploads/a3567f39-5479-41c1-b930-6a902f50b1bb.png",
       title: "Datacamp",
       description: "50% off data science & AI courses. Perfect for building your data science skills!",
       link: "https://www.datacamp.com/github-students"
@@ -84,7 +84,7 @@ export const perksData = {
       link: "https://support.apple.com/en-in/106008"
     },
     {
-      logo: "/lovable-uploads/e2773877-f6f9-43fb-90cd-1720fb5707e8.png",
+      logo: "/uploads/e2773877-f6f9-43fb-90cd-1720fb5707e8.png",
       title: "YouTube Premium",
       description: "1 month free + special student pricing. Ad-free videos, background play, and downloads!",
       link: "https://www.youtube.com/premium/student"
@@ -92,19 +92,19 @@ export const perksData = {
   ],
   tools: [
     {
-      logo: "/lovable-uploads/7255edb1-d24b-4091-bcd2-9accdb6eadc3.png",
+      logo: "/uploads/7255edb1-d24b-4091-bcd2-9accdb6eadc3.png",
       title: "NordVPN",
       description: "69% off + 3 months free for secure browsing and streaming. Protect your online privacy!",
       link: "https://nordvpn.com/student-discount/"
     },
     {
-      logo: "/lovable-uploads/1ca463bc-f26b-42be-99a7-ce1dbe33bf54.png",
+      logo: "/uploads/1ca463bc-f26b-42be-99a7-ce1dbe33bf54.png",
       title: "Surfshark",
       description: "80% off VPN plan for secure and private internet access. Great for global content!",
       link: "https://surfshark.com/student-discount"
     },
     {
-      logo: "/lovable-uploads/6fa17ef2-4ddb-4e45-a3d3-e8fecde50574.png",
+      logo: "/uploads/6fa17ef2-4ddb-4e45-a3d3-e8fecde50574.png",
       title: "Dashlane",
       description: "1 year free password manager for students. Keep your accounts secure and organized!",
       link: "https://www.dashlane.com/students"
@@ -138,13 +138,13 @@ export const perksData = {
       link: "https://www.chess.com/students"
     },
     {
-      logo: "/lovable-uploads/75188cb6-32ff-46cd-86a9-a07690876509.png",
+      logo: "/uploads/75188cb6-32ff-46cd-86a9-a07690876509.png",
       title: "Rakuten Kobo",
       description: "30% off eBooks & audiobooks. Build your digital library for less!",
       link: "https://www.kobo.com/us/en/p/student?srsltid=AfmBOopcft6E__O5009fCHPzgEpxK0Kvcu17b-IFOZw36k8LlxbEsdut"
     },
     {
-      logo: "/lovable-uploads/8a1c1760-eff8-4a35-b366-113d8f2e9020.png",
+      logo: "/uploads/8a1c1760-eff8-4a35-b366-113d8f2e9020.png",
       title: "Medium",
       description: "25% off annual membership. Read unlimited articles from top writers and publications!",
       link: "https://help.medium.com/hc/en-us/articles/12846216085143-Redeeming-student-discounts"
