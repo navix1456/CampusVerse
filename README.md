@@ -25,7 +25,7 @@ Follow these steps to run the project locally:
 git clone https://github.com/your-username/campusverse-glow-hub.git
 
 # Step 2: Navigate to the project directory
-cd campusverse-glow-hub
+cd CampusVerse
 
 # Step 3: Install dependencies
 npm install
