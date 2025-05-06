@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import { Upload, Book, Video, AlertTriangle, MessageSquare } from 'lucide-react';
 import ContributorCard from '../components/ContributorCard';
+import { Button } from '../components/ui/button';
 
 const ContributionCard = ({ icon, title, description, link }: {
   icon: React.ReactNode;
@@ -35,6 +36,18 @@ const Contribute = () => {
         <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
           Help us build a comprehensive resource hub for all students. Share your knowledge and materials to support the community.
         </p>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-12">
+          <a href="/contribute-instructions" className="w-full md:w-auto">
+            <Button className="w-full md:w-auto" variant="default" size="lg">
+              CONTRIBUTE VIA GITHUB
+            </Button>
+          </a>
+          <a href="https://chat.whatsapp.com/GJApsQYmqZ18rJk822MZe4" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto">
+            <Button className="w-full md:w-auto bg-[#25D366] hover:bg-[#25D366]/90 text-white" variant="default" size="lg">
+              CONTRIBUTE VIA WHATSAPP
+            </Button>
+          </a>
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
           <ContributionCard

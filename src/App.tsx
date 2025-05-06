@@ -12,6 +12,7 @@ import Contribute from "./pages/Contribute";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 import WhatsAppPopup from "./components/WhatsAppPopup";
+import ContributeInstructions from "./pages/ContributeInstructions";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/placement" element={<Placement />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contribute" element={<Contribute />} />
+          <Route path="/contribute-instructions" element={<ContributeInstructions />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
