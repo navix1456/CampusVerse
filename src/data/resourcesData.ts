@@ -40,11 +40,11 @@ export const subjectResources: Record<string, {
       { name: 'Unit 3 Question Bank', link: 'https://drive.google.com/file/d/1i6IlFJTnun6jYLI0WXWW55zz-c0K-mvK/view?usp=drive_link' },
       { name: 'Unit 4 Question Bank', link: 'https://drive.google.com/file/d/1pfXp7Bpk2mS0lRNooWW8Bd9xXKDg7hUR/view?usp=drive_link' },
       { name: 'Unit 5 Question Bank', link: 'https://drive.google.com/file/d/1wEDmoPpnAlQyeGF-4gRnuVfQeriyoPOj/view?usp=drive_link' },
-      { name: 'Chapter 1: Matrices (PPT)', link: 'https://drive.google.com/file/d/1DJtRi7pVqRQB8FvzBpEn-XxKiUImk_P4/view?usp=sharing' },
-      { name: 'Chapter 2: Functions Of Several Variables (PPT)', link: 'https://drive.google.com/drive/folders/1SpNIkGywR7ZKowUDPxhZZl-yTpHua0M2' },
+      { name: 'Chapter 1: Matrices (PPT)', link: 'https://docs.google.com/presentation/d/1X0wAQ4BlLFJlSXpMHNF9FpVTGOjdy4yk/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Chapter 2: Functions Of Several Variables (PPT)', link: 'https://drive.google.com/file/d/1N_t-WvVhslPdP666T5iEwxplk016Lgev/view?usp=sharing' },
       { name: 'Chapter 3: Ordinary Differential Equations (PPT)', link: 'https://drive.google.com/file/d/13LsREawRTw38KjCnVM3d-1Fg01zJnI3o/view?usp=sharing' },
       { name: 'Chapter 4: Differential Calculus And Beta Gamma Functions (PPT)', link: 'https://docs.google.com/presentation/d/1n5lMSNnErCp0FLCUKm1w0KAxn0scqX8T/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
-      { name: 'Chapter 5: Sequence And Series (PPT)', link: 'https://drive.google.com/file/d/1rDg--eBJLAU4GgazGCNKr7nbaMU2CtR7/view?usp=sharing' },
+      { name: 'Chapter 5: Sequence And Series (PPT)', link: 'https://drive.google.com/file/d/1x82rpSOIL2KQpfPJsAdvtIf1NRGv1Oh6/view?usp=sharing' },
       { name: 'More Resources and Video Lectures from SRM', link: 'https://drive.google.com/drive/folders/1sJuCZdgQhQKVo6CRfOMH8gQCRzcYYxBG' }
     ],
     youtube: [
