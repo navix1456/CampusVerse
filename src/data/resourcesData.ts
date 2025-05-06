@@ -246,7 +246,7 @@ export const subjectResources: Record<string, {
     pyqs: [
       { name: 'PYQ May 2024', link: 'https://drive.google.com/file/d/1ltQ5xHHFgB1gmbocWo52uYIYYtnj-pkm/view?usp=drive_link' },
       { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1kDnKDaw8oMrL61uBZVrOvM6xfZfMTmit/view?usp=drive_link' },
-      { name: 'PYQ Jan 2023', link: 'https://drive.google.com/file/d/1jP5MRBCjyL6FXeHkU8Z1c1B61hSVbcaF/view?usp=drive_link' },
+      { name: 'PYQ Jan 2023', link: 'https://drive.google.com/drive/folders/1lrtBwvJ3HVZPi_DH3i04uKxBMcCFLekw' },
       { name: 'PYQ May 2019', link: 'https://drive.google.com/file/d/1nLsCMyXbPIoSnnkx1NV1Tp7a8nULg45W/view?usp=drive_link' },
       { name: 'PYQ Nov 2018', link: 'https://drive.google.com/file/d/11cW7z_Wuz6ULxveRQdaJNyzRSBc178Z_/view?usp=drive_link' },
       { name: 'More PYQs', link: 'https://drive.google.com/file/d/1ditInShGvFfjdH-BQcUVQCaXGkpRnU2p/view?usp=drive_link' },
