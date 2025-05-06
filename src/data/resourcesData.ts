@@ -332,15 +332,15 @@ export const subjectResources: Record<string, {
     ],
     studyMaterials: [
       { name: 'Syllabus', link: 'https://drive.google.com/file/d/1dNcJUoFAOa7Pze0Vdy93sDyxEpeb1AUC/view?usp=drive_link' },
-      { name: 'Unit 1 - Electric Circuits', link: 'https://docs.google.com/presentation/d/1bPBwdQyolajpl_Yvnf9FN6PH9PLfFvHU/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
-      { name: 'Unit 2 - Electronics', link: 'https://docs.google.com/presentation/d/1Fl_HnPxNwC-p8cwsiBbbXKU_JQ4pPiRQ/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
-      { name: 'Unit 3 - Machines And Drives', link: 'https://docs.google.com/presentation/d/1ZiRH5sw__xM09kSlR4YVeLrHznPrNQx6/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
-      { name: 'Unit 4 - Transducers And Sensors', link: 'https://docs.google.com/presentation/d/1j0drvyL_Rxl-h_hFfD3jrVe81eZes_X9/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
-      { name: 'Unit 5 - Power Engineering', link: 'https://docs.google.com/presentation/d/1h1sL6cPtkkg__FsqnePeT1bh_ink0_qq/edit?usp=drive_link&ouid=104856686103320873965&rtpof=true&sd=true' },
+      { name: 'Unit 1 - Electric Circuits', link: 'https://drive.google.com/drive/folders/1DciXEtZyaXAi6ksSa7zuKr-e0BZOZKZt' },
+      { name: 'Unit 2 - Electronics', link: 'https://drive.google.com/drive/folders/1DciXEtZyaXAi6ksSa7zuKr-e0BZOZKZt' },
+      { name: 'Unit 3 - Machines And Drives', link: 'https://drive.google.com/drive/folders/1DciXEtZyaXAi6ksSa7zuKr-e0BZOZKZt' },
+      { name: 'Unit 4 - Transducers And Sensors', link: 'https://drive.google.com/drive/folders/1DciXEtZyaXAi6ksSa7zuKr-e0BZOZKZt' },
+      { name: 'Unit 5 - Power Engineering', link: 'https://drive.google.com/drive/folders/1DciXEtZyaXAi6ksSa7zuKr-e0BZOZKZt' },
       { name: 'EEE Lab Manual', link: 'https://drive.google.com/file/d/1rCMKo4AJaey13AEQ7vU3rWzw7WcxOm3f/view?usp=drive_link' },
       { name: 'EEE Book', link: 'https://drive.google.com/file/d/177_vU4n7lRah8dNuVtiiBp4t9MPEFZ0E/view?usp=drive_link' },
-      { name: 'Handwritten Notes by THE HELPER', link: 'https://drive.google.com/drive/folders/1phV20ArTBNES6Dsp1nwYIb_BxYMBe4vt?usp=sharing' },
-      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1X96eA7O-4-mozGf65mf8STMFKQa6MR2q?usp=drive_link' },
+      { name: 'Handwritten Notes by THE HELPER', link: 'https://drive.google.com/drive/folders/1DciXEtZyaXAi6ksSa7zuKr-e0BZOZKZt' },
+      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1DciXEtZyaXAi6ksSa7zuKr-e0BZOZKZt' },
     ],
     syllabus: 'https://drive.google.com/file/d/1dNcJUoFAOa7Pze0Vdy93sDyxEpeb1AUC/view?usp=drive_link'
   },
@@ -387,12 +387,12 @@ export const subjectResources: Record<string, {
       { name: 'More Questions', link: 'https://drive.google.com/file/d/1gUeqNXL3SeVyhahUh6x-KsCG3ldF1eys/view?usp=sharing' }
     ],
     studyMaterials: [
-      { name: 'Chapter 1: Introduction To OOPS', link: 'https://drive.google.com/file/d/19FDqGruYLCRlY5X5QMs9Yv9T8ud0_vjH/view?usp=drive_link' },
-      { name: 'Chapter 2: Methods And Polymorphism', link: 'https://drive.google.com/file/d/1oZGWe7fU9IUy9UXifmRzii91BCuA3OEJ/view?usp=drive_link' },
-      { name: 'Chapter 3: Inheritence', link: 'https://drive.google.com/file/d/1aqEFFQ3xJutAmWnRt5UW9xRNxlhhPyHH/view?usp=drive_link' },
-      { name: 'Chapter 4: Generic Programming', link: 'https://drive.google.com/file/d/1OlzxlgqgTa8epRI9VFKkKWyyz0AW8KiN/view?usp=drive_link' },
-      { name: 'Chapter 5: Standard Template Library', link: 'https://drive.google.com/file/d/1vFqpdYIbEiQgR0PS8y4Ked8EdkAjKHu6/view?usp=drive_link' },
-      { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1S5aCLxCbvepfvEvfCwd9jMRjA8tHW9SW?usp=drive_link' }
+      { name: 'Chapter 1: Introduction To OOPS', link: 'https://docs.google.com/presentation/d/1armQkN8Xq6eZcGtA14LwnjM8mBQL3WyS/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Chapter 2: Methods And Polymorphism', link: 'https://docs.google.com/presentation/d/1armQkN8Xq6eZcGtA14LwnjM8mBQL3WyS/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Chapter 3: Inheritence', link: 'https://docs.google.com/presentation/d/1armQkN8Xq6eZcGtA14LwnjM8mBQL3WyS/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Chapter 4: Generic Programming', link: 'https://docs.google.com/presentation/d/1armQkN8Xq6eZcGtA14LwnjM8mBQL3WyS/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Chapter 5: Standard Template Library', link: 'https://docs.google.com/presentation/d/1armQkN8Xq6eZcGtA14LwnjM8mBQL3WyS/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Study Material Drive Link', link: 'https://docs.google.com/presentation/d/1armQkN8Xq6eZcGtA14LwnjM8mBQL3WyS/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' }
     ],
     syllabus: 'https://drive.google.com/file/d/13Uo3zCTnPxD8G8dYmiMbLe9mh9JnmoRz/view?usp=drive_link'
   },
