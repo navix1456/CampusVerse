@@ -1,6 +1,5 @@
 # CampusVerse - SRM Resource Hub
 
-## Live Demo
 **URL**: https://campusverse-srm.vercel.app/
 
 ## Project Overview
@@ -46,6 +45,5 @@ npm run dev
 
 ## Contributing
 We welcome contributions! Please feel free to submit a Pull Request.
-
-## License
-This project is licensed under the MIT License.
+INTERESTED TO CONTRIBUTE VIA GITHUB (MAKING PULL REQUESTS)-
+OR WANNA SEND US IN OUR WHATSAPP COMMUNITY - 
