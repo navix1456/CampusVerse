@@ -149,7 +149,7 @@ export const subjectResources: Record<string, {
       { name: 'Chapter 2', link: 'https://drive.google.com/drive/folders/15qqWbCXr5Rd0UL1opZB5vpPQDn3AsZMG?usp=drive_link' },
       { name: 'Chapter 3', link: 'https://drive.google.com/drive/folders/1d3mCBRey2ZjNgkiWW-zxSBqUx61d2m7l?usp=drive_link' },
       { name: 'Chapter 4', link: 'https://drive.google.com/drive/folders/130zDzZqQELfPW25E2-1FM5MQuqYKdaXc?usp=drive_link' },
-      { name: 'Chapter 5', link: 'https://drive.google.com/drive/folders/1dF2v7hE1_0MmiByuiY1M4xPJ6DLPuyoY?usp=drive_link' },
+      { name: 'Chapter 5', link: 'https://docs.google.com/document/d/1DSKwyPOatcLjz1I8IIcufIMfftjsencD/edit?usp=sharing&ouid=105740378810387406165&rtpof=true&sd=true' },
       { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1eUUUl5O3Crs9reqX1RmQRkMqidK7VRV5?usp=drive_link' },
       { name: 'Study Material Drive Link From NCR Campus (By BTECH CRUX)', link: 'https://drive.google.com/drive/folders/1bZ7YrbQPczxJgGrmHLjOpZUX3XhwWLog?usp=drive_link' },
       { name: 'PPS Semester Exam Strategies', link: 'https://docs.google.com/document/d/1hGtMfxy7Np1JHq5kztHJoq4R40_voVELrCs2fk-IowI/edit?usp=drive_link' },
