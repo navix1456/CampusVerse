@@ -88,10 +88,6 @@ const Contribute = () => {
           <h2 className="text-3xl font-bold mb-8 text-center gradient-text">Credits</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <ContributorCard
-              name="The Helpers"
-              link="https://thehelpers.vercel.app/"
-            />
-            <ContributorCard
               name="Bharathwaj Manoharan"
               link="https://github.com/BharathwajManoharan"
             />
