@@ -113,16 +113,16 @@ export const subjectResources: Record<string, {
     ],
     studyMaterials: [
       { name: 'Syllabus', link: 'https://drive.google.com/file/d/1W78ErNNrFzNixKGBGO11I8XZSkpDj59d/view?usp=drive_link' },
-      { name: 'Chapter 1: Introduction To Philosophy Of Engineering', link: 'https://drive.google.com/file/d/1h1COyop7_Ry0AallhAgD6R_Wmb7bcW-c/view?usp=drive_link' },
-      { name: 'Chapter 2: Ontology Of Engineering', link: 'https://drive.google.com/file/d/1huvTad5h7kBF_DgLR0RtJBa1IHQsZYlG/view?usp=drive_link' },
-      { name: 'Chapter 3: Epistemology Of Engineering', link: 'https://drive.google.com/file/d/1ZzSDuNrlj6ilgRRJEQ05nc2cV5A7Xvll/view?usp=drive_link' },
-      { name: 'Chapter 4: Methodology Of Engineering', link: 'https://drive.google.com/file/d/11kKaqlSkik4bZkfhrrwdDk3mtGXS1IvE/view?usp=drive_link' },
-      { name: 'Chapter 5: Axiology Of Engineering', link: 'https://drive.google.com/file/d/1GThAKbgksVDuRTjOGX-5dXRo7l4fYNFy/view?usp=drive_link' },
+      { name: 'Chapter 1: Introduction To Philosophy Of Engineering', link: 'https://docs.google.com/document/d/1Isog7KE0mc-SzK6EkXEO2sYGLQ176PLZ/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Chapter 2: Ontology Of Engineering', link: 'https://docs.google.com/document/d/1ynZoLYCQ4S8fHKijc3tnJasR_TGXns2Q/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Chapter 3: Epistemology Of Engineering', link: 'https://docs.google.com/document/d/1wa5bdLyruKBFREDAf5tyengkeQzEXNSS/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Chapter 4: Methodology Of Engineering', link: 'https://docs.google.com/document/d/1yaTPvXDwBPUNfepvsf-i8YDkywbNZ56o/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
+      { name: 'Chapter 5: Axiology Of Engineering', link: 'https://docs.google.com/document/d/1UxbQFR6dlNWyU12UkFS9rvgjX-i00QSG/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true' },
       { name: 'Study Material Drive Link', link: 'https://drive.google.com/drive/folders/1gs-IjIYanHX0EWNXolPD22nrhR9pFP7h?usp=drive_link' },
       { name: 'POE Semester Exam Strategies', link: 'https://docs.google.com/document/d/1y4aSOEgYRtntJ-_BxtCGCfCdzYK6kiyDtxMOu2_rVP0/edit?usp=drive_link' },
       { name: 'Sem Exams General Rules', link: 'https://drive.google.com/file/d/1IhGYn-Hq50hu5Fcmwr23jgf5PL-T9tB8/view?usp=drive_link' },
     ],
-    syllabus: 'https://drive.google.com/file/d/1W78ErNNrFzNixKGBGO11I8XZSkpDj59d/view?usp=drive_link'
+    syllabus: 'https://docs.google.com/document/d/1x_xKG826gyJbR6zAOS4iVHhV6cciCBIm/edit?usp=sharing&ouid=104405264596357734686&rtpof=true&sd=true'
   },
   'pps101': {
     name: 'Programming for Problem Solving',
