@@ -13,6 +13,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 import WhatsAppPopup from "./components/WhatsAppPopup";
 import ContributeInstructions from "./pages/ContributeInstructions";
+import CGPACalculator from "./pages/CGPACalculator";
+import GradeCalculator from "./pages/GradeCalculator";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +34,8 @@ const App = () => (
           <Route path="/contribute" element={<Contribute />} />
           <Route path="/contribute-instructions" element={<ContributeInstructions />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/cgpa-calculator" element={<CGPACalculator />} />
+          <Route path="/grade-calculator" element={<GradeCalculator />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

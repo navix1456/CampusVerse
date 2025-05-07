@@ -1,6 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Book, Home, Gift, Briefcase, Users, Github, Shield } from 'lucide-react';
+import { Menu, X, Book, Home, Gift, Briefcase, Users, Github, Shield, Calculator } from 'lucide-react';
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem
+} from './ui/dropdown-menu';
 
 const NavLink = ({ to, children, isActive }: { to: string; children: React.ReactNode; isActive: boolean }) => (
   <Link
@@ -84,6 +90,26 @@ const Navbar = () => {
                 <span>Placement</span>
               </div>
             </NavLink>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button className={`relative px-4 py-2 transition-all duration-300 flex items-center ${
+                  location.pathname.startsWith('/cgpa-calculator') || location.pathname.startsWith('/grade-calculator')
+                    ? 'text-campus-neonBlue'
+                    : 'text-gray-200 hover:text-campus-neonBlue'
+                }`}>
+                  <Calculator size={16} className="mr-1" />
+                  <span>Calculator</span>
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="start">
+                <DropdownMenuItem asChild>
+                  <Link to="/cgpa-calculator">CGPA Calculator</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link to="/grade-calculator">Grade Calculator</Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
             <NavLink to="/about" isActive={location.pathname === '/about'}>
               <div className="flex items-center">
                 <Users size={16} className="mr-1" />
@@ -96,12 +122,14 @@ const Navbar = () => {
                 <span>Contribute</span>
               </div>
             </NavLink>
+            {/*
             <NavLink to="/privacy-policy" isActive={location.pathname === '/privacy-policy'}>
               <div className="flex items-center">
                 <Shield size={16} className="mr-1" />
                 <span>Privacy</span>
               </div>
             </NavLink>
+            */}
           </div>
 
           {/* Mobile Navigation Toggle */}
@@ -140,6 +168,19 @@ const Navbar = () => {
                   <span>Placement</span>
                 </div>
               </Link>
+              {/* Calculator collapsible section */}
+              <div className="px-4 py-2">
+                <details>
+                  <summary className="flex items-center text-gray-200 hover:text-campus-neonBlue cursor-pointer select-none">
+                    <Calculator size={16} className="mr-2" />
+                    <span>Calculator</span>
+                  </summary>
+                  <div className="ml-6 mt-2 flex flex-col space-y-2">
+                    <Link to="/cgpa-calculator" className="text-gray-200 hover:text-campus-neonBlue">CGPA Calculator</Link>
+                    <Link to="/grade-calculator" className="text-gray-200 hover:text-campus-neonBlue">Grade Calculator</Link>
+                  </div>
+                </details>
+              </div>
               <Link to="/about" className="px-4 py-2 text-gray-200 hover:text-campus-neonBlue">
                 <div className="flex items-center">
                   <Users size={16} className="mr-2" />
@@ -152,12 +193,14 @@ const Navbar = () => {
                   <span>Contribute</span>
                 </div>
               </Link>
+              {/*
               <Link to="/privacy-policy" className="px-4 py-2 text-gray-200 hover:text-campus-neonBlue">
                 <div className="flex items-center">
                   <Shield size={16} className="mr-2" />
                   <span>Privacy</span>
                 </div>
               </Link>
+              */}
             </div>
           </div>
         )}
