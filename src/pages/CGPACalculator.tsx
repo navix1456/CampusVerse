@@ -3,6 +3,7 @@ import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
+import Navbar from '../components/Navbar';
 
 interface Subject {
   credits: number;
@@ -59,78 +60,81 @@ const CGPACalculator = () => {
   };
 
   return (
-    <div className="min-h-screen pb-12 px-4 max-w-4xl mx-auto">
-      <h1 className="text-4xl font-bold mb-6 text-center gradient-text">CGPA Calculator</h1>
-      <div className="space-y-4">
-        {subjects.map((subject, index) => (
-          <Card key={index}>
-            <CardContent className="pt-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <Input
-                  type="number"
-                  placeholder="Credits"
-                  value={subject.credits || ''}
-                  onChange={(e) => updateSubject(index, 'credits', parseInt(e.target.value) || 0)}
-                />
-                <div className="flex gap-2">
-                  <Select
-                    value={subject.grade}
-                    onValueChange={(value) => updateSubject(index, 'grade', value)}
-                  >
-                    <SelectTrigger>
-                      <SelectValue placeholder="Grade" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {Object.keys(gradePoints).map((grade) => (
-                        <SelectItem key={grade} value={grade}>
-                          {grade}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                  {subjects.length > 1 && (
-                    <Button
-                      variant="destructive"
-                      onClick={() => removeSubject(index)}
+    <>
+      <Navbar />
+      <div className="min-h-screen pb-12 px-4 max-w-4xl mx-auto pt-24">
+        <h1 className="text-4xl font-bold mb-6 text-center gradient-text">CGPA Calculator</h1>
+        <div className="space-y-4">
+          {subjects.map((subject, index) => (
+            <Card key={index}>
+              <CardContent className="pt-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <Input
+                    type="number"
+                    placeholder="Credits"
+                    value={subject.credits || ''}
+                    onChange={(e) => updateSubject(index, 'credits', parseInt(e.target.value) || 0)}
+                  />
+                  <div className="flex gap-2">
+                    <Select
+                      value={subject.grade}
+                      onValueChange={(value) => updateSubject(index, 'grade', value)}
                     >
-                      Remove
-                    </Button>
-                  )}
+                      <SelectTrigger>
+                        <SelectValue placeholder="Grade" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        {Object.keys(gradePoints).map((grade) => (
+                          <SelectItem key={grade} value={grade}>
+                            {grade}
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                    {subjects.length > 1 && (
+                      <Button
+                        variant="destructive"
+                        onClick={() => removeSubject(index)}
+                      >
+                        Remove
+                      </Button>
+                    )}
+                  </div>
                 </div>
-              </div>
-            </CardContent>
-          </Card>
-        ))}
-        <div className="flex justify-center gap-4">
-          <Button onClick={addSubject}>Add Subject</Button>
-        </div>
-        {cgpa !== null && (
-          <Card className="mt-8">
-            <CardContent className="pt-6">
-              <div className="text-center">
-                <h2 className="text-2xl font-bold mb-2">Your CGPA</h2>
-                <p className="text-4xl font-bold text-green-400">{cgpa}</p>
-              </div>
-            </CardContent>
-          </Card>
-        )}
-      </div>
-      <Card className="mt-8 mb-8">
-        <CardHeader>
-          <CardTitle>Grade Points Reference</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {Object.entries(gradePoints).map(([grade, points]) => (
-              <div key={grade} className="flex justify-between p-2 bg-gray-800 rounded">
-                <span className="font-semibold">{grade}</span>
-                <span>{points}</span>
-              </div>
-            ))}
+              </CardContent>
+            </Card>
+          ))}
+          <div className="flex justify-center gap-4">
+            <Button onClick={addSubject}>Add Subject</Button>
           </div>
-        </CardContent>
-      </Card>
-    </div>
+          {cgpa !== null && (
+            <Card className="mt-8">
+              <CardContent className="pt-6">
+                <div className="text-center">
+                  <h2 className="text-2xl font-bold mb-2">Your CGPA</h2>
+                  <p className="text-4xl font-bold text-green-400">{cgpa}</p>
+                </div>
+              </CardContent>
+            </Card>
+          )}
+        </div>
+        <Card className="mt-8 mb-8">
+          <CardHeader>
+            <CardTitle>Grade Points Reference</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {Object.entries(gradePoints).map(([grade, points]) => (
+                <div key={grade} className="flex justify-between p-2 bg-gray-800 rounded">
+                  <span className="font-semibold">{grade}</span>
+                  <span>{points}</span>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    </>
   );
 };
 
