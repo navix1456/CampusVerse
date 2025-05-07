@@ -524,19 +524,18 @@ export const subjectResources: Record<string, {
     name: 'Data Structures And Algorithm',
     code: 'DSA101',
     pyqs: [
-      { name: 'PYQ May 2023', link: 'https://drive.google.com/file/d/1IvLrYkAcUwCKHPzcomRLtJv30gXvLngi/view?usp=drive_link' },
-      { name: 'PYQ Jul 2023', link: 'https://drive.google.com/file/d/1IrQvSjQtiR3K-Z4iN093mFFxhpSDM29B/view?usp=drive_link' },
-      { name: 'More PYQs', link: 'https://drive.google.com/file/d/10cziTTAO-iOLZpT59yAgC71aOaPZCGW9/view?usp=drive_link' },
+      { name: 'ALL PYQS(UNIT 1-5)', link: 'https://pulkitshringi.notion.site/DAA-b0742b362861488f92b464377787fe35' }
+    
     ],
     studyMaterials: [
-      { name: 'Unit 1', link: 'https://drive.google.com/drive/folders/1lIdRl7YsgQ2RkQhK5vSiSRsAR1gGlPw0?usp=drive_link' },
-      { name: 'Unit 2', link: 'https://drive.google.com/drive/folders/1groFGtdFkSdtEgthRuHpSB_cK55XS7s-?usp=drive_link' },
-      { name: 'Unit 3', link: 'https://drive.google.com/drive/folders/1kPrci5eE-_hKj2UHI1yT26rJbq2wkm0B?usp=drive_link' },
-      { name: 'Unit 4', link: 'https://drive.google.com/drive/folders/1E7_xHlBjkMK3rg4MHMk2SE-zpZkDnZqP?usp=drive_link' },
-      { name: 'Unit 5', link: 'https://drive.google.com/drive/folders/1xs6z1DihDEky_uGenw4VgkE3OhVqJBeu?usp=drive_link' },
-      { name: 'Notes From NCR Campus By BTECH CRUX', link: 'https://drive.google.com/drive/folders/132mfASnN4ME3t21gaX9bym8An0Y9DG3_?usp=drive_link' },
+      { name: 'ALL', link: '' },
+      { name: 'Unit 2', link: '' },
+      { name: 'Unit 3', link: '' },
+      { name: 'Unit 4', link: '' },
+      { name: 'Unit 5', link: '' },
+      { name: 'Notes From NCR Campus By BTECH CRUX', link: '' },
     ],
-    syllabus: 'https://drive.google.com/file/d/1_LGhUEvQS77V6n1TwLYU2RSH-z-TOQLj/view?usp=sharing'
+    syllabus: ''
   },
   'coa101': {
     name: 'Computer Organization And Architecture',
@@ -774,7 +773,7 @@ export const subjectResources: Record<string, {
     name: 'PQT101',
     code: 'PQT101',
     pyqs: [
-      { name: 'CT Papers Compilation', link: '' },
+      { name: 'ALL PYQS Compilation', link: 'https://pulkitshringi.notion.site/Maths-041a8614c98943d3bdd01db62178783b' },
     ],
     studyMaterials: [
       { name: 'Unit 1', link: '' },
@@ -789,8 +788,8 @@ export const subjectResources: Record<string, {
     name: 'SOE101',
     code: 'SOE101',
     pyqs: [
-      { name: 'PYQ CT Papers', link: '' },
-      { name: 'Imp Questions & MCQs', link: '' },
+      { name: 'ALL UNITS PYQ ', link: 'https://pulkitshringi.notion.site/Social-Engineering-f89400ae89654d4cbd5d62f40cf8ad55' },
+     
     ],
     studyMaterials: [
       { name: 'Study Materials', link: '' },
